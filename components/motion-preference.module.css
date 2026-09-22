@@ -1,0 +1,2 @@
+.toggle{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-width:40px;min-height:40px;padding:8px 12px;background:transparent;border:1px solid currentColor;border-radius:100px;color:inherit;cursor:pointer;font-size:.75rem;line-height:1.4}.toggle svg{flex:none}
+@media(max-width:1200px){.toggle span{display:none}.toggle{padding:10px}}

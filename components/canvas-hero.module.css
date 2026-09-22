@@ -4,3 +4,5 @@
 @media(max-width:1023px){.meta{display:none}.beat{width:min(640px,80vw)}}
 @media(max-width:768px){.track{height:100svh!important}.stage{position:relative}.beat{inset-inline:7vw;top:48%;width:86vw}.beat h1,.beat h2{font-size:clamp(2.5rem,11vw,4.5rem)}.beatPill{font-size:.65rem;margin-bottom:22px}.beat>p{font-size:1rem;max-width:21rem;margin-top:23px}.mobileExplore{display:flex}.scrimLeft{background:linear-gradient(90deg,rgba(0,0,0,.45),transparent 80%)}.poster{object-position:57% center}}
 @media(prefers-reduced-motion:reduce){.track{height:100svh!important}.stage{position:relative}.meta{display:none}.mobileExplore{display:flex}}
+
+.stage::after{content:"";position:absolute;inset:auto 0 0;height:30svh;background:linear-gradient(transparent,var(--plum));opacity:var(--exit-progress,0);pointer-events:none}

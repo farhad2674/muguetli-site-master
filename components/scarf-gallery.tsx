@@ -6,19 +6,19 @@ import { scarfStudies } from '@/lib/editorial';
 import { t, type Locale } from '@/lib/muguetli';
 import styles from './scarf-gallery.module.css';
 
-export function ScarfGallery({ locale }: { locale: Locale }) {
+export function ScarfGallery({ locale, ids, cinematic = false }: { locale: Locale; ids?: string[]; cinematic?: boolean }) {
   const fa = locale === 'fa';
-  return <div className={styles.grid}>
-    {scarfStudies.map((scarf, index) => <article key={scarf.id} className={styles.card} id={`scarf-${scarf.id}`}>
+  return <div className={`${styles.grid} ${cinematic ? styles.cinematic : ''}`}>
+    {scarfStudies.filter(scarf => !ids || ids.includes(scarf.id)).map((scarf) => <article key={scarf.id} className={styles.card} id={`scarf-${scarf.id}`}>
       <Dialog>
-        <div className={styles.imageMotion} data-scarf>
+        <div className={styles.imageMotion} data-scarf data-panel-art={cinematic || undefined}>
           <DialogTrigger className={styles.imageButton} aria-label={`${fa ? 'نمای نزدیک' : 'View scarf'}: ${t(scarf.name, locale)}`}>
             <img src={scarf.image} alt={t(scarf.description, locale)} width={1280} height={1280} loading="lazy" />
             <span className={styles.view}>{fa ? 'از نزدیک' : 'A closer look'}<ArrowUpRight size={18} /></span>
           </DialogTrigger>
         </div>
         <div className={styles.caption}>
-          <span className={styles.index}>{new Intl.NumberFormat(fa ? 'fa-IR' : 'en', { minimumIntegerDigits: 2 }).format(index + 1)}</span>
+          <span className={styles.index}>{new Intl.NumberFormat(fa ? 'fa-IR' : 'en', { minimumIntegerDigits: 2 }).format(scarfStudies.indexOf(scarf) + 1)}</span>
           <div><h3>{t(scarf.name, locale)}</h3><p>{t(scarf.description, locale)}</p></div>
           <span className={styles.swatch} style={{ background: scarf.color }} aria-hidden="true" />
         </div>

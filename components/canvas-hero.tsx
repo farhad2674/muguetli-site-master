@@ -3,6 +3,7 @@ import {useEffect,useRef,useState} from 'react';
 import {FRAME_COUNT,FRAME_VERSION} from '@/lib/hero-frames';
 import type {Locale} from '@/lib/muguetli';
 import {TextDrum} from './text-drum';
+import {useMotionPreference} from './motion-preference';
 import styles from './canvas-hero.module.css';
 
 // Increase for a longer/slower scroll journey; decrease for a shorter/faster one.
@@ -12,12 +13,13 @@ const frameUrl=(index:number)=>`/hero/frames/frame_${String(index+1).padStart(4,
 const clamp=(value:number)=>Math.max(0,Math.min(1,value));
 
 export function CanvasHero({locale}:{locale:Locale}){
+ const {reduced:motionReduced}=useMotionPreference();
  const track=useRef<HTMLElement>(null),canvas=useRef<HTMLCanvasElement>(null),art=useRef<HTMLDivElement>(null);
  const progress=useRef(0),active=useRef(false);
  const [mode,setMode]=useState<'desktop'|'static'|null>(null);
  const [ready,setReady]=useState(false);
  // Decide eligibility in its own effect before the sequence-loading effect can run.
- useEffect(()=>{const phone=matchMedia('(max-width: 768px)'),reduced=matchMedia('(prefers-reduced-motion: reduce)');const update=()=>{progress.current=0;setReady(false);setMode(phone.matches||reduced.matches?'static':'desktop');};update();phone.addEventListener('change',update);reduced.addEventListener('change',update);return()=>{phone.removeEventListener('change',update);reduced.removeEventListener('change',update);};},[]);
+ useEffect(()=>{const phone=matchMedia('(max-width: 768px)'),reduced=matchMedia('(prefers-reduced-motion: reduce)');const update=()=>{progress.current=0;setReady(false);setMode(phone.matches||reduced.matches||motionReduced?'static':'desktop');};update();phone.addEventListener('change',update);reduced.addEventListener('change',update);return()=>{phone.removeEventListener('change',update);reduced.removeEventListener('change',update);};},[motionReduced]);
  useEffect(()=>{
   if(mode!=='desktop')return;
   const element=track.current,output=canvas.current,wrapper=art.current;
@@ -41,7 +43,7 @@ export function CanvasHero({locale}:{locale:Locale}){
    const rect=element.getBoundingClientRect();const raw=clamp(-rect.top/Math.max(1,rect.height-innerHeight));const target=raw*(FRAME_COUNT-1);
    current+=(target-current)*FRAME_LERP;if(Math.abs(target-current)<.001)current=target;
    progress.current=current/Math.max(1,FRAME_COUNT-1);
-   element.dataset.progress=progress.current.toFixed(6);element.dataset.targetFrame=target.toFixed(4);
+   element.style.setProperty('--exit-progress',String(clamp((progress.current-.88)/.12)));element.dataset.progress=progress.current.toFixed(6);element.dataset.targetFrame=target.toFixed(4);
    if(Math.abs(lastDrawn-current)>.00001)paint();
    ex+=(px-ex)*.08;ey+=(py-ey)*.08;const fade=Math.max(0,1-current/6);
    wrapper.style.transform=`perspective(1400px) rotateX(${-ey*2.2*fade}deg) rotateY(${ex*2.2*fade}deg) translate3d(${-ex*8*fade}px,${-ey*8*fade}px,0) scale(${1+.05*fade})`;
@@ -67,7 +69,7 @@ export function CanvasHero({locale}:{locale:Locale}){
    <TextDrum key={mode||'pending'} progress={progress} active={active} enabled={mode==='desktop'} locale={locale}/>
    <aside className={styles.meta} aria-label={fa?'دربارهٔ این داستان':'About this story'}>
     <div><span>{fa?'هنر / استایل / داستان':'ART / STYLE / STORY'}</span><span>{fa?'جهان موگه‌تلی':'THE WORLD OF MUGUETLI'}</span></div>
-    <div><span className={styles.metaMuted}>{fa?'اکنون':'CURRENTLY'}</span><p>{fa?'داستانی در حرکت':'A STORY IN MOTION'}</p><span className={styles.metaMuted}>{fa?'این هفته':'THIS WEEK'}</span><p>{fa?'جایی برای داستانی تازه':'MAKE ROOM FOR A NEW STORY'}</p></div>
+    <div><span className={styles.metaMuted}>{fa?'اکنون':'CURRENTLY'}</span><p>{fa?'از سوگ تا بیداری':'FROM GRIEF TO AWAKENING'}</p><span className={styles.metaMuted}>{fa?'این سفر':'THE JOURNEY'}</span><p>{fa?'یک آیین گذار':'A SACRED RITE OF PASSAGE'}</p></div>
     <a href="#collections">{fa?'برای کشف، اسکرول کن':'SCROLL TO EXPLORE'}<svg viewBox="0 0 20 30" width="20" height="30" fill="none" stroke="currentColor" aria-hidden="true"><path d="M10 1v26M3 20l7 7 7-7"/></svg></a>
    </aside>
    <a href="#collections" className={styles.mobileExplore}>{fa?'دیدن مجموعه‌ها':'Explore collections'} <span aria-hidden="true">↓</span></a>

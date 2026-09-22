@@ -5,6 +5,7 @@ import '@fontsource-variable/vazirmatn';
 import './globals.css';
 import 'lenis/dist/lenis.css';
 import { SmoothScroll } from '@/components/smooth-scroll';
+import { MotionPreference } from '@/components/motion-preference';
 
 export const metadata: Metadata = {
   title: { default: 'MUGUETLI — The Four Mothers', template: '%s — MUGUETLI' },
@@ -23,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning>
       <head><script dangerouslySetInnerHTML={{ __html: localeBootstrap }} /></head>
-      <body><SmoothScroll>{children}</SmoothScroll></body>
+      <body><MotionPreference><SmoothScroll>{children}</SmoothScroll></MotionPreference></body>
     </html>
   );
 }

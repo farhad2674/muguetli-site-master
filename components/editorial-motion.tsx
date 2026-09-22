@@ -1,7 +1,7 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
-import { Pause, Play } from 'lucide-react';
+import { useEffect, useRef } from 'react';
+import { useMotionPreference } from './motion-preference';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import type { Locale } from '@/lib/muguetli';
@@ -9,8 +9,7 @@ import styles from './editorial-motion.module.css';
 
 export function EditorialMotion({ children, locale = 'en' }: { children: React.ReactNode; locale?: Locale }) {
   const ref = useRef<HTMLDivElement>(null);
-  const [paused, setPaused] = useState(false);
-  const fa = locale === 'fa';
+  const { reduced: paused } = useMotionPreference();
 
   useEffect(() => {
     if (paused || !ref.current) return;
@@ -22,6 +21,12 @@ export function EditorialMotion({ children, locale = 'en' }: { children: React.R
       const root = ref.current!;
       root.dataset.motion = 'active';
       const scoped = gsap.context(() => {
+        root.querySelectorAll('[data-ribbon]').forEach(section => {
+          const line = section.querySelector<HTMLElement>('[data-ribbon-line]');
+          if (!line) return;
+          const direction = locale === 'fa' ? 1 : -1;
+          gsap.fromTo(line, { x: 0 }, { x: () => direction * Math.min(line.scrollWidth / 2, innerWidth * .8), ease: 'none', scrollTrigger: { trigger: section, start: 'top bottom', end: 'bottom top', scrub: true, invalidateOnRefresh: true } });
+        });
         root.querySelectorAll<HTMLElement>('[data-reveal]').forEach(el => {
           gsap.fromTo(el, { y: desktop ? 65 : 28, opacity: 0.15 }, {
             y: 0, opacity: 1, ease: 'none',
@@ -29,6 +34,7 @@ export function EditorialMotion({ children, locale = 'en' }: { children: React.R
           });
         });
         root.querySelectorAll<HTMLElement>('[data-scarf]').forEach((el, i) => {
+          if (el.closest('[data-journey]')) return;
           gsap.fromTo(el, { x: (i % 2 ? 1 : -1) * (desktop ? 85 : 22), y: 65, rotation: (i % 2 ? 1 : -1) * 5, opacity: 0.25 }, {
             x: 0, y: 0, rotation: 0, opacity: 1, ease: 'none',
             scrollTrigger: { trigger: el.parentElement, start: 'top 95%', end: 'top 30%', scrub: true, invalidateOnRefresh: true },
@@ -72,16 +78,9 @@ export function EditorialMotion({ children, locale = 'en' }: { children: React.R
       window.removeEventListener('pageshow', refresh);
       media.revert();
     };
-  }, [paused]);
+  }, [paused, locale]);
 
   return <div ref={ref} className={styles.root}>
-    <div className={styles.controls}>
-      <span>{fa ? 'جهان موگه‌تلی' : 'THE WORLD OF MUGUETLI'}</span>
-      <button type="button" onClick={() => setPaused(!paused)} aria-pressed={paused}>
-        {paused ? <Play size={14} /> : <Pause size={14} />}
-        {fa ? (paused ? 'فعال‌کردن حرکت' : 'توقف حرکت') : (paused ? 'Enable motion' : 'Pause motion')}
-      </button>
-    </div>
     {children}
   </div>;
 }
