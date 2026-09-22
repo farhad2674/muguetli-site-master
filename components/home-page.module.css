@@ -1,0 +1,114 @@
+.collections,.book,.founder,.consulting,.journal{scroll-margin-top:80px}
+.kicker,.sectionTop{font-size:.75rem;letter-spacing:.14em;font-weight:450;line-height:1.6}
+.kicker{margin:0 0 30px}
+.sectionTop{display:flex;justify-content:space-between;gap:24px;margin-bottom:65px}
+.textLink{display:inline-flex;align-items:center;justify-content:space-between;gap:30px;padding:13px 0;border-bottom:1px solid currentColor;font-size:.875rem;min-height:44px}
+.textLink svg{flex-shrink:0;transition:transform .3s}
+.textLink:hover svg{transform:translate(3px,-3px)}
+.intro{position:relative;min-height:900px;overflow:clip}
+.introStage{min-height:900px;position:relative;display:flex;align-items:center;flex-direction:column;justify-content:center;padding:90px 5vw 60px;isolation:isolate}
+.introStage>.kicker{text-align:center;position:relative;z-index:2}
+.introTitle{position:relative;z-index:2;text-align:center;font:400 clamp(5rem,12.8vw,12.5rem)/.9 var(--font-display);letter-spacing:-.065em;margin:35px 0 55px;pointer-events:none}
+.introTitle>span,.introTitle>em{display:block}
+.introTitle em{font-weight:400}
+.floatLeft,.floatRight{position:absolute;width:clamp(180px,26vw,410px);height:auto;aspect-ratio:1;object-fit:contain;z-index:0;mix-blend-mode:multiply}
+.floatLeft{left:-3%;top:24%;transform:rotate(-8deg)}
+.floatRight{right:-3%;top:42%;transform:rotate(8deg)}
+.introFoot{position:relative;z-index:2;text-align:center}
+.introFoot p{font-size:1rem;line-height:1.8;white-space:pre-line;margin:0 0 20px}
+.introFoot a{display:inline-flex;align-items:center;gap:16px;min-height:44px;font-size:.875rem;border-bottom:1px solid var(--editorial-line)}
+.collectionBody{padding:40px 7vw 100px;scroll-margin-top:100px;overflow:clip}
+.collectionHeading{display:flex;justify-content:space-between;align-items:end;gap:50px;margin-bottom:65px}
+.collectionHeading h3{font:400 clamp(2.5rem,4.5vw,5rem)/1.1 var(--font-display);letter-spacing:-.045em;margin:0}
+.collectionHeading p{max-width:325px;font-size:1rem;line-height:1.8;margin:0}
+.sectionBottom{display:flex;justify-content:space-between;align-items:center;gap:30px;border-top:1px solid var(--editorial-line);margin-top:65px;padding-top:22px;font-size:.875rem}
+.connectedCollections{margin-top:65px}
+.connectedCollections h3{font:400 2.5rem var(--font-display)}
+.connectedCollections>div{display:grid;grid-template-columns:repeat(4,1fr);gap:25px}
+.connectedCollections img{width:100%;height:auto;aspect-ratio:1;object-fit:cover}
+.connectedCollections span{display:flex;justify-content:space-between;gap:15px;margin-top:15px}
+.book{padding:70px 7vw 110px;background:var(--plum);color:var(--porcelain);overflow:clip}
+.bookHeading{display:grid;grid-template-columns:1.6fr .6fr;align-items:end;gap:6vw;margin-bottom:75px}
+.bookHeading h2{font:400 clamp(3rem,6.6vw,7.5rem)/1.02 var(--font-display);letter-spacing:-.055em;margin:0}
+.bookHeading h2 em{font-weight:400}
+.bookHeading>p{font-size:1rem;line-height:1.8;margin:0;max-width:290px}
+.bookRecord{display:flex;align-items:center;gap:35px;margin-bottom:60px}
+.bookRecord img{width:180px;height:auto}
+.bookRecord h3{font:400 2.5rem var(--font-display)}
+.editions{display:grid;grid-template-columns:1fr 1fr;gap:5vw}
+.edition{border-top:1px solid rgb(252 253 253 / .45);padding-top:25px}
+.editionTop{display:flex;justify-content:space-between;align-items:center;gap:18px;font-size:.75rem;letter-spacing:.1em}
+.editionTop svg{color:#a3ded3}
+.edition h3{font:italic 400 clamp(2.7rem,4.7vw,5.2rem)/1.1 var(--font-display);margin:42px 0 20px;letter-spacing:-.04em}
+.edition>p{font-size:1rem;line-height:1.7;max-width:325px;min-height:55px}
+.editionStatus{display:flex;align-items:center;gap:10px;font-size:.875rem;margin-top:35px;line-height:1.6}
+.statusDot{height:6px;width:6px;border-radius:50%;background:#a3ded3;flex-shrink:0}
+.founder{padding:110px 7vw 65px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0 7vw;background:var(--editorial-tint)}
+.founderArt{overflow:hidden;align-self:start;aspect-ratio:853/1280;background:var(--porcelain)}
+.founderArt img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 40%;transform-origin:center}
+.founderCopy{align-self:center;padding:25px 0}
+.founderCopy h2{font:400 clamp(2.8rem,5.1vw,6rem)/1.03 var(--font-display);letter-spacing:-.05em;margin:0 0 35px}
+.founderCopy em{font-weight:400}
+.founderText{font-size:1rem;line-height:1.9;max-width:440px;margin:0}
+.values{margin:35px 0 20px}
+.values>div{position:relative;display:flex;align-items:center;gap:25px;padding:16px 0;font-size:.875rem}
+.values small{font-size:.75rem}
+.rule{position:absolute;inset:0 0 auto;height:1px;background:currentColor;opacity:.25;transform-origin:left}
+.founderCaption{grid-column:1/-1;display:flex;justify-content:space-between;gap:25px;padding-top:32px;font-size:.75rem;letter-spacing:.06em}
+.consulting{padding:90px 7vw 100px;overflow:clip}
+.consultingHead{display:flex;justify-content:space-between;align-items:end;gap:40px}
+.consulting h2{font:400 clamp(3rem,7.3vw,8rem)/.97 var(--font-display);letter-spacing:-.055em;margin:0}
+.consulting h2 em{font-weight:400}
+.consultingHead>p{font-size:1rem;line-height:1.8;max-width:235px;white-space:pre-line}
+.services{margin:65px 0 25px;border-bottom:1px solid var(--editorial-line)}
+.service{position:relative;display:grid;grid-template-columns:45px 1.2fr 1fr 30px;gap:22px;align-items:center;padding:32px 0;transition:background .3s,padding .3s}
+.service:hover{padding-inline:16px;background:var(--editorial-tint)}
+.serviceNumber{font-size:.75rem}
+.service h3{font:400 clamp(1.6rem,2.6vw,3rem)/1.2 var(--font-display);margin:0}
+.service p{font-size:1rem;line-height:1.6;margin:0;max-width:310px}
+.service>svg{width:28px;height:28px;transition:transform .3s}
+.service:hover>svg{transform:rotate(45deg)}
+.journal{padding:55px 7vw 70px;background:var(--editorial-tint)}
+.journalHeading{display:flex;align-items:end;justify-content:space-between;gap:25px}
+.journalHeading .kicker{margin-bottom:18px}
+.journal h2{font:400 clamp(3rem,5.5vw,6rem)/1.1 var(--font-display);letter-spacing:-.04em;margin:0}
+.journalNote{font-size:1rem;margin:30px 0 0;line-height:1.7}
+.journalGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:40px}
+.journalGrid img{width:100%;height:auto;aspect-ratio:1.3;object-fit:cover}
+.journalGrid h3{font:400 2rem var(--font-display);margin:15px 0}
+.journalGrid small{display:block;margin-top:20px}
+:global(html[lang=fa]) .introTitle,:global(html[lang=fa]) .collectionHeading h3,:global(html[lang=fa]) .bookHeading h2,:global(html[lang=fa]) .edition h3,:global(html[lang=fa]) .founderCopy h2,:global(html[lang=fa]) .consulting h2,:global(html[lang=fa]) .service h3,:global(html[lang=fa]) .journal h2{font-family:var(--font-fa-display);letter-spacing:0;line-height:1.55}
+:global(html[lang=fa]) .introTitle{font-size:clamp(4rem,10.5vw,10rem);line-height:1.4}
+:global(html[lang=fa]) .rule{transform-origin:right}
+@media(min-width:900px) and (prefers-reduced-motion:no-preference){:global([data-motion=active]) .intro{min-height:150svh}:global([data-motion=active]) .introStage{position:sticky;top:55px;min-height:calc(100svh - 55px)}}
+@media(min-width:1600px){.collectionBody,.book,.founder,.consulting,.journal{padding-inline:max(7vw,calc((100vw - 1480px)/2))}}
+@media(max-width:1100px){.founder{gap:0 5vw}.founderCopy h2{font-size:4.5vw}.founderCopy .kicker{margin-bottom:20px}.founderCopy{padding:0}.values{margin:22px 0 12px}.founderText{line-height:1.7}.floatLeft,.floatRight{width:25vw}.service{grid-template-columns:30px 1.1fr 1fr 24px}}
+@media(max-width:760px){
+  .intro,.introStage{min-height:700px}.introStage{padding:55px 6vw 190px;justify-content:flex-start}.introTitle{font-size:17vw;margin:35px 0}.introStage>.kicker{margin:0}.floatLeft,.floatRight{width:43vw;top:auto;bottom:10px}.floatLeft{left:3%}.floatRight{right:3%;bottom:30px}.introFoot p{font-size:1rem}.introFoot a{margin-bottom:20px}
+  .collectionBody{padding:55px 6vw 65px}.collectionHeading{display:block;margin-bottom:35px}.collectionHeading h3{font-size:2.7rem}.collectionHeading p{margin-top:25px;max-width:100%}.sectionBottom{margin-top:45px;align-items:start;flex-direction:column;gap:10px}.connectedCollections>div{grid-template-columns:1fr 1fr}
+  .book{padding:45px 6vw 65px}.sectionTop{margin-bottom:40px}.sectionTop>span+span{display:none}.bookHeading{grid-template-columns:1fr;gap:28px;margin-bottom:45px}.bookHeading h2{font-size:11vw}.bookHeading>p{max-width:100%}.editions{grid-template-columns:1fr;gap:45px}.edition h3{font-size:2.9rem;margin:30px 0 18px}.edition>p{min-height:0}.editionStatus{margin-top:25px}.bookRecord{align-items:start;gap:20px}.bookRecord img{width:110px}.bookRecord h3{font-size:1.8rem}
+  .founder{padding:60px 6vw 40px;grid-template-columns:1fr;gap:35px}.founderArt{max-width:540px;width:100%;margin-inline:auto}.founderCopy h2{font-size:13vw}.founderCaption{padding:0;flex-wrap:wrap;gap:12px}.founderText{max-width:none}.founderCopy .kicker{margin-bottom:25px}
+  .consulting{padding:60px 6vw}.consultingHead{display:block}.consulting h2{font-size:13vw}.consultingHead>p{margin-top:25px;max-width:100%}.services{margin-top:40px}.service{grid-template-columns:25px 1fr 24px;gap:14px;padding:26px 0}.service h3{font-size:1.6rem}.service p{grid-column:2;grid-row:2}.service>svg{grid-column:3;grid-row:1;width:24px}
+  .journal{padding:45px 6vw}.journalHeading{display:block}.journalHeading>.textLink{margin-top:20px}.journal h2{font-size:3.5rem}.journalGrid{grid-template-columns:1fr}
+  :global(html[lang=fa]) .introTitle{font-size:14vw}.kicker,.sectionTop{letter-spacing:.07em}
+}
+@media(prefers-reduced-motion:reduce){.intro,.introStage{min-height:750px}.service,.textLink svg{transition:none}}
+/* The original Persian book title stays visible in both site languages. */
+.collectionStory{max-width:390px;flex:0 1 390px}
+.bookHeading>div{min-width:0}
+.bookHeading .originalBookTitle{font-family:var(--font-fa-display)!important;font-size:clamp(4rem,8.5vw,9rem);letter-spacing:0!important;line-height:1.6!important;text-align:left}
+:global(html[lang=fa]) .bookHeading .originalBookTitle{text-align:right}
+.transliteratedTitle{font:italic 400 clamp(1.7rem,3vw,2.7rem)/1.3 var(--font-display);margin:0 0 18px}
+.bookSubtitle{font-size:clamp(1.2rem,1.8vw,1.7rem);line-height:1.8;max-width:550px;margin:10px 0 0}
+.bookHeading{grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);margin-bottom:35px}
+.bookHeading>p{max-width:410px}
+.bookRecord{justify-content:space-between;flex-wrap:wrap;margin-bottom:55px;gap:20px}
+.bookRecord>p{font-size:.875rem;line-height:1.8;margin:0}
+.bookManifesto{padding:45px 0;border-top:1px solid rgb(252 253 253 / .3)}
+.bookManifesto .kicker{color:#b5e4dc}
+.elementLinks{display:flex;gap:12px;flex-wrap:wrap;margin:0 0 65px}
+.elementLinks a{display:flex;align-items:center;gap:28px;border:1px solid rgb(252 253 253 / .4);border-radius:40px;padding:12px 22px;font-size:.875rem;min-height:44px;transition:background .25s,color .25s}
+.elementLinks a:hover{background:var(--porcelain);color:var(--plum)}
+.editionLanguage{display:block;font-size:.875rem;line-height:1.7;margin-top:20px;color:#b5e4dc}
+.founderRole{font-size:.875rem;margin:0 0 25px;line-height:1.8}
+@media(max-width:760px){.collectionStory{max-width:none;margin-top:30px}.bookHeading{grid-template-columns:1fr}.bookHeading .originalBookTitle{font-size:17vw}.bookSubtitle{font-size:1.2rem}.bookRecord{align-items:start}.bookManifesto{padding:35px 0}.elementLinks{gap:10px;margin-bottom:45px}.elementLinks a{padding:10px 17px;gap:18px}.founderCopy h2{font-size:12vw}}

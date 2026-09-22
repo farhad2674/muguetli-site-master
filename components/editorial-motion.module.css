@@ -1,0 +1,6 @@
+.root{position:relative;display:flow-root;background:var(--porcelain)}
+.controls{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:24px 5vw;border-bottom:1px solid var(--editorial-line);font-size:.75rem;letter-spacing:.12em}
+.controls button{display:flex;align-items:center;gap:9px;min-height:44px;border:1px solid var(--editorial-line);border-radius:30px;padding:8px 16px;background:transparent;cursor:pointer;font-size:.875rem;letter-spacing:0}
+.controls button:hover{background:var(--plum);color:var(--porcelain)}
+@media(max-width:600px){.controls{padding:16px 6vw;letter-spacing:.04em}.controls>span{max-width:140px}.controls button{flex-shrink:0}}
+@media(prefers-reduced-motion:reduce){.controls button{display:none}}

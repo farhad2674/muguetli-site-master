@@ -1,0 +1,9 @@
+.quote{margin:0;max-width:850px}
+.quote blockquote{margin:0}
+.quote .original{font:400 clamp(1.4rem,2.5vw,2.5rem)/1.95 var(--font-fa-display);letter-spacing:0;margin:0;text-align:start;white-space:normal;color:inherit}
+.quote .translation{font:italic 400 clamp(1.25rem,2vw,1.8rem)/1.7 var(--font-display);color:inherit;letter-spacing:0;margin:24px 0 0}
+.quote figcaption{font-size:.75rem;line-height:1.8;letter-spacing:.02em;margin-top:20px;opacity:.8}
+.compact .original{font-size:1.2rem;line-height:1.95}
+.compact .translation{font-size:1.15rem;margin-top:16px}
+.compact figcaption{margin-top:14px}
+@media(max-width:760px){.quote .original{font-size:1.3rem}.quote .translation{font-size:1.15rem}}

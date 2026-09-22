@@ -1,0 +1,53 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+:root {
+  --plum: #531a45;
+  --teal: #00a894;
+  --porcelain: #fcfdfd;
+  --editorial-line: rgb(83 26 69 / .2);
+  --editorial-tint: #edf4f2;
+  --font-ui: 'Inter Variable', Inter, Arial, sans-serif;
+  --font-display: 'Iowan Old Style', Baskerville, Georgia, serif;
+  --font-fa-ui: 'Vazirmatn Variable', Tahoma, sans-serif;
+  --font-fa-display: 'Estedad Variable', 'Vazirmatn Variable', Tahoma, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--porcelain); color: var(--plum); scroll-behavior: smooth; }
+body {
+  margin: 0;
+  min-width: 20rem;
+  overflow-x: clip;
+  background: var(--porcelain);
+  color: var(--plum);
+  font-family: var(--font-ui);
+  font-size: 1rem;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+}
+html[lang='fa'] body { font-family: var(--font-fa-ui); }
+button, a { color: inherit; }
+a { text-decoration: none; }
+button { font: inherit; }
+::selection { background: var(--teal); color: var(--plum); }
+:focus-visible { outline: 3px solid var(--teal); outline-offset: 4px; }
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+/* Keep focus and text legible when popup primitives are composed with brand styling. */
+:root { --popover: #fcfdfd; --popover-foreground: #531a45; --foreground: #531a45; --background: #fcfdfd; --ring: #00a894; }
+[data-slot='navigation-menu-link']:focus-visible,[data-slot='navigation-menu-trigger']:focus-visible,[data-slot='accordion-trigger']:focus-visible{outline:2px solid var(--teal)!important;outline-offset:4px}
+/* Lenis owns programmatic easing; native CSS smoothing must not compete with it. */
+html{scroll-behavior:auto}
