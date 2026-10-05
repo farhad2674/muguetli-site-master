@@ -17,8 +17,13 @@ function RollingLabel({ children }: { children: string }) {
  return <span className={styles.rollingLabel}><span>{children}</span><span aria-hidden="true">{children}</span></span>;
 }
 
+function rememberLocale(locale: Locale) {
+ document.cookie=`muguetli_locale=${locale}; Max-Age=31536000; Path=/; SameSite=Lax`;
+}
+
 export function SiteChrome({locale,shopUrl,journalUrl,collections,children}:{locale:Locale;shopUrl?:string;journalUrl?:string;collections:Collection[];children:React.ReactNode}){
  const pathname=usePathname();const fa=locale==='fa';const home=`/${locale}`;const other=fa?'en':'fa';
+ const otherPath=pathname.replace(/^\/(?:en|fa)(?=\/|$)/,`/${other}`);
  const [open,setOpen]=useState(false);const headerRef=useRef<HTMLElement>(null);
  const footerRef=useRef<HTMLElement>(null);const {reduced}=useMotionPreference();
  useEffect(()=>{
@@ -30,6 +35,7 @@ export function SiteChrome({locale,shopUrl,journalUrl,collections,children}:{loc
  useEffect(()=>{
   document.documentElement.lang=locale;
   document.documentElement.dir=locale==='fa'?'rtl':'ltr';
+  rememberLocale(locale);
  },[locale]);
  const copy=(en:string,faText:string)=>fa?faText:en;
  const more=[{slug:'nfts',name:'NFTs',fa:'ان‌اف‌تی'},{slug:'books',name:'Books',fa:'کتاب‌ها'},{slug:'ebook',name:'eBook',fa:'کتاب الکترونیکی'},{slug:'consulting',name:'Consulting',fa:'مشاوره'}];
@@ -51,7 +57,7 @@ export function SiteChrome({locale,shopUrl,journalUrl,collections,children}:{loc
     <NavigationMenuItem><NavigationMenuTrigger className={styles.navLink}><RollingLabel>{t(moreLabel,locale)}</RollingLabel></NavigationMenuTrigger><NavigationMenuContent><div className={styles.moreMenu}>{more.map(m=><NavigationMenuLink href={`${home}/${m.slug}`} key={m.slug}>{fa?m.fa:m.name}<ArrowUpRight size={16}/></NavigationMenuLink>)}</div></NavigationMenuContent></NavigationMenuItem>
    </NavigationMenuList></NavigationMenu>
   </div>
-  <div className={styles.utilities}><MotionToggle locale={locale} /><Link className={styles.language} href={pathname.replace(/^\/(en|fa)/,`/${other}`)} onClick={()=>{document.cookie=`muguetli_locale=${other}; Max-Age=31536000; Path=/; SameSite=Lax`;}}>{fa?'EN':'FA'}</Link>{shopUrl&&<a href={shopUrl} aria-label={copy('Shop','فروشگاه')}><ShoppingBag size={19} strokeWidth={1.3}/></a>}
+  <div className={styles.utilities}><MotionToggle locale={locale} /><Link className={styles.language} href={otherPath} onClick={()=>rememberLocale(other)} aria-label={copy('Switch to Persian','تغییر زبان به انگلیسی')}>{fa?'EN':'FA'}</Link>{shopUrl&&<a href={shopUrl} aria-label={copy('Shop','فروشگاه')}><ShoppingBag size={19} strokeWidth={1.3}/></a>}
    <a className={styles.exploreCta} href={pathname===home?'#collections':`${home}/collections`}><span>{copy('Explore','کاوش')}</span><span className={styles.arrowBadge}><ArrowUpRight size={16}/></span></a>
    <Sheet open={open} onOpenChange={setOpen}>
     <SheetTrigger className={styles.menuButton} aria-label={copy('Open navigation menu','باز کردن فهرست')} aria-expanded={open} aria-controls="muguetli-menu"><svg viewBox="0 0 32 24" aria-hidden="true"><path d="M2 7 Q15 5 29 7"/><path d="M7 16 Q18 18 30 16"/></svg></SheetTrigger>
@@ -74,7 +80,7 @@ export function SiteChrome({locale,shopUrl,journalUrl,collections,children}:{loc
    <nav aria-label={copy('Sitemap','نقشهٔ سایت')} className={styles.footerMap}><h2>{copy('SITEMAP','نقشهٔ سایت')}</h2><div><Link href={home}>{copy('Home','خانه')}</Link><Link href={shopUrl||`${home}/collections`}>{copy('Scarves & collections','روسری‌ها و مجموعه‌ها')}</Link><Link href={`${home}/books`}>{copy('Physical book','کتاب چاپی')}</Link><Link href={`${home}/ebook`}>{copy('eBook','کتاب الکترونیکی')}</Link><Link href={`${home}/about`}>{copy('Founder & story','بنیان‌گذار و داستان')}</Link><Link href={`${home}/consulting`}>{copy('The atelier','آتلیه')}</Link><Link href={journalUrl||`${home}/journal`}>{copy('Journal','ژورنال')}</Link><Link href={`${home}/nfts`}>{copy('Digital art','هنر دیجیتال')}</Link><Link href={`${home}/mythology`}>{copy('The Four Mothers','چهار مادر')}</Link></div></nav>
    <nav aria-label={copy('Information','اطلاعات')} className={styles.footerInfo}><h2>{copy('INFORMATION','اطلاعات')}</h2><Link href={`${home}/contact`}>{copy('Contact','ارتباط')}</Link><Link href={`${home}/privacy`}>{copy('Privacy','حریم خصوصی')}</Link><Link href={`${home}/accessibility`}>{copy('Accessibility','دسترسی‌پذیری')}</Link><Link href={`${home}/cookies`}>{copy('Cookies','کوکی‌ها')}</Link></nav>
   </div>
-  <div className={styles.footerBottom}><span>© {new Date().getFullYear()} MUGUETLI</span><span>{copy('ART IN TRANSFORMATION','هنر در دگرگونی')}</span><Link href={pathname.replace(/^\/(en|fa)/,`/${other}`)} onClick={()=>{document.cookie=`muguetli_locale=${other}; Max-Age=31536000; Path=/; SameSite=Lax`;}}>{fa?'English':'فارسی'} ↗</Link></div>
+  <div className={styles.footerBottom}><span>© {new Date().getFullYear()} MUGUETLI</span><span>{copy('ART IN TRANSFORMATION','هنر در دگرگونی')}</span><Link href={otherPath} onClick={()=>rememberLocale(other)}>{fa?'English':'فارسی'} ↗</Link></div>
  </footer>
  </>;
 }
