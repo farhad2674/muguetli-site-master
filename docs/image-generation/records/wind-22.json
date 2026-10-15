@@ -1,0 +1,18 @@
+{
+  "designId": "wind-22",
+  "src": "/media/product-models/elnaz/wind-22.png",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Create one photoreal luxury fashion editorial portrait of the SAME Iranian adult woman from first face collage, preserving recognizable eyes, face and natural skin. Model the exact 90x90 cm silk scarf shown by full artwork and flatlay: ivory outer field, dramatic dark brown circular halo at top, tiny black bell flowers on violet curling stems, a blue-and-black owl with elaborate outstretched wing, blue swirled cloud on right, smoky sage-grey cloud on left, a stylized navy female figure below. Preserve the unusual owl wing and cloud motif and restrained blue/ivory palette on visible silk; not generic bird or florals. Style square as a loosely folded neck tie over crisp white shirt and dark navy blazer, one printed triangular end revealing owl wing, realistic compact 90cm scarf fold. Hair in polished low ponytail. Upright head, gaze to right, broad joyful smile showing teeth, subtly laughing; differs from tilted serious identity collage. Bright pale-stone gallery background, soft window daylight. One model, no collage, no added text/watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p09-bird-blue.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p09-bird-blue\\img-9140.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-2feae3ea-d47b-4099-8da9-f763ca7e0336.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Accepted: recognizable face with open smile and ponytail; compact ivory/blue neck style, owl wing, brown halo and black hanging bells accurate to product reference."
+  }
+}

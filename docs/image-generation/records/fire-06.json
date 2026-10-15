@@ -1,0 +1,18 @@
+{
+  "designId": "fire-06",
+  "src": "/media/product-models/elnaz/fire-06.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Use case: product-mockup. Asset type: second product gallery image. Image 1 supplies only the consistent real woman's facial identity; Images 2 and 3 show the exact Fire 06 square scarf and actual textile. Photorealistic waist-up fashion photograph of her standing upright with a visible, relaxed smile, hair swept back behind both ears, wearing a tailored rust-red blazer. The real 90 x 90 cm silk scarf is folded into a wide shoulder drape with a small knot at the collar; the central embracing figure, bright orange-red flame halo, muted rose-taupe field, green ribbon and pink border follow the reference textile as closely as possible. Scene: warm modern gallery with brushed plaster and a single column, diffused midday light. Different pose and background from other product images. Natural face and silk sheen, no generic pattern, added text/logo/watermark, giant fabric, or second person.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\fire-p01-figure-orange.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\fire-p01-figure-orange\\img-9117.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-b25c6c4b-a5dd-4726-b3cc-37b0a46fae98.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Central red-orange Fire figure motif and rose border are visible; rust suit and gallery distinguish this portrait. Facial smile is restrained."
+  }
+}

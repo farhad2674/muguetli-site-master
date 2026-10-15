@@ -1,0 +1,18 @@
+{
+  "designId": "earth-12",
+  "src": "/media/product-models/elnaz/earth-12.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "One photorealistic vertical editorial fashion portrait. Same woman's face identity from collage, but a fresh upright pose with head turned a little toward her left, gentle amused closed-lip smile, eyes meeting camera; brunette hair in soft low ponytail. Pale plum blouse and a sharply tailored cream vest. Wear the actual 90×90 cm Earth silk square from artwork and flat textile photo as a relaxed headscarf placed over hair and lightly tied behind the neck, with ONE small fabric corner resting on shoulder, not a broad bib. Visible print: blush pink border/ground, lilac translucent central leaf and white hanging lily-of-the-valley bells, fine green and burgundy curved stems, tiny fairy figure. Faithful textile motif on realistic folds, no generic floral print. Background a warm modern greenhouse with soft greenery and diffused light, realistic face/skin, upper torso, single woman, no text/watermarks.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-flowers-lilac.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-flowers-lilac\\img-9102.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-4ecc6910-e36f-4eed-8184-5e3bc5bbe8a6.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Lilac floral silk is styled as a relaxed overhair scarf with a small shoulder tail; lily bells and fairy motif are visible. Expression is more composed than requested."
+  }
+}

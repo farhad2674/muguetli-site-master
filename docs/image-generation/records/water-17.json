@@ -1,0 +1,17 @@
+{
+  "designId": "water-17",
+  "src": "/media/product-models/elnaz/water-17.png",
+  "width": 941,
+  "height": 1672,
+  "prompt": "Photorealistic Muguetli fashion editorial product image, one woman, Water design water-17. Reference image 1 establishes only her recognizable real facial identity; her pose and expression must be NEW, not the familiar tilted head and closed neutral lips in the collage. Reference image 2 establishes the exact artwork and colors printed on this 90 x 90 cm square scarf: black and white wide framing, grayscale horizon and grey sea, black-haired illustrated woman with pale face, dark grey palm and clouds, monochrome aquatic lines. Print only this design on the actual wearable textile; preserve the distinctive border and artwork glimpses on visible folds; no generic replacement. Wear as a triangle headscarf loosely tied under the chin, with one corner falling over the jacket shoulder. Model in a charcoal blazer and pale ivory shell. An upright three-quarter right profile, looking out of frame right with a thoughtful subtle expression; hair tucked under the scarf. Minimal concrete gallery and diffused overcast light. The scarf should look naturally worn in a believable fashion portrait, with realistic fabric folds, size, lighting and skin texture. Vertical composition; one photographic image. Do not copy the reference collage's outfits, sunglasses, pose, or scarf styling. No text overlay, watermark, extra person, or invented logo.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p04-horizon-grey.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e26ed29256e1\\exec-f6c28c75-ac6f-4280-956c-5decdfef713d.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "observations": "Reviewed: recognizable face, upright off-camera gaze; grayscale horizon design and border on a natural triangle headscarf.",
+    "status": "accepted"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "designId": "calligraphy-01",
+  "src": "/media/product-models/elnaz/calligraphy-01.png",
+  "width": 941,
+  "height": 1672,
+  "prompt": "Photorealistic vertical luxury shawl portrait, one woman. The face collage gives the same Iranian woman's recognizable facial identity only; make a NEW upright relaxed pose with an open warm toothy smile, eyes crinkled, dark hair tied back, looking toward the left of camera. Tailored charcoal blazer over cream blouse. She wears ONE narrow long 180×70 cm silk shawl, not a square scarf, based precisely on the artwork reference: beige and warm brown ombré, ornate thin arched brown frame, central flowing dark-brown Persian calligraphic strokes, owl and wing near upper end, elegant woman's illustrated face and pearls near lower end. Drape around the back of neck with two slim ends falling to the waist, letting partial calligraphic marks and one illustrated end show in natural folds. Do not invent readable wording or logos; if exact lettering cannot be preserved, use only fragments of the reference's strokes obscured by folds. Warm sandstone corridor with soft directional light, real skin and silk texture, upper body, no extra people or watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\calligraphy-p10-script-brown.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-2d7f562d-2e2e-47c3-8275-5bf079be345e.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Warm brown long shawl shown in two narrow ends, with wing and illustrated woman recognizable. No verified ZIP textile photo exists for this design; generated calligraphic strokes are approximate and must not be treated as exact Persian wording."
+  }
+}

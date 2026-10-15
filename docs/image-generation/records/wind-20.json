@@ -1,0 +1,18 @@
+{
+  "designId": "wind-20",
+  "src": "/media/product-models/elnaz/wind-20.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Generate one photoreal fashion portrait of the SAME Iranian adult woman in first collage; retain eye/face identity and natural skin but change expression. Exact 90x90 cm silk square scarf in artwork and flatlay references: saturated cobalt blue upper border, olive/black swirling clouds, yellow luminous cloud forms, grape-green middle, small seated violet monk/guardian, black lily-of-the-valley bells, lilac curving ribbon, navy female face at lower corner, lavender leaves. Preserve these unusual source motifs and colors on visible fabric, no generic florals. Fold scarf into a slim neck wrap tucked inside an off-white tailored blazer, with a short triangular silk point at one side carrying cobalt, olive cloud and bell motif; physically plausible square scarf. Hair low ponytail. She faces camera directly with an open animated smile and teeth, head straight, fresh expression. Airy window-lit pale lavender studio. Mid torso editorial photo, one woman, no collage, no extra text/watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p08-cloud-blue.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p08-cloud-blue\\img-9148.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-e0aded5b-d914-4027-966c-6a8185b74133.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Accepted: direct warm smile, low ponytail, compact cobalt neck wrap with dark bell flowers and olive cloud shapes. Central motif is partly hidden by realistic folds."
+  }
+}

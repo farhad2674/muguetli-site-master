@@ -1,0 +1,18 @@
+{
+  "designId": "fire-04",
+  "src": "/media/product-models/elnaz/fire-04.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Use case: product-mockup. Asset type: second luxury scarf product detail image. Input images: Image 1 is the real woman's face/identity reference; Images 2 and 3 show the exact Fire 04 square scarf artwork and real textile. Create a photorealistic editorial portrait of that recognizable woman in a warm terracotta architectural corridor, modeling this 90 x 90 cm silk scarf tied softly at the neck and opened across one shoulder so its central dark-haired embracing figure, radiant red-orange flame ring, pink and green ribbon border and muted taupe ground can be seen. She wears an aubergine silk blouse, has a relaxed half-smile and looks slightly off camera. Realistic textile scale, folded print follows the source motif and palette as closely as possible, soft late-afternoon side lighting, natural skin and hair, waist-up composition. No generic pattern, extra figures in the room, added text/logo/watermark, collage or oversized fantasy fabric.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\fire-p01-figure-red.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\fire-p01-figure-red\\img-9111-2.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-75bf8286-6028-4dc4-b650-52b1bf51f02a.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Face recognizable; central figure, red flame ring and taupe field follow the product source. Plum blouse and terracotta setting differ; generated folds simplify small border details."
+  }
+}

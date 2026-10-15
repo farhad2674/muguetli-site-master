@@ -1,0 +1,18 @@
+{
+  "designId": "wind-08",
+  "src": "/media/product-models/elnaz/wind-08.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Use case: identity-preserve. Asset type: distinct second modeled photo for Muguetli detail wind-08. Image 1 is Elnaz's face identity collage; preserve her recognizable facial structure and natural skin. Image 2 is the exact artwork of this product and Image 3 is the real flat textile photo, both authoritative for the scarf print. Create one photorealistic luxury fashion editorial portrait of Elnaz. wear the 180 x 70 cm long shawl as a long front drape over a sage green tailored jacket, print displayed across a straight hanging section. Print fidelity is critical: reproduce navy border, warm brown upper clouds, black bird on an open ivory book, long olive-green ribbon, navy lower clouds and mauve-haired illustrated figure, matching the source color, border and motif placement; never invent or substitute pattern. Plausible real fabric folds and 180 x 70 cm shawl geometry. Expression and pose: lively gentle smile, eyes looking directly to camera; hair in a high bun, standing upright with hands by sides, distinct from the reference collage and preceding catalog portraits. Background/lighting: quiet botanical courtyard against pale stone. Vertical product-detail portrait, face and ample scarf both visible. One person, one image; no collage, no overlaid text, no watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p07-book-dark.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p07-book-dark\\img-9129.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-0c6052f9-b51f-4e52-bbfb-0e9e6f722c77.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "High-bun garden portrait and sage jacket; black bird, open book, olive ribbons, mauve figure, brown and navy fields are faithful. Print repeats over two tails, a plausible fold but not a literal full flat view."
+  }
+}

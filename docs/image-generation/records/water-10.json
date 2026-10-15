@@ -1,0 +1,17 @@
+{
+  "designId": "water-10",
+  "src": "/media/product-models/elnaz/water-10.png",
+  "width": 941,
+  "height": 1672,
+  "prompt": "Make one photorealistic Muguetli luxury fashion editorial product portrait for Water design water-10. Use reference image 1 ONLY for the same woman's recognizable facial identity: dark brown eyes, dark hair and facial structure, naturally realistic skin. Create a fresh expression, hair styling and pose. Use reference image 2 as the EXACT printed artwork on the 180 x 70 cm long rectangular shawl, retaining the source composition and distinctive details: silver-grey long sea composition, white mermaid figure with grey hair at center, wavy dark grey underwater lines, pale green fish, sea plants, grey border. She wears a dark charcoal sleeveless dress over a fine ivory blouse, standing full-height with the shawl hanging down from both shoulders and its full long vertical grey composition recognizable. Hair in a relaxed low knot, contemplative half-profile gaze, cool limestone background with narrow window shadows. Keep a large flat visible textile surface so a shopper can recognize this exact product, its shape, border and central imagery; render fabric folds and daylight convincingly. Keep the entire scene a single believable photograph of one model; art appears ONLY on the scarf, not in the background or other clothes. Do not copy the collage pose, outfit, sunglasses or layout. No text overlay, no watermark, no invented logo, no generic substitute print. Vertical fashion editorial photograph.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p04-swimmer-grey.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e26ed29256e1\\exec-a7df2f4a-032b-4807-9c29-903d7abd1053.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "observations": "Reviewed: face consistent; full-length grey rectangular shawl shows central mermaid, wavy lines and green sea elements; long silhouette clear.",
+    "status": "accepted"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "designId": "earth-04",
+  "src": "/media/product-models/elnaz/earth-04.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "A single photorealistic vertical editorial portrait for a luxury silk scarf. Same Iranian woman's facial identity as the face collage, but completely NEW expression and upright pose: bright, sincere toothy smile, looking directly at camera, eyes naturally crinkled, chin level; dark brunette hair in a neat low bun. Tailored black blazer over pale mint blouse. Wear the exact 90×90 cm scarf from artwork and product references as a SMALL neatly tied neckerchief, knot slightly off-center, one printed corner falling to upper chest, not a giant frontal bib. Visible silk folds reveal its mint/sea-glass ground, luminous white lily-of-the-valley bells and leaves, tiny dark fairy figure, white oval wreath, and thin plum border. Do not substitute generic flowers. Cool bright contemporary gallery background with pale stone, realistic skin and natural fabric, face and upper torso, no extra people, no new text or watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-flowers-mint.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-flowers-mint\\img-9107-2.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-2d1d7a39-6bc6-4695-985e-e8a1c08bff0a.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Tidy side-knot neckerchief rather than full frontal panel; recognizable mint lily-of-the-valley print and naturally toothy smile."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "designId": "wind-23",
+  "src": "/media/product-models/elnaz/wind-23.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Make one photoreal editorial portrait of the SAME adult Iranian woman identified by first collage; face recognizable, skin natural. Exact 90x90 cm silk square in artwork and flatlay: cream outer band, glowing deep rust-brown circular halo, tiny brown bell flowers dangling on purple stems, powerful brown/icy-blue owl with broad wing, cascading peach-tan cloud scrolls on left and cool grey-blue curls on right, illustrated dark brown female below. Keep this specific rust, bronze, pale blue print, not a substitute. Wear square as elegant loose over-hair wrap tied at nape, with one long patterned corner over left shoulder showing owl feathers and rust halo. Tailored slate-blue coat. Hair partly tucked. In an upright candid side profile she laughs openly at someone beyond frame, teeth visible and cheeks lifted; expression markedly different from source. Background warm pale stone terrace and soft foliage bokeh. Fashion photograph, one woman, realistic silk folds, no collage/text/watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p09-bird-rust.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p09-bird-rust\\img-9139.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-1cedbe1b-c2d5-426a-bf54-08a59e6c3207.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Accepted: laughing side profile and over-hair rust wrap; brown/blue owl, rust halo, peach/grey cloud scrolls follow source. Small print lettering approximate."
+  }
+}

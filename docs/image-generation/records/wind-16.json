@@ -1,0 +1,18 @@
+{
+  "designId": "wind-16",
+  "src": "/media/product-models/elnaz/wind-16.png",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Make one realistic luxury fashion portrait of the SAME Iranian adult woman from the face collage, distinctive dark eyes, eyebrows and features preserved, skin natural. The exact 90x90 square silk scarf comes from the other two references: pale rosy pink and lavender iridescent cloud ground, olive-green circular border, central white-haired illustrated woman with rose-pink face and cream blossoms, pale yellow lily-of-the-valley bells around the circle. Preserve gentle pastel colors, circular motif and flowers on the visible silk. Style as a loose silk wrap over hair, tied behind the neck so two short points fall toward the back; one front edge reveals the circle and bells, not a flat placard. Wear a black boatneck dress. Pose upright facing slightly left and looking straight at camera, joyful toothy grin with lifted cheeks, different from source collage. Bright window studio with subtle pale blush backdrop, soft editorial daylight. One person, one scarf, no collage, no text or watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p08-lily-pink.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p08-lily-pink\\img-9147.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-5dc0cde1-f381-4cda-a360-5bdc3c6be590.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Accepted: recognizable face, smile and loose pastel head wrap; olive circle, illustrated white-haired woman and pale bells visible. Background and style differ from other products."
+  }
+}

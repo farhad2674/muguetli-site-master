@@ -11,7 +11,10 @@
     "start": "next start --hostname 0.0.0.0",
     "lint": "oxlint",
     "format": "oxfmt",
-    "extract:hero": "node scripts/extract-hero.mjs"
+    "extract:hero": "node scripts/extract-hero.mjs",
+    "catalog:check": "node scripts/validate-catalog.mjs",
+    "models:sync": "node scripts/sync-model-gallery.mjs",
+    "models:check": "node scripts/validate-model-gallery.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",

@@ -1,0 +1,18 @@
+{
+  "designId": "earth-10",
+  "src": "/media/product-models/elnaz/earth-10.png",
+  "width": 941,
+  "height": 1672,
+  "prompt": "Photorealistic portrait for a long silk shawl product, vertical composition. Same recognizable woman as face collage; new pose: shoulders upright, chin level, gaze lifted thoughtfully out of frame to the right, mouth relaxed in a small natural half smile; brunette hair in loose low braid. Soft stone-gray blouse under caramel jacket. Wear the exact narrow 180×70 cm Earth shawl from other references as one loose loop around neck, with a single modest end falling down the front and the other end over far shoulder. Show authentic dark cocoa and tan geometric upper field, pale lavender-gray tall flower/stems, cool icy blue soil, violet roots and blue border. No flat full print cape, no invented floral design. Warm library-like plaster setting, window light, realistic silk/skin, single person, no lettering/watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-roots-grey.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-roots-grey\\img-0722.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-e44ea109-0c10-47ad-a200-0068e67490aa.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Long gray roots shawl loops at neck with a single slender front end; pale flower, cocoa upper and icy-blue lower print remain recognizable. Reflective off-camera gaze."
+  }
+}

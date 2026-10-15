@@ -1,0 +1,18 @@
+{
+  "designId": "wind-01",
+  "src": "/media/product-models/elnaz/wind-01.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Use case: identity-preserve. Asset type: second modeled image for Muguetli product detail wind-01. Input images: Image 1 is the real Elnaz identity reference collage; preserve her recognizable facial features and natural skin. Image 2 is the EXACT artwork for this shawl; Image 3 is the real flat product photograph showing textile colors and border. Create one high-end, photorealistic fashion editorial portrait of Elnaz wearing THIS exact 180 x 70 cm long shawl in a generous shoulder drape with an end hanging vertically so the dark teal swirling clouds, pale mint sky, lime-green field, violet winding serpent, figure, gold-brown lower flourishes and mint border are visibly faithful to Images 2 and 3. Keep print scale and geometry plausible for a real long shawl; no invented motifs or generic floral pattern. Elnaz has a relaxed thoughtful half-smile and looks slightly off camera, a visibly different expression/pose from Image 1. Pale stone architectural backdrop with soft daylight; understated cream outfit; modern luxury editorial photography, realistic textile folds, natural proportions, vertical portrait with visible upper body and substantial scarf area. Single image, single person, no collage, no added text, no watermark.",
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-815d82fb-76bc-48af-93bc-0fe9aa53d894.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Recognizable Elnaz face; distinct half-smile and pale-stone editorial setting; long shawl drape carries the reference colorway, cloud swirls, violet serpent and lower gold-brown motif. Small printed signatures and microscopic details are approximate, so reference flatlay remains the authoritative print view."
+  },
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p06-serpent-green.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p06-serpent-green\\img-9121.webp"
+  ]
+}

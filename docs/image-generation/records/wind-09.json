@@ -1,0 +1,18 @@
+{
+  "designId": "wind-09",
+  "src": "/media/product-models/elnaz/wind-09.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Use case: identity-preserve. Asset type: distinct second modeled photo for Muguetli detail wind-09. Image 1 is Elnaz's face identity collage; preserve her recognizable facial structure and natural skin. Image 2 is the exact artwork of this product and Image 3 is the real flat textile photo, both authoritative for the scarf print. Create one photorealistic luxury fashion editorial portrait of Elnaz. wear the 180 x 70 cm long shawl sweeping across a shoulder over a plum high-neck top, hold one scarf end lightly to reveal the bird and book. Print fidelity is critical: reproduce raspberry border, pink cloudy sky, white bird above a burgundy book, peach ribbons, mint lower clouds and violet-haired illustrated figure, matching the source color, border and motif placement; never invent or substitute pattern. Plausible real fabric folds and 180 x 70 cm shawl geometry. Expression and pose: serene downward gaze with a subtle smile; dark hair in a loose braid over one shoulder, upright pose, distinct from the reference collage and preceding catalog portraits. Background/lighting: soft pale-pink plaster studio with diffused side light. Vertical product-detail portrait, face and ample scarf both visible. One person, one image; no collage, no overlaid text, no watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p07-book-rose.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p07-book-rose\\img-9123.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-64d1852c-ecc9-423d-98af-cb853ee2e4a0.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Braided/downward-looking portrait with plum top; white bird, burgundy book, peach ribbons and mint clouds visibly match source. Very small source lettering remains approximate."
+  }
+}

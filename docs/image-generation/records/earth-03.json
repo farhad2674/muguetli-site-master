@@ -1,0 +1,18 @@
+{
+  "designId": "earth-03",
+  "src": "/media/product-models/elnaz/earth-03.png",
+  "width": 941,
+  "height": 1672,
+  "prompt": "Photorealistic vertical designer scarf portrait of the SAME woman from the facial collage, preserving her face identity but using a very different upright posture: shoulders squared, direct eye contact, warm half smile, chin level, hair slicked back into a low knot. Matte olive tailored blouse with long sleeves, no jewelry. Style the exact 90×90 cm silk square from the Earth artwork/product references as a dramatic but plausible one-shoulder wrap, its main hanging panel clearly displaying the dark violet night-sky top, russet and dark brown soil bands, cream-yellow glowing central seed pod, spreading white roots and pale DNA border. Keep this print's motif and color geography, not a generic print. Background warm dark wood-and-limestone interior, directional window light, tactile silk and real skin detail, upper torso, one person, no new lettering or watermarks.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-seed-brown.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-seed-brown\\img-7900.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-95330678-d038-4edb-bb40-5acec493b4bb.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Recognizable brown seed colorway and roots on a one-shoulder wrap; upright direct gaze, though expression remains restrained and broad display panel is used."
+  }
+}

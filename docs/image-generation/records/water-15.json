@@ -1,0 +1,17 @@
+{
+  "designId": "water-15",
+  "src": "/media/product-models/elnaz/water-15.png",
+  "width": 941,
+  "height": 1672,
+  "prompt": "Create ONE photorealistic fashion product editorial image for Muguetli Water design water-15. Use reference image 1 only to keep the same real woman's recognizable face and natural skin, dark eyes and hair; vary her expression and pose from the collage. Use reference image 2 as the exact textile artwork on a 90 x 90 cm square scarf: black outer frame and white inset, violet and pale-yellow horizon, large white-haired plum-purple-faced illustrated woman, olive clouds, pale palm, small fish and sea lines. Preserve its composition, dominant colors, distinctive figures, motifs, and borders. Model in ivory jacket over a muted violet top; scarf draped diagonally from the back of the neck across front, a flat artwork panel and border prominent. Loose wavy hair tucked behind the ear, gentle serious expression, frontal upright posture. Dusky blue-grey studio with a warm strip of sunset light. The printed scarf/shawl must be visibly worn, realistic in scale, fabric folds and drape; keep a broad portion flat enough to identify the exact design. Single woman, vertical photographic composition, refined natural styling, no second person. Do not copy clothing, sunglasses, poses, or original scarf from the face collage. Do not introduce a generic marine pattern, place artwork in the scene, add text, watermark, or invented logos.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p04-horizon-purple.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e26ed29256e1\\exec-12884773-4b9a-4ecd-a84c-4729dd552660.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "observations": "Reviewed: same recognizable face; purple-yellow horizon portrait with dark border and sea motifs clearly visible.",
+    "status": "accepted"
+  }
+}

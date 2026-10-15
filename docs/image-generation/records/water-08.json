@@ -1,0 +1,17 @@
+{
+  "designId": "water-08",
+  "src": "/media/product-models/elnaz/water-08.png",
+  "width": 941,
+  "height": 1672,
+  "prompt": "Make one photorealistic Muguetli luxury fashion editorial product portrait for Water design water-08. Use reference image 1 ONLY for the same woman's recognizable facial identity: dark brown eyes, dark hair and facial structure, naturally realistic skin. Create a fresh expression, hair styling and pose. Use reference image 2 as the EXACT printed artwork on the 90 x 90 cm square scarf, retaining the source composition and distinctive details: deep brown outer border, grey and black monochrome underwater field, central illustrated woman with white cloud hair and dark face, black fish and sea plants. She wears a smooth sage green knit top and an oversized scarf drape diagonally across the chest so most of the picture and the brown border show. Hair neatly tucked behind one ear, composed direct gaze, a quiet warm-grey studio background. Stand square to camera; no hand under chin. Keep a large flat visible textile surface so a shopper can recognize this exact product, its shape, border and central imagery; render fabric folds and daylight convincingly. Keep the entire scene a single believable photograph of one model; art appears ONLY on the scarf, not in the background or other clothes. Do not copy the collage pose, outfit, sunglasses or layout. No text overlay, no watermark, no invented logo, no generic substitute print. Vertical fashion editorial photograph.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p03-portrait-grey.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e26ed29256e1\\exec-79c6d06d-9859-4f22-a4e2-8cedbd6c4034.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "observations": "Reviewed: face consistent; brown border and monochrome portrait/fish print closely retained; sage outfit and plain grey set.",
+    "status": "accepted"
+  }
+}

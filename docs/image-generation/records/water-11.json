@@ -1,0 +1,17 @@
+{
+  "designId": "water-11",
+  "src": "/media/product-models/elnaz/water-11.png",
+  "width": 941,
+  "height": 1672,
+  "prompt": "Create ONE photorealistic fashion product editorial image for Muguetli Water design water-11. Use reference image 1 only to keep the same real woman's recognizable face and natural skin, dark eyes and hair; vary her expression and pose from the collage. Use reference image 2 as the exact textile artwork on a 180 x 70 cm long rectangular shawl: copper-brown ground with bright cobalt edge, central black mermaid silhouette, turquoise-blue flowing ribbons, blue fish, seahorses and sea plants. Preserve its composition, dominant colors, distinctive figures, motifs, and borders. Fashion model in a deep navy fitted top and softly tailored taupe trousers; shawl open and vertical over one shoulder to show its long print. Hair swept back in a low ponytail, broad natural smile, gaze slightly upward. Warm terracotta plaster gallery backdrop, warm side light. A dynamic walking pose, no hands touching face. The printed scarf/shawl must be visibly worn, realistic in scale, fabric folds and drape; keep a broad portion flat enough to identify the exact design. Single woman, vertical photographic composition, refined natural styling, no second person. Do not copy clothing, sunglasses, poses, or original scarf from the face collage. Do not introduce a generic marine pattern, place artwork in the scene, add text, watermark, or invented logos.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p04-swimmer-brown.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e26ed29256e1\\exec-6a42da07-d357-4817-afd6-a8b2bb402404.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "observations": "Reviewed: same recognizable face; copper and blue long mermaid shawl, sea ribbons and fish visible; moving pose and terracotta set.",
+    "status": "accepted"
+  }
+}

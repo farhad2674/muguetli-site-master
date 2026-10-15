@@ -1,0 +1,17 @@
+{
+  "designId": "water-16",
+  "src": "/media/product-models/elnaz/water-16.png",
+  "width": 941,
+  "height": 1672,
+  "prompt": "Photorealistic Muguetli fashion editorial product image, one woman, Water design water-16. Reference image 1 establishes only her recognizable real facial identity; her pose and expression must be NEW, not the familiar tilted head and closed neutral lips in the collage. Reference image 2 establishes the exact artwork and colors printed on this 90 x 90 cm square scarf: black outer border, sunset orange and blue sea horizon, black-haired pale-faced illustrated woman in turquoise top, green sea plants, pink clouds and palms. Print only this design on the actual wearable textile; preserve the distinctive border and artwork glimpses on visible folds; no generic replacement. Wear the scarf as a natural loose knot at the neck with one printed wing fanning out over a shoulder, not a front bib. Model in deep forest-green jacket with dark hair swept into a low bun. Her head is straight upright as she laughs openly, teeth visible and eyes crinkled, looking just right of the camera. Warm stone window recess with soft sunset light. The scarf should look naturally worn in a believable fashion portrait, with realistic fabric folds, size, lighting and skin texture. Vertical composition; one photographic image. Do not copy the reference collage's outfits, sunglasses, pose, or scarf styling. No text overlay, watermark, extra person, or invented logo.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p04-horizon-teal.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e26ed29256e1\\exec-21adb338-9b7e-4014-aefb-bb0baa8e6d97.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "observations": "Reviewed: recognizable face with genuine teeth-visible smile; natural neck knot; teal/blue sunset, illustrated dark-haired woman and black border visible.",
+    "status": "accepted"
+  }
+}

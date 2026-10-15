@@ -1,0 +1,18 @@
+{
+  "designId": "wind-24",
+  "src": "/media/product-models/elnaz/wind-24.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "One realistic luxury fashion photograph of the SAME adult Iranian woman from identity collage, preserve dark eyes, brows and face identity with natural skin. The exact 90x90 cm square silk scarf in other references has pale lilac/blue outer field, peach pink circular halo, tiny turquoise-white hanging bells, jewel-like rainbow owl with turquoise head and coral/green wing, lilac-grey curling cloud masses at left and vivid coral/green curls at right, pale blue illustrated woman below. Preserve unusual source bird and color placement on a natural fold, no generic pastel pattern. Style as a relaxed shoulder drape over a structured soft lilac blouse, secured near one shoulder with a discreet silk knot, colored owl wing visible in one diagonal panel. Hair swept up in a low braided bun. Head upright and looking directly toward camera with a playful, bright wide grin showing teeth, eyes crinkled, unlike source collage. Pale blush studio wall with soft window light. Mid-torso, one model, no collage, no text/watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p09-bird-pastel.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p09-bird-pastel\\img-9137.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-e917eb2f-74d5-465a-9300-3808e74130aa.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Accepted: braided bun and toothy smile; one-shoulder pastel square with rainbow owl and peach halo closely matches source colors and composition."
+  }
+}

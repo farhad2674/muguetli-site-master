@@ -1,0 +1,1103 @@
+[
+  {
+    "designId": "fire-01",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/fire-01.png",
+    "prompt": "Use case: product-mockup. Asset type: second image for a luxury silk scarf product detail gallery. Input images: Image 1 is a collage of the same real woman; use it only to preserve her recognizable face, dark brown eyes, brows, hairline, skin texture and mature adult proportions. Image 2 is the exact flat PDF artwork for Fire 01, and Image 3 is the physical scarf photo; use these only as the one textile to model. Create a photorealistic three-quarter editorial portrait of this woman wearing the actual 90 x 90 cm square silk scarf, folded diagonally and loosely draped around her shoulders with one corner hanging enough to reveal the large orange-pink phoenix, lilac-purple sky, dark violet border, green and blue tendrils. The print, motif positions and palette should track Images 2 and 3 as closely as possible; no generic replacement print. She gives a small assured smile and slight head turn, in a pale ivory tailored blouse. Setting: warm limestone arch with soft reflected daylight, contemporary luxury fashion photography, realistic silk weave and natural facial detail, waist-up framing, no other people. Distinct from reference poses and background. No added text, logos, watermark, collage, giant fabric, or fantasy wings.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\fire-p01-phoenix-lilac.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\fire-p01-phoenix-lilac\\img-9114.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Recognizable face, plausible square-scarf drape, correct lilac phoenix palette and border. Folded print is illustrative and does not reproduce every line exactly."
+    }
+  },
+  {
+    "designId": "fire-02",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/fire-02-v2.png",
+    "prompt": "Generate a NEW photorealistic fashion portrait for this exact square scarf. The face collage defines the SAME Iranian woman's facial identity ONLY; do not copy its head tilt, loose hair or closed-mouth expression. She stands HEAD UPRIGHT, square to camera, with a genuinely warm broad smile showing teeth and eyes crinkled. Wear a tailored charcoal jacket over an ivory top. Style the actual 90×90 cm silk square from the other two references as a CLASSIC TRIANGULAR HEADSCARF tied lightly under the chin, with two short tails; no giant flat chest panel. On the visible folds, preserve the sage-olive border, pastel aqua and green cloud field, vivid orange and hot-pink phoenix wing, pink flames and narrow multicolor ribbons of this exact Fire print. Allow natural folds to obscure part of the bird, but do not replace its colors or motif. Cool pale-lavender sculptural studio with soft daylight, realistic skin, plausible silky cloth, one woman, head and upper torso, no extra logos, text or watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\fire-p01-phoenix-green.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\fire-p01-phoenix-green\\img-9115-2.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Selected v2 replaces broad shoulder panel with a classic under-chin headscarf. Upright toothy smile and cool lavender studio give meaningful pose/style variety; sage phoenix, pink flame and colored ribbons visible in natural folds."
+    }
+  },
+  {
+    "designId": "fire-03",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/fire-03-v2.png",
+    "prompt": "Create a DISTINCT photorealistic editorial portrait of the SAME woman identified by the facial collage; identity only, NOT its pose. She is in a right-facing THREE-QUARTER PROFILE with chin level, hair tied back in a clean low ponytail, caught mid-laugh with a clearly visible joyful open smile and crinkled eyes. Camel tailored blazer over simple dark blouse. Wear the exact 90×90 cm dark Fire square silk scarf in the artwork and product references as a NEAT LOOSE NECK LOOP with a small side knot and just one folded printed corner over the lapel, NOT a wide flat chest bib. Visible authentic portions show deep nearly-black purple border and violet clouds, golden-orange phoenix feathers, flame orange and thin teal-pink ribbons; physical folds may partially hide the full bird. Do not substitute generic bird print. Warm plain plaster architecture, soft directional daylight, real skin and silk texture, single woman, upper torso, no text, watermark or added props.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\fire-p01-phoenix-dark.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\fire-p01-phoenix-dark\\img-9116-2.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Selected v2 replaces large bib with compact neck loop and one corner. Rightward laughing pose, tied hair, camel blazer and warm plaster differ clearly; dark-violet clouds, orange phoenix feathers and ribbons remain visible, while the full bird is partly hidden by folds."
+    }
+  },
+  {
+    "designId": "fire-04",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/fire-04.png",
+    "prompt": "Use case: product-mockup. Asset type: second luxury scarf product detail image. Input images: Image 1 is the real woman's face/identity reference; Images 2 and 3 show the exact Fire 04 square scarf artwork and real textile. Create a photorealistic editorial portrait of that recognizable woman in a warm terracotta architectural corridor, modeling this 90 x 90 cm silk scarf tied softly at the neck and opened across one shoulder so its central dark-haired embracing figure, radiant red-orange flame ring, pink and green ribbon border and muted taupe ground can be seen. She wears an aubergine silk blouse, has a relaxed half-smile and looks slightly off camera. Realistic textile scale, folded print follows the source motif and palette as closely as possible, soft late-afternoon side lighting, natural skin and hair, waist-up composition. No generic pattern, extra figures in the room, added text/logo/watermark, collage or oversized fantasy fabric.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\fire-p01-figure-red.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\fire-p01-figure-red\\img-9111-2.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Face recognizable; central figure, red flame ring and taupe field follow the product source. Plum blouse and terracotta setting differ; generated folds simplify small border details."
+    }
+  },
+  {
+    "designId": "fire-05",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/fire-05.png",
+    "prompt": "Use case: product-mockup. Asset type: second product gallery image. Image 1 supplies only the recognizable adult woman's face. Images 2 and 3 are the exact Fire 05 90 x 90 cm square silk scarf artwork and physical textile. Create a realistic editorial portrait with her dark hair tied in a neat low bun, body upright and face in a three-quarter profile, a genuinely warm closed-mouth smile. She wears a matte cream sleeveless tailored jacket. The square scarf is loosely wrapped around her neck with a broad triangular panel over her chest, revealing the dark brown ground, central embracing woman, golden orange radiating flames, purple edge ribbons and green/teal wing colors from the references. Setting: sunlit sculptural travertine staircase, soft shadow geometry. Silk scale and folds plausible, natural skin. No invented print, added lettering/logo/watermark, collage, or other person.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\fire-p01-figure-dark.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\fire-p01-figure-dark\\img-1895.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Recognizable identity with low bun and tailored white vest; dark figure and golden flame motif reads clearly on a square scarf. Requested warm smile is subtle."
+    }
+  },
+  {
+    "designId": "fire-06",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/fire-06.png",
+    "prompt": "Use case: product-mockup. Asset type: second product gallery image. Image 1 supplies only the consistent real woman's facial identity; Images 2 and 3 show the exact Fire 06 square scarf and actual textile. Photorealistic waist-up fashion photograph of her standing upright with a visible, relaxed smile, hair swept back behind both ears, wearing a tailored rust-red blazer. The real 90 x 90 cm silk scarf is folded into a wide shoulder drape with a small knot at the collar; the central embracing figure, bright orange-red flame halo, muted rose-taupe field, green ribbon and pink border follow the reference textile as closely as possible. Scene: warm modern gallery with brushed plaster and a single column, diffused midday light. Different pose and background from other product images. Natural face and silk sheen, no generic pattern, added text/logo/watermark, giant fabric, or second person.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\fire-p01-figure-orange.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\fire-p01-figure-orange\\img-9117.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Central red-orange Fire figure motif and rose border are visible; rust suit and gallery distinguish this portrait. Facial smile is restrained."
+    }
+  },
+  {
+    "designId": "fire-07",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/fire-07.png",
+    "prompt": "Use case: product-mockup. Asset type: second product gallery image for a long shawl. Image 1 is the woman's face identity, Images 2 and 3 are the exact Fire 07 textile artwork and physical 180 x 70 cm shawl. Photorealistic fashion portrait of her in left-facing near profile, dark hair in a low ponytail, thoughtful calm gaze toward window light. She wears a slate-blue structured blouse. Drape the actual narrow rectangular silk shawl once around her shoulders, with one long vertical end visible from collar to hip; retain the cream top, cobalt and teal arch, luminous blue center, flowing roots, icy blue lower section and slim dark border from the references. Scene: cool pale-blue architectural wall with deep window reveal; soft directional light. Show plausible shawl width and full-body scale, natural face and real fabric folds. No generic print, added text/logo/watermark, collage or fantasy elements.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\fire-p01-roots-blue.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\fire-p01-roots-blue\\img-9119-2.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Distinct left profile and tied hair. Blue roots artwork appears as a narrow, plausible 180×70 shawl panel with cream, cobalt, and icy blue regions."
+    }
+  },
+  {
+    "designId": "fire-08",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/fire-08.png",
+    "prompt": "Use case: product-mockup. Asset type: second product gallery image for a 180 x 70 cm long silk shawl. Image 1 is identity only for the same real woman; Images 2 and 3 specify the one exact Fire 08 fabric. Create a photorealistic portrait of her facing almost front, hair pinned in a loose elegant updo, giving a confident visibly warm smile. She wears a caramel tailored jacket. Loop the narrow long shawl lightly at the neck and let a single end fall vertically to show the midnight indigo upper field, yellow arch outline, red orb, pink-orange flame, brown root landscape and narrow green-yellow border. Accurate motif sequence and plausible 180 x 70 cm proportions, no enormous fabric. Background: warm sandstone passage with a soft slice of daylight; cinematic but realistic skin and silk. No substitute print, invented logos/text, watermark, collage or extra people.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\fire-p01-roots-orange.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\fire-p01-roots-orange\\img-9118-2.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Orange roots artwork appears as a narrow long shawl with indigo upper, yellow arch, red orb, and earthy base. Camel suit and sandstone setting provide variation."
+    }
+  },
+  {
+    "designId": "fire-09",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/fire-09.png",
+    "prompt": "Create a photorealistic editorial product-detail portrait, one woman and one wearable scarf, vertical image. The face collage reference establishes the SAME Iranian woman's recognizable facial identity (dark brown eyes, strong brows, warm olive skin, brunette hair); do not reproduce its pose or collage. This portrait must have an UPRIGHT head, three-quarter turn toward her right, a clearly visible joyful natural smile with teeth and eyes slightly crinkled. Hair in a clean low chignon. Tailored deep teal blazer over black. She wears the actual 90×90 cm square silk scarf from the other two references as a loose shoulder wrap with one corner crossing the chest: preserve its distinctive gray camouflage field, turquoise-blue radiating flames, central black-and-white embracing figure with green-blue feather arcs, and violet looping border. Fabric should fold physically, motif portions aligned across folds, no replacement pattern. Cool gray sculptural studio and crisp daylight, luxury fashion photography, realistic skin, full head and upper torso, no extra people, no invented logos, no watermarks.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\fire-p01-figure-blue.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\fire-p01-figure-blue\\img-1896.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Visible natural toothy smile and upright pose; exact blue Fire figure and gray-violet border legible on shoulder wrap. Broad front panel is more display-like than a compact everyday tie."
+    }
+  },
+  {
+    "designId": "earth-01",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/earth-01.png",
+    "prompt": "Photorealistic vertical luxury fashion image for a scarf detail gallery. Use the first reference collage ONLY for the same woman's recognizable face; create a NEW candid pose: she is upright, looking to frame right, mid-laugh with a natural open smile and crinkled eyes, not the calm tilted expression in the collage. Dark brown hair tied into a relaxed low ponytail. Soft ivory knit top beneath a tailored charcoal jacket. Wear the exact 90×90 cm Earth scarf from the artwork and product references folded into a generous neck cowl, one front panel visible: muted olive upper sky, layered cool-gray/lavender soil, central bluish seed pod with roots, winding purple-green DNA strands at the border. Translate this same print onto silk with realistic folds and scale, no generic floral substitution. Background a warm minimalist stone courtyard with diffused morning light, skin texture realistic, upper-body framing, one person, no text or watermarks.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-seed-grey.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-seed-grey\\img-7897.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Candid laughing expression and rightward gaze; grey/olive seed, roots, and DNA border match verified textile. Generous cowl has a broad front triangle."
+    }
+  },
+  {
+    "designId": "earth-02",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/earth-02.png",
+    "prompt": "Make one photorealistic vertical editorial portrait of the SAME woman identified by the face collage (recognizable facial structure, brown eyes, dark brows, brunette hair), but a fresh pose and expression. She faces almost full right profile with chin level and gives an easy closed-lip smile toward someone off-camera; eyebrows relaxed, head upright, hair neatly swept into a bun. Pink clay tailored blouse with simple collar. Wear the exact 90×90 cm silk Earth scarf shown in the other two references as a loose headscarf framing the face, with a silk tail over one shoulder. The visible fabric must retain the cool blue/sea-green sky, broad rose-pink soil bands, central periwinkle seed pod and magenta roots, and DNA helix border in green/lavender. Show actual print on plausible folds, no generic motifs. Background soft sage plaster wall and plant shadows; elegant natural light, realistic skin, full face visible, single woman, no text/watermarks.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-seed-pink.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-seed-pink\\img-7893.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Distinct right-facing headscarf treatment with closed smile; pink soil bands, periwinkle seed and DNA border stay recognizable."
+    }
+  },
+  {
+    "designId": "earth-03",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/earth-03.png",
+    "prompt": "Photorealistic vertical designer scarf portrait of the SAME woman from the facial collage, preserving her face identity but using a very different upright posture: shoulders squared, direct eye contact, warm half smile, chin level, hair slicked back into a low knot. Matte olive tailored blouse with long sleeves, no jewelry. Style the exact 90×90 cm silk square from the Earth artwork/product references as a dramatic but plausible one-shoulder wrap, its main hanging panel clearly displaying the dark violet night-sky top, russet and dark brown soil bands, cream-yellow glowing central seed pod, spreading white roots and pale DNA border. Keep this print's motif and color geography, not a generic print. Background warm dark wood-and-limestone interior, directional window light, tactile silk and real skin detail, upper torso, one person, no new lettering or watermarks.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-seed-brown.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-seed-brown\\img-7900.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Recognizable brown seed colorway and roots on a one-shoulder wrap; upright direct gaze, though expression remains restrained and broad display panel is used."
+    }
+  },
+  {
+    "designId": "earth-04",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/earth-04.png",
+    "prompt": "A single photorealistic vertical editorial portrait for a luxury silk scarf. Same Iranian woman's facial identity as the face collage, but completely NEW expression and upright pose: bright, sincere toothy smile, looking directly at camera, eyes naturally crinkled, chin level; dark brunette hair in a neat low bun. Tailored black blazer over pale mint blouse. Wear the exact 90×90 cm scarf from artwork and product references as a SMALL neatly tied neckerchief, knot slightly off-center, one printed corner falling to upper chest, not a giant frontal bib. Visible silk folds reveal its mint/sea-glass ground, luminous white lily-of-the-valley bells and leaves, tiny dark fairy figure, white oval wreath, and thin plum border. Do not substitute generic flowers. Cool bright contemporary gallery background with pale stone, realistic skin and natural fabric, face and upper torso, no extra people, no new text or watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-flowers-mint.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-flowers-mint\\img-9107-2.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Tidy side-knot neckerchief rather than full frontal panel; recognizable mint lily-of-the-valley print and naturally toothy smile."
+    }
+  },
+  {
+    "designId": "earth-05",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/earth-05.png",
+    "prompt": "Photorealistic vertical designer accessory campaign portrait. Use the face collage ONLY for the same woman's recognizable face; NEW pose: right-facing three-quarter angle with chin level, reflective gentle closed-lip expression looking out a window, no tilt. Hair swept back under a loose but practical silk headwrap with a short tail at the nape. Dark olive tailored shirt. The headwrap is the precise 90×90 cm gray Earth scarf in other two references: show sections of the cold pearl/gray-lavender sky, tiny black lily-of-the-valley blossoms, pale curling foliage, subdued olive-black diagonal ground and thin border. Pattern must be materially faithful yet naturally interrupted by folds, not a flat full print bib. Moody pale plaster studio near a window, soft realistic skin and light, one woman, no invented lettering or watermarks.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-landscape-grey.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-landscape-grey\\img-9106.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Reflective rightward look and plausible overhair wrap; gray landscape and black lily bells visible. Lower landscape sections are necessarily hidden in folds."
+    }
+  },
+  {
+    "designId": "earth-06",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/earth-06.png",
+    "prompt": "Photorealistic vertical fashion portrait with one woman wearing exactly the square silk scarf in the Earth artwork and product photo. The same Iranian woman's identity from face collage must remain recognizable, but not its pose: upright head, left-facing three-quarter angle, infectious open smile showing teeth, eyes visibly joyful. Brunette hair mostly covered by a CLASSIC triangular 90×90 cm headscarf tied lightly under chin, with real silk folds and one short corner beside shoulder. Deep charcoal coat over simple white top. Visible print shows dark forest-green leaves, ivory hanging lily-of-the-valley bells, small fairy figure, pink-lilac circular rim and lavender border. Keep actual motif and palette, no generic floral replacement, no oversized floating cloth. Warm white architectural arch in background, editorial daylight and realistic skin, upper torso, one person, no text/watermarks.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-flowers-green.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-flowers-green\\img-9074.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Classic triangular headscarf tied under chin; forest-green floral print, white bells, fairy and lavender edge legible. Warm smiling expression."
+    }
+  },
+  {
+    "designId": "earth-07",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/earth-07.png",
+    "prompt": "Create a single photorealistic vertical editorial portrait of the SAME woman from the facial collage, with new movement and expression: she stands in left profile, laughing softly while looking down and to her left, dark hair loosely tied back, face recognizable. Warm camel linen blazer and black top. Wear the exact 90×90 cm Earth silk square from the artwork and flat product photo as a slim folded neck scarf with an elegant loose side knot and one modest printed tail over the lapel. The visible print retains violet-magenta night sky and coral moon, white lily-of-the-valley stems and dark green leaves, turquoise flowing river with white arcs and a pastel edge. Natural folds, realistic 90 cm scale, no giant flat front panel. Sunlit courtyard with lavender-gray wall, tactile silk, real skin texture, upper body, one woman, no text or watermarks.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-landscape-colour.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-landscape-colour\\img-9108.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Slim side-tied neck scarf with moonlit violet sky, lily stems, and turquoise river regions visible. Laughing downcast pose and camel tailoring add variety."
+    }
+  },
+  {
+    "designId": "earth-08",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/earth-08.png",
+    "prompt": "Single photorealistic vertical luxury scarf portrait. Preserve the recognizable face identity from the woman in the collage but make a fresh UPRIGHT forward posture, bright eyes and a spontaneous smile showing teeth. Brunette hair neatly tied at the back. Wear the exact 90×90 cm square silk scarf in artwork and flat product reference as a loose overhair wrap: folded triangle rests on crown, one edge draped along side of face and one short tail over shoulder, without swallowing the upper body. Visible print faithfully includes icy powder-blue ground, white hanging lily-of-the-valley bells, small dark fairy figure, rust-and-navy curling stems, white circular wreath and slim brown border. Tailored deep navy blouse. Soft daylight in contemporary limestone room. Realistic skin and silk folds, one woman, upper torso, no substitute pattern, no new text/watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-flowers-blue.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-flowers-blue\\img-9103.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Loose overhair square wrap with one hanging corner; powder-blue lily bells, small fairy, and brown/navy border recognizable. Visible smile."
+    }
+  },
+  {
+    "designId": "earth-09",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/earth-09.png",
+    "prompt": "Photorealistic vertical editorial image of the SAME woman from facial collage, identity preserved but NEW upright stance and expression: friendly visible toothy smile, looking slightly left of camera, hair in clean sleek bun. Tailored ivory jacket with dark blue shirt. Wear the exact 180×70 cm long silk Earth shawl from artwork and textile photo simply draped around back of neck with TWO narrow loose ends hanging at chest; do not make a broad bib or square scarf. One end reveals deep cobalt upper field, pale mint leaves and central white flower, the other the lemon-yellow ground, black roots and pink border. Keep authentic motif/palette on realistic folds. Minimal pale blue studio background, soft directional light, real skin, upper body, one woman, no text/watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-roots-blue.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-roots-blue\\img-9110.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Long shawl is plausibly narrow with two loose ends, one showing cobalt leaves and the other pale-yellow soil and roots. Upright toothy smile."
+    }
+  },
+  {
+    "designId": "earth-10",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/earth-10.png",
+    "prompt": "Photorealistic portrait for a long silk shawl product, vertical composition. Same recognizable woman as face collage; new pose: shoulders upright, chin level, gaze lifted thoughtfully out of frame to the right, mouth relaxed in a small natural half smile; brunette hair in loose low braid. Soft stone-gray blouse under caramel jacket. Wear the exact narrow 180×70 cm Earth shawl from other references as one loose loop around neck, with a single modest end falling down the front and the other end over far shoulder. Show authentic dark cocoa and tan geometric upper field, pale lavender-gray tall flower/stems, cool icy blue soil, violet roots and blue border. No flat full print cape, no invented floral design. Warm library-like plaster setting, window light, realistic silk/skin, single person, no lettering/watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-roots-grey.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-roots-grey\\img-0722.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Long gray roots shawl loops at neck with a single slender front end; pale flower, cocoa upper and icy-blue lower print remain recognizable. Reflective off-camera gaze."
+    }
+  },
+  {
+    "designId": "earth-11",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/earth-11.png",
+    "prompt": "Create one photorealistic vertical fashion portrait of the SAME woman from face collage, but in a lively new left-facing three-quarter pose with a candid laugh, teeth visible, eyes crinkled, hair swept into a casual high bun. Deep coral blouse and muted moss jacket. Drape the exact 180×70 cm long narrow Earth shawl from artwork and flat product reference over one shoulder so TWO slender ends hang naturally, not a giant bib. Visible fabric must show its turquoise upper sky and rich green long leaves, central green pod, reddish brown soil below with bright pale roots, plum border. Preserve authentic print geography and plausible silk folds. Background warm stone terrace with softly blurred trees; realistic skin and fabric, one woman only, no text or watermarks.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-roots-green.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-roots-green\\img-9109.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Two narrow long-shawl ends carry teal-green leaves, red-brown soil and white roots; lively open smile in a seated terrace pose. Motif remains textile-specific."
+    }
+  },
+  {
+    "designId": "earth-12",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/earth-12.png",
+    "prompt": "One photorealistic vertical editorial fashion portrait. Same woman's face identity from collage, but a fresh upright pose with head turned a little toward her left, gentle amused closed-lip smile, eyes meeting camera; brunette hair in soft low ponytail. Pale plum blouse and a sharply tailored cream vest. Wear the actual 90×90 cm Earth silk square from artwork and flat textile photo as a relaxed headscarf placed over hair and lightly tied behind the neck, with ONE small fabric corner resting on shoulder, not a broad bib. Visible print: blush pink border/ground, lilac translucent central leaf and white hanging lily-of-the-valley bells, fine green and burgundy curved stems, tiny fairy figure. Faithful textile motif on realistic folds, no generic floral print. Background a warm modern greenhouse with soft greenery and diffused light, realistic face/skin, upper torso, single woman, no text/watermarks.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-flowers-lilac.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-flowers-lilac\\img-9102.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Lilac floral silk is styled as a relaxed overhair scarf with a small shoulder tail; lily bells and fairy motif are visible. Expression is more composed than requested."
+    }
+  },
+  {
+    "designId": "water-01",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-01.png",
+    "prompt": "Photorealistic luxury fashion editorial portrait for Muguetli Water design water-01. Reference image 1 is a collage of the real woman's face: preserve her recognizable facial identity, dark brown eyes, dark hair, natural skin texture and features, but create a fresh pose and expression. Reference image 2 is the exact artwork for the scarf; faithfully reproduce its purple outer border, black inner line, cobalt blue underwater field, dark-haired illustrated woman, olive dress, green flowing ribbons, bright tropical fish and coral. Make this exact artwork visible on a 90 x 90 cm square scarf worn loosely over one shoulder and softly around the neck, with a broad flat panel facing the camera so motifs and borders read clearly. The model has a gentle relaxed smile, wears a minimal cream blouse, stands by a pale blue-gray stone wall with soft window light. Waist-up vertical photographic composition, elegant natural stance, realistic fabric drape, no other printed garments. The face collage is identity guidance only; do not copy its original outfits, sunglasses, pose, or collage layout. The artwork is scarf print guidance only; do not place the print on background. Single photo only, no text, no watermark, no extra person, no invented logos.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p03-figure-purple.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Consistent face; purple border and cobalt underwater artwork clearly readable on a broad square-scarf panel."
+    }
+  },
+  {
+    "designId": "water-02",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-02.png",
+    "prompt": "Photorealistic luxury fashion editorial portrait for Muguetli Water design water-02. Reference image 1 is a collage of the real woman's face: keep the same recognizable facial identity, dark brown eyes and dark hair, with natural skin texture, but create a new expression and pose. Reference image 2 is the exact product artwork: transfer its actual composition onto the scarf, especially rust-brown outside frame, soft pink and lilac underwater field, white-haired illustrated woman, pale coral branches, fish and sea forms. It is a 90 x 90 cm square scarf. drape the square scarf across one shoulder with an open broad printed panel; ivory tailored vest over a pale grey blouse, slight thoughtful half-smile, warm stone arcade and soft side light. The artwork print must be faithful, with correct colors and motifs; do not swap in a generic marine print or print it on clothing or background. Show realistic fabric drape and one broad surface of the scarf clearly enough for a shopper to recognize the exact product. Vertical waist-up fashion photograph, natural elegant styling, tasteful simple clothes. The face collage guides identity only: do not reproduce its collage layout, original scarf, sunglasses, clothing, or pose. Single woman, single photo, no text, no watermark, no invented logo.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p03-figure-rose.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Consistent face; rust border, pink-lilac field, white-haired illustrated figure and marine elements visible."
+    }
+  },
+  {
+    "designId": "water-03",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-03.png",
+    "prompt": "Photorealistic luxury fashion editorial portrait for Muguetli Water design water-03. Reference image 1 is a collage of the real woman's face: keep the same recognizable facial identity, dark brown eyes and dark hair, with natural skin texture, but create a new expression and pose. Reference image 2 is the exact product artwork: transfer its actual composition onto the scarf, especially olive green outside frame, black inner border, cobalt underwater field, dark-haired illustrated woman in olive dress, green ribbons, tropical fish and coral. It is a 90 x 90 cm square scarf. wear the square scarf tied loosely at the neck with one wide printed corner falling across the front; powder-blue shirt, confident calm direct gaze, pale limestone wall and bright diffused daylight. The artwork print must be faithful, with correct colors and motifs; do not swap in a generic marine print or print it on clothing or background. Show realistic fabric drape and one broad surface of the scarf clearly enough for a shopper to recognize the exact product. Vertical waist-up fashion photograph, natural elegant styling, tasteful simple clothes. The face collage guides identity only: do not reproduce its collage layout, original scarf, sunglasses, clothing, or pose. Single woman, single photo, no text, no watermark, no invented logo.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p03-figure-olive.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Consistent face; olive border, black inset and cobalt underwater figure and fish visible."
+    }
+  },
+  {
+    "designId": "water-04",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-04.png",
+    "prompt": "Photorealistic luxury fashion editorial portrait for Muguetli Water design water-04. Reference image 1 is a collage of the real woman's face: keep the same recognizable facial identity, dark brown eyes and dark hair, with natural skin texture, but create a new expression and pose. Reference image 2 is the exact product artwork: transfer its actual composition onto the scarf, especially mint aqua narrow outer border, pale turquoise underwater scene, white-haired illustrated woman, fish, jellyfish, coral, delicate colored seaweed. It is a 180 x 70 cm long rectangular shawl. wear the long rectangular shawl draped vertically over both shoulders with most of its long illustrated surface visible; cream high-neck top, warm open smile, blue-gray studio backdrop with soft window light. The artwork print must be faithful, with correct colors and motifs; do not swap in a generic marine print or print it on clothing or background. Show realistic fabric drape and one broad surface of the scarf clearly enough for a shopper to recognize the exact product. Vertical waist-up fashion photograph, natural elegant styling, tasteful simple clothes. The face collage guides identity only: do not reproduce its collage layout, original scarf, sunglasses, clothing, or pose. Single woman, single photo, no text, no watermark, no invented logo.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p03-underwater-mint.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Consistent face; long mint-aqua shawl and aquatic figure, fish and coral visible; print is a stylized interpretation of the exact reference."
+    }
+  },
+  {
+    "designId": "water-05",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-05.png",
+    "prompt": "Photorealistic luxury fashion editorial portrait for Muguetli Water design water-05. Reference image 1 is a collage of the real woman's face: keep the same recognizable facial identity, dark brown eyes and dark hair, with natural skin texture, but create a new expression and pose. Reference image 2 is the exact product artwork: transfer its actual composition onto the scarf, especially vivid red outside frame, black inner border, cobalt blue underwater portrait of a dark-haired illustrated woman in turquoise, fish, jellyfish and coral. It is a 90 x 90 cm square scarf. wear the square scarf over the hair and over one shoulder, leaving a wide flat front section and border visible; minimal off-white jacket, slightly playful smile, quiet pale slate studio background. The artwork print must be faithful, with correct colors and motifs; do not swap in a generic marine print or print it on clothing or background. Show realistic fabric drape and one broad surface of the scarf clearly enough for a shopper to recognize the exact product. Vertical waist-up fashion photograph, natural elegant styling, tasteful simple clothes. The face collage guides identity only: do not reproduce its collage layout, original scarf, sunglasses, clothing, or pose. Single woman, single photo, no text, no watermark, no invented logo.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p03-portrait-red.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Consistent face; red border, blue field, illustrated portrait and fish readable; scarf modeled over the hair."
+    }
+  },
+  {
+    "designId": "water-06",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-06.png",
+    "prompt": "Make one photorealistic Muguetli luxury fashion editorial product portrait for Water design water-06. Use reference image 1 ONLY for the same woman's recognizable facial identity: dark brown eyes, dark hair and facial structure, naturally realistic skin. Create a fresh expression, hair styling and pose. Use reference image 2 as the EXACT printed artwork on the 90 x 90 cm square scarf, retaining the source composition and distinctive details: mauve outer border and black inset, salmon pink sea field, dark-skinned illustrated woman with abundant black hair and turquoise lips, bright fish and jellyfish. Her hair is gathered into a low loose chignon; she stands upright in a muted plum blouse, wears the scarf in a wide soft shoulder wrap with the main portrait panel visible, and gives a warm open smile. Set in a quiet sand-toned studio with indirect daylight. Keep a large flat visible textile surface so a shopper can recognize this exact product, its shape, border and central imagery; render fabric folds and daylight convincingly. Keep the entire scene a single believable photograph of one model; art appears ONLY on the scarf, not in the background or other clothes. Do not copy the collage pose, outfit, sunglasses or layout. No text overlay, no watermark, no invented logo, no generic substitute print. Vertical fashion editorial photograph.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p03-portrait-rose.webp"
+    ],
+    "qa": {
+      "observations": "Reviewed: face consistent; mauve border, salmon field, central black-haired woman and fish reproduced; chignon/plum styling adds variety.",
+      "status": "accepted"
+    }
+  },
+  {
+    "designId": "water-07",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-07.png",
+    "prompt": "Make one photorealistic Muguetli luxury fashion editorial product portrait for Water design water-07. Use reference image 1 ONLY for the same woman's recognizable facial identity: dark brown eyes, dark hair and facial structure, naturally realistic skin. Create a fresh expression, hair styling and pose. Use reference image 2 as the EXACT printed artwork on the 90 x 90 cm square scarf, retaining the source composition and distinctive details: coral-peach outer border, pale lilac and white sea field, white-haired illustrated woman with lavender lips and blue dress, pastel fish, jellyfish and fine coral stems. She turns three-quarters toward camera, hair tied back with soft loose strands, wearing a charcoal tailored jacket; the scarf is loosely styled over her hair and brought down to one broad visible shoulder panel. A subtle playful smile. Background: softly lit pale grey stone corridor. Keep a large flat visible textile surface so a shopper can recognize this exact product, its shape, border and central imagery; render fabric folds and daylight convincingly. Keep the entire scene a single believable photograph of one model; art appears ONLY on the scarf, not in the background or other clothes. Do not copy the collage pose, outfit, sunglasses or layout. No text overlay, no watermark, no invented logo, no generic substitute print. Vertical fashion editorial photograph.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p03-portrait-peach.webp"
+    ],
+    "qa": {
+      "observations": "Reviewed: face consistent; peach border, pale lilac field, white-haired artwork woman and fish visible; over-shoulder pose and charcoal suit.",
+      "status": "accepted"
+    }
+  },
+  {
+    "designId": "water-08",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-08.png",
+    "prompt": "Make one photorealistic Muguetli luxury fashion editorial product portrait for Water design water-08. Use reference image 1 ONLY for the same woman's recognizable facial identity: dark brown eyes, dark hair and facial structure, naturally realistic skin. Create a fresh expression, hair styling and pose. Use reference image 2 as the EXACT printed artwork on the 90 x 90 cm square scarf, retaining the source composition and distinctive details: deep brown outer border, grey and black monochrome underwater field, central illustrated woman with white cloud hair and dark face, black fish and sea plants. She wears a smooth sage green knit top and an oversized scarf drape diagonally across the chest so most of the picture and the brown border show. Hair neatly tucked behind one ear, composed direct gaze, a quiet warm-grey studio background. Stand square to camera; no hand under chin. Keep a large flat visible textile surface so a shopper can recognize this exact product, its shape, border and central imagery; render fabric folds and daylight convincingly. Keep the entire scene a single believable photograph of one model; art appears ONLY on the scarf, not in the background or other clothes. Do not copy the collage pose, outfit, sunglasses or layout. No text overlay, no watermark, no invented logo, no generic substitute print. Vertical fashion editorial photograph.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p03-portrait-grey.webp"
+    ],
+    "qa": {
+      "observations": "Reviewed: face consistent; brown border and monochrome portrait/fish print closely retained; sage outfit and plain grey set.",
+      "status": "accepted"
+    }
+  },
+  {
+    "designId": "water-09",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-09.png",
+    "prompt": "Make one photorealistic Muguetli luxury fashion editorial product portrait for Water design water-09. Use reference image 1 ONLY for the same woman's recognizable facial identity: dark brown eyes, dark hair and facial structure, naturally realistic skin. Create a fresh expression, hair styling and pose. Use reference image 2 as the EXACT printed artwork on the 90 x 90 cm square scarf, retaining the source composition and distinctive details: indigo-lavender outer border with black inset, saturated cobalt sea, dark-haired pale-faced illustrated woman in turquoise, red-orange and multicolor fish, lilac jellyfish. She is photographed by a softly glowing window, wearing a pale blue tailored shirt and dark high-waist trousers. The scarf forms a loose neck knot with a wide untwisted front panel showing the central illustrated portrait. Slightly amused smile, shoulders turned to the left, face to camera. Keep a large flat visible textile surface so a shopper can recognize this exact product, its shape, border and central imagery; render fabric folds and daylight convincingly. Keep the entire scene a single believable photograph of one model; art appears ONLY on the scarf, not in the background or other clothes. Do not copy the collage pose, outfit, sunglasses or layout. No text overlay, no watermark, no invented logo, no generic substitute print. Vertical fashion editorial photograph.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p03-portrait-indigo.webp"
+    ],
+    "qa": {
+      "observations": "Reviewed: face consistent; indigo border and cobalt portrait/fish design visible; window styling and tied scarf.",
+      "status": "accepted"
+    }
+  },
+  {
+    "designId": "water-10",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-10.png",
+    "prompt": "Make one photorealistic Muguetli luxury fashion editorial product portrait for Water design water-10. Use reference image 1 ONLY for the same woman's recognizable facial identity: dark brown eyes, dark hair and facial structure, naturally realistic skin. Create a fresh expression, hair styling and pose. Use reference image 2 as the EXACT printed artwork on the 180 x 70 cm long rectangular shawl, retaining the source composition and distinctive details: silver-grey long sea composition, white mermaid figure with grey hair at center, wavy dark grey underwater lines, pale green fish, sea plants, grey border. She wears a dark charcoal sleeveless dress over a fine ivory blouse, standing full-height with the shawl hanging down from both shoulders and its full long vertical grey composition recognizable. Hair in a relaxed low knot, contemplative half-profile gaze, cool limestone background with narrow window shadows. Keep a large flat visible textile surface so a shopper can recognize this exact product, its shape, border and central imagery; render fabric folds and daylight convincingly. Keep the entire scene a single believable photograph of one model; art appears ONLY on the scarf, not in the background or other clothes. Do not copy the collage pose, outfit, sunglasses or layout. No text overlay, no watermark, no invented logo, no generic substitute print. Vertical fashion editorial photograph.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p04-swimmer-grey.webp"
+    ],
+    "qa": {
+      "observations": "Reviewed: face consistent; full-length grey rectangular shawl shows central mermaid, wavy lines and green sea elements; long silhouette clear.",
+      "status": "accepted"
+    }
+  },
+  {
+    "designId": "water-11",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-11.png",
+    "prompt": "Create ONE photorealistic fashion product editorial image for Muguetli Water design water-11. Use reference image 1 only to keep the same real woman's recognizable face and natural skin, dark eyes and hair; vary her expression and pose from the collage. Use reference image 2 as the exact textile artwork on a 180 x 70 cm long rectangular shawl: copper-brown ground with bright cobalt edge, central black mermaid silhouette, turquoise-blue flowing ribbons, blue fish, seahorses and sea plants. Preserve its composition, dominant colors, distinctive figures, motifs, and borders. Fashion model in a deep navy fitted top and softly tailored taupe trousers; shawl open and vertical over one shoulder to show its long print. Hair swept back in a low ponytail, broad natural smile, gaze slightly upward. Warm terracotta plaster gallery backdrop, warm side light. A dynamic walking pose, no hands touching face. The printed scarf/shawl must be visibly worn, realistic in scale, fabric folds and drape; keep a broad portion flat enough to identify the exact design. Single woman, vertical photographic composition, refined natural styling, no second person. Do not copy clothing, sunglasses, poses, or original scarf from the face collage. Do not introduce a generic marine pattern, place artwork in the scene, add text, watermark, or invented logos.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p04-swimmer-brown.webp"
+    ],
+    "qa": {
+      "observations": "Reviewed: same recognizable face; copper and blue long mermaid shawl, sea ribbons and fish visible; moving pose and terracotta set.",
+      "status": "accepted"
+    }
+  },
+  {
+    "designId": "water-12",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-12.png",
+    "prompt": "Create ONE photorealistic fashion product editorial image for Muguetli Water design water-12. Use reference image 1 only to keep the same real woman's recognizable face and natural skin, dark eyes and hair; vary her expression and pose from the collage. Use reference image 2 as the exact textile artwork on a 180 x 70 cm long rectangular shawl: pale pink-lilac ground, mint aqua edges, white translucent mermaid silhouette, turquoise flowing ribbons, bright green small fish and dark-blue plants. Preserve its composition, dominant colors, distinctive figures, motifs, and borders. Model wears a muted lilac blouse and ivory wide-leg trousers. Both long ends of the shawl hang in front, with the mermaid body and edge ribbons visible. Upright poised stance with one arm relaxed at side, hair in a neat loose bun, reflective expression. Cool pearl-grey studio and diffused sky light. The printed scarf/shawl must be visibly worn, realistic in scale, fabric folds and drape; keep a broad portion flat enough to identify the exact design. Single woman, vertical photographic composition, refined natural styling, no second person. Do not copy clothing, sunglasses, poses, or original scarf from the face collage. Do not introduce a generic marine pattern, place artwork in the scene, add text, watermark, or invented logos.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p04-swimmer-pastel.webp"
+    ],
+    "qa": {
+      "observations": "Reviewed: same recognizable face; pastel long shawl with white mermaid, aqua ribbons and green fish readable; lilac outfit and cool studio.",
+      "status": "accepted"
+    }
+  },
+  {
+    "designId": "water-13",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-13.png",
+    "prompt": "Create ONE photorealistic fashion product editorial image for Muguetli Water design water-13. Use reference image 1 only to keep the same real woman's recognizable face and natural skin, dark eyes and hair; vary her expression and pose from the collage. Use reference image 2 as the exact textile artwork on a 90 x 90 cm square scarf: black outer frame and white inset, turquoise-pink horizon, clouded sky, large illustrated white-haired green-faced woman in magenta top, small fish and bottom sea plants. Preserve its composition, dominant colors, distinctive figures, motifs, and borders. Model wears a crisp soft blue shirt; scarf styled as a broad triangular shoulder cape so its complete horizon portrait and border are legible. Hair half-up with loose ends, a delighted open smile and upright face. Background: pale limestone terrace with distant soft blue-green glass, morning light. The printed scarf/shawl must be visibly worn, realistic in scale, fabric folds and drape; keep a broad portion flat enough to identify the exact design. Single woman, vertical photographic composition, refined natural styling, no second person. Do not copy clothing, sunglasses, poses, or original scarf from the face collage. Do not introduce a generic marine pattern, place artwork in the scene, add text, watermark, or invented logos.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p04-horizon-green.webp"
+    ],
+    "qa": {
+      "observations": "Reviewed: same recognizable face; green-face horizon portrait, turquoise-pink sea and border visible; smiling terrace pose.",
+      "status": "accepted"
+    }
+  },
+  {
+    "designId": "water-14",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-14.png",
+    "prompt": "Create ONE photorealistic fashion product editorial image for Muguetli Water design water-14. Use reference image 1 only to keep the same real woman's recognizable face and natural skin, dark eyes and hair; vary her expression and pose from the collage. Use reference image 2 as the exact textile artwork on a 90 x 90 cm square scarf: black outer frame and white inset, cobalt-blue sky above copper-orange sea, white-haired dark-blue-faced illustrated woman in coral top, clouds, pink palm and small fish. Preserve its composition, dominant colors, distinctive figures, motifs, and borders. Model wears a slate-blue sleeveless tailored dress; square scarf loosely under the chin and opened widely over one shoulder, central portrait facing the viewer. Hair pulled back low, calm thoughtful side glance, shoulders almost profile. Background: warm pale sand-colored stone wall with soft angled daylight. The printed scarf/shawl must be visibly worn, realistic in scale, fabric folds and drape; keep a broad portion flat enough to identify the exact design. Single woman, vertical photographic composition, refined natural styling, no second person. Do not copy clothing, sunglasses, poses, or original scarf from the face collage. Do not introduce a generic marine pattern, place artwork in the scene, add text, watermark, or invented logos.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p04-horizon-blue.webp"
+    ],
+    "qa": {
+      "observations": "Reviewed: same recognizable face; blue-orange horizon portrait, white-haired dark-blue figure and palm visible; over-shoulder pose.",
+      "status": "accepted"
+    }
+  },
+  {
+    "designId": "water-15",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-15.png",
+    "prompt": "Create ONE photorealistic fashion product editorial image for Muguetli Water design water-15. Use reference image 1 only to keep the same real woman's recognizable face and natural skin, dark eyes and hair; vary her expression and pose from the collage. Use reference image 2 as the exact textile artwork on a 90 x 90 cm square scarf: black outer frame and white inset, violet and pale-yellow horizon, large white-haired plum-purple-faced illustrated woman, olive clouds, pale palm, small fish and sea lines. Preserve its composition, dominant colors, distinctive figures, motifs, and borders. Model in ivory jacket over a muted violet top; scarf draped diagonally from the back of the neck across front, a flat artwork panel and border prominent. Loose wavy hair tucked behind the ear, gentle serious expression, frontal upright posture. Dusky blue-grey studio with a warm strip of sunset light. The printed scarf/shawl must be visibly worn, realistic in scale, fabric folds and drape; keep a broad portion flat enough to identify the exact design. Single woman, vertical photographic composition, refined natural styling, no second person. Do not copy clothing, sunglasses, poses, or original scarf from the face collage. Do not introduce a generic marine pattern, place artwork in the scene, add text, watermark, or invented logos.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p04-horizon-purple.webp"
+    ],
+    "qa": {
+      "observations": "Reviewed: same recognizable face; purple-yellow horizon portrait with dark border and sea motifs clearly visible.",
+      "status": "accepted"
+    }
+  },
+  {
+    "designId": "water-16",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-16.png",
+    "prompt": "Photorealistic Muguetli fashion editorial product image, one woman, Water design water-16. Reference image 1 establishes only her recognizable real facial identity; her pose and expression must be NEW, not the familiar tilted head and closed neutral lips in the collage. Reference image 2 establishes the exact artwork and colors printed on this 90 x 90 cm square scarf: black outer border, sunset orange and blue sea horizon, black-haired pale-faced illustrated woman in turquoise top, green sea plants, pink clouds and palms. Print only this design on the actual wearable textile; preserve the distinctive border and artwork glimpses on visible folds; no generic replacement. Wear the scarf as a natural loose knot at the neck with one printed wing fanning out over a shoulder, not a front bib. Model in deep forest-green jacket with dark hair swept into a low bun. Her head is straight upright as she laughs openly, teeth visible and eyes crinkled, looking just right of the camera. Warm stone window recess with soft sunset light. The scarf should look naturally worn in a believable fashion portrait, with realistic fabric folds, size, lighting and skin texture. Vertical composition; one photographic image. Do not copy the reference collage's outfits, sunglasses, pose, or scarf styling. No text overlay, watermark, extra person, or invented logo.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p04-horizon-teal.webp"
+    ],
+    "qa": {
+      "observations": "Reviewed: recognizable face with genuine teeth-visible smile; natural neck knot; teal/blue sunset, illustrated dark-haired woman and black border visible.",
+      "status": "accepted"
+    }
+  },
+  {
+    "designId": "water-17",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-17.png",
+    "prompt": "Photorealistic Muguetli fashion editorial product image, one woman, Water design water-17. Reference image 1 establishes only her recognizable real facial identity; her pose and expression must be NEW, not the familiar tilted head and closed neutral lips in the collage. Reference image 2 establishes the exact artwork and colors printed on this 90 x 90 cm square scarf: black and white wide framing, grayscale horizon and grey sea, black-haired illustrated woman with pale face, dark grey palm and clouds, monochrome aquatic lines. Print only this design on the actual wearable textile; preserve the distinctive border and artwork glimpses on visible folds; no generic replacement. Wear as a triangle headscarf loosely tied under the chin, with one corner falling over the jacket shoulder. Model in a charcoal blazer and pale ivory shell. An upright three-quarter right profile, looking out of frame right with a thoughtful subtle expression; hair tucked under the scarf. Minimal concrete gallery and diffused overcast light. The scarf should look naturally worn in a believable fashion portrait, with realistic fabric folds, size, lighting and skin texture. Vertical composition; one photographic image. Do not copy the reference collage's outfits, sunglasses, pose, or scarf styling. No text overlay, watermark, extra person, or invented logo.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p04-horizon-grey.webp"
+    ],
+    "qa": {
+      "observations": "Reviewed: recognizable face, upright off-camera gaze; grayscale horizon design and border on a natural triangle headscarf.",
+      "status": "accepted"
+    }
+  },
+  {
+    "designId": "water-18",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-18.png",
+    "prompt": "Photorealistic Muguetli fashion editorial product image, one woman, Water design water-18. Reference image 1 establishes only her recognizable real facial identity; her pose and expression must be NEW, not the familiar tilted head and closed neutral lips in the collage. Reference image 2 establishes the exact artwork and colors printed on this 90 x 90 cm square scarf: deep navy outer border and dark inset frame; central illustrated mermaid woman with black curly hair holding a grey cat; vivid orange-yellow ribbons, fish, coral in red, purple, green and turquoise. Print only this design on the actual wearable textile; preserve the distinctive border and artwork glimpses on visible folds; no generic replacement. Style the scarf over the model's hair like a soft hood and loop once around the neck, visible navy border and flashes of mermaid-cat and coral print in realistic folds. Model wears a pale sky-blue shirt. She laughs spontaneously with teeth showing, eyes nearly crinkled closed, body in motion and face turned three quarters left. Background of warm cream stone, airy side light. The scarf should look naturally worn in a believable fashion portrait, with realistic fabric folds, size, lighting and skin texture. Vertical composition; one photographic image. Do not copy the reference collage's outfits, sunglasses, pose, or scarf styling. No text overlay, watermark, extra person, or invented logo.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p05-cats-navy.webp"
+    ],
+    "qa": {
+      "observations": "Reviewed: recognizable face with laughing expression; navy border, mermaid with cat, colorful reef visible in naturally worn hood wrap.",
+      "status": "accepted"
+    }
+  },
+  {
+    "designId": "water-19",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-19.png",
+    "prompt": "Photorealistic Muguetli fashion editorial product image, one woman, Water design water-19. Reference image 1 establishes only her recognizable real facial identity; her pose and expression must be NEW, not the familiar tilted head and closed neutral lips in the collage. Reference image 2 establishes the exact artwork and colors printed on this 90 x 90 cm square scarf: bright turquoise outer border and black inset; illustrated black-haired mermaid woman with a grey cat, orange flowing ribbons, little fish and vivid red-purple coral against blue sea. Print only this design on the actual wearable textile; preserve the distinctive border and artwork glimpses on visible folds; no generic replacement. Wear scarf tied as a relaxed side knot at the neck, with a large end trailing over one shoulder; not a flat rectangular panel. Model in soft sand-colored knit with dark hair in a loose ponytail, seated on a stone bench. Upright face turned to the right of frame, open smile showing teeth and a hand lightly holding the scarf knot. Background pale blue-grey plaster. The scarf should look naturally worn in a believable fashion portrait, with realistic fabric folds, size, lighting and skin texture. Vertical composition; one photographic image. Do not copy the reference collage's outfits, sunglasses, pose, or scarf styling. No text overlay, watermark, extra person, or invented logo.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p05-cats-turquoise.webp"
+    ],
+    "qa": {
+      "observations": "Reviewed: recognizable face and teeth-visible smile; turquoise border, mermaid with cat and colorful reef visible in a natural side knot.",
+      "status": "accepted"
+    }
+  },
+  {
+    "designId": "water-20",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-20.png",
+    "prompt": "Photorealistic Muguetli fashion editorial product image, one woman, Water design water-20. Reference image 1 establishes only her recognizable real facial identity; her pose and expression must be NEW, not the familiar tilted head and closed neutral lips in the collage. Reference image 2 establishes the exact artwork and colors printed on this 180 x 70 cm long rectangular shawl: long midnight-blue to burnt-orange seascape, dark clouds, illustrated blue-skinned white-haired mermaid in the upper half, purple plant and ribbons, birds, multicolored fish, blue coral near bottom, narrow grey edge. Print only this design on the actual wearable textile; preserve the distinctive border and artwork glimpses on visible folds; no generic replacement. Drape the long shawl once around the shoulders with two long ends falling naturally, one end lifted slightly in movement so the gradient, fish and mermaid imagery show. Model in sleek dark navy outfit, loose hair swept back by a light breeze. Laughing side profile facing left, teeth visible, genuine animated expression. Pale sand gallery arcade at dusk, cinematic but real daylight. The scarf should look naturally worn in a believable fashion portrait, with realistic fabric folds, size, lighting and skin texture. Vertical composition; one photographic image. Do not copy the reference collage's outfits, sunglasses, pose, or scarf styling. No text overlay, watermark, extra person, or invented logo.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p05-night-orange.webp"
+    ],
+    "qa": {
+      "observations": "Reviewed: recognizable laughing side-profile; long midnight-to-orange mermaid shawl with fish and coral visible in moving drape.",
+      "status": "accepted"
+    }
+  },
+  {
+    "designId": "water-21",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-21.png",
+    "prompt": "Create a single photorealistic high-end fashion editorial photograph for Muguetli Water design water-21. Reference image 1 is only the same real woman's facial identity (recognizable dark eyes, face structure, dark hair); invent a fresh pose and expression, distinctly different from the reference collage's tilted head and closed neutral lips. Reference image 2 is the exact printed design for a 90 x 90 cm square scarf: rust-copper outer border and dark inset, dark blue underwater scene, illustrated black-haired mermaid woman holding a grey cat, yellow-orange ribbons, vivid red-purple coral and fish. Use its actual palette and recognizable artwork on the worn textile, with realistic folds and scale. Model wears a soft terracotta linen shirt; scarf loosely over the hair and secured at the nape, one printed side falling naturally over a shoulder so cat, mermaid, coral, and rust border show in folds. Her dark hair is partly tucked in; she looks down then smiles to someone off camera, teeth visible and cheeks lifted. Weathered cream stone courtyard, warm morning light. The textile is worn naturally, not shown as a rigid poster or bib. Keep visible print fragments accurate; the full flat artwork exists elsewhere on the product page. One model in a vertical photographic scene, natural skin and lighting. No copy of the collage's original outfits, sunglasses, pose or scarf. No generic print substitution, invented motifs, extra people, text overlays, watermarks or invented logos.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p05-cats-rust.webp"
+    ],
+    "qa": {
+      "observations": "Reviewed: consistent face with warm smile; rust border, mermaid holding cat and colorful reef visible in an over-hair wrap.",
+      "status": "accepted"
+    }
+  },
+  {
+    "designId": "water-22",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-22.png",
+    "prompt": "Create a single photorealistic high-end fashion editorial photograph for Muguetli Water design water-22. Reference image 1 is only the same real woman's facial identity (recognizable dark eyes, face structure, dark hair); invent a fresh pose and expression, distinctly different from the reference collage's tilted head and closed neutral lips. Reference image 2 is the exact printed design for a 90 x 90 cm square scarf: soft grey-green outer border, white inset, pastel blue-grey reef, black silhouetted white-haired mermaid woman holding a grey cat, cobalt waving lines, mint and lilac coral and fish. Use its actual palette and recognizable artwork on the worn textile, with realistic folds and scale. Model wears a tailored dark charcoal jacket. Tie the scarf in a small elegant neck knot with one longer end over her left shoulder, letting the grey-green border and distinctive black mermaid, cat and pale reef peek through. She stands upright with a focused, composed expression in clean right-facing three-quarter profile, eyes looking right. Cool pale grey gallery wall and flat window light. The textile is worn naturally, not shown as a rigid poster or bib. Keep visible print fragments accurate; the full flat artwork exists elsewhere on the product page. One model in a vertical photographic scene, natural skin and lighting. No copy of the collage's original outfits, sunglasses, pose or scarf. No generic print substitution, invented motifs, extra people, text overlays, watermarks or invented logos.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p05-cats-grey.webp"
+    ],
+    "qa": {
+      "observations": "Reviewed: consistent face with upright rightward gaze; grey-green border, black mermaid holding cat and pastel blue reef visible in neck tie.",
+      "status": "accepted"
+    }
+  },
+  {
+    "designId": "water-23",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-23.png",
+    "prompt": "Create a single photorealistic high-end fashion editorial photograph for Muguetli Water design water-23. Reference image 1 is only the same real woman's facial identity (recognizable dark eyes, face structure, dark hair); invent a fresh pose and expression, distinctly different from the reference collage's tilted head and closed neutral lips. Reference image 2 is the exact printed design for a 90 x 90 cm square scarf: powder-blue outer border, white inset, very pale rose and ivory reef, white-haired illustrated mermaid woman in soft pink holding cat, lavender branches and pastel fish. Use its actual palette and recognizable artwork on the worn textile, with realistic folds and scale. Model wears a muted periwinkle blouse and off-white trousers. Drape scarf over both shoulders like a relaxed soft wrap, lightly gathered at the collarbone with her hand; show the powder-blue edge and pink/lavender reef in the draping fabric. Hair in a relaxed side braid. She faces camera directly, upright head, a warm smile with teeth showing, no neutral closed-mouth expression. Pearl-grey studio with soft skylight. The textile is worn naturally, not shown as a rigid poster or bib. Keep visible print fragments accurate; the full flat artwork exists elsewhere on the product page. One model in a vertical photographic scene, natural skin and lighting. No copy of the collage's original outfits, sunglasses, pose or scarf. No generic print substitution, invented motifs, extra people, text overlays, watermarks or invented logos.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p05-cats-pale.webp"
+    ],
+    "qa": {
+      "observations": "Reviewed: consistent face with gentle teeth-visible smile; powder-blue edge, pale pink mermaid-cat reef and purple coral visible in shoulder wrap.",
+      "status": "accepted"
+    }
+  },
+  {
+    "designId": "water-24",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-24.png",
+    "prompt": "Create a single photorealistic high-end fashion editorial photograph for Muguetli Water design water-24. Reference image 1 is only the same real woman's facial identity (recognizable dark eyes, face structure, dark hair); invent a fresh pose and expression, distinctly different from the reference collage's tilted head and closed neutral lips. Reference image 2 is the exact printed design for a 180 x 70 cm long rectangular shawl: long grey-black night-to-pale-sage seascape with narrow pale grey border, central blue-skinned white-haired illustrated mermaid in a pale tail, dark birds, fish, white underwater ribbons and bold cobalt-blue coral at bottom. Use its actual palette and recognizable artwork on the worn textile, with realistic folds and scale. Model in a cream tailored suit; shawl falls from one shoulder across her torso and down near her knees, flowing slightly in a step so the night gradient and cobalt coral remain visible. Hair slicked into a low knot. She laughs in side profile while looking left, visible teeth and raised cheeks. Quiet arched stone passage with soft diffused light. The textile is worn naturally, not shown as a rigid poster or bib. Keep visible print fragments accurate; the full flat artwork exists elsewhere on the product page. One model in a vertical photographic scene, natural skin and lighting. No copy of the collage's original outfits, sunglasses, pose or scarf. No generic print substitution, invented motifs, extra people, text overlays, watermarks or invented logos.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p05-night-grey.webp"
+    ],
+    "qa": {
+      "observations": "Reviewed: consistent laughing side profile; long grey night-to-sage mermaid shawl with white sea ribbons and cobalt coral visibly draped.",
+      "status": "accepted"
+    }
+  },
+  {
+    "designId": "water-25",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/water-25.png",
+    "prompt": "Create a single photorealistic high-end fashion editorial photograph for Muguetli Water design water-25. Reference image 1 is only the same real woman's facial identity (recognizable dark eyes, face structure, dark hair); invent a fresh pose and expression, distinctly different from the reference collage's tilted head and closed neutral lips. Reference image 2 is the exact printed design for a 90 x 90 cm square scarf: dusty-lilac outside border and white inset, lavender-grey underwater reef, illustrated black-silhouette white-haired mermaid holding a grey cat, turquoise flowing ribbon, pastel mint-yellow coral and small fish. Use its actual palette and recognizable artwork on the worn textile, with realistic folds and scale. Model in a deep aubergine knit top. Style scarf as a relaxed headwrap with a knot behind the head, one end crossing the neck and falling down a shoulder; lilac border and white-haired mermaid, cat and mint reef visible on the end. She stands with shoulders turned right, head straight, sparkling candid laugh with teeth visible while looking slightly past camera. Cool pale lavender plaster and gentle side light. The textile is worn naturally, not shown as a rigid poster or bib. Keep visible print fragments accurate; the full flat artwork exists elsewhere on the product page. One model in a vertical photographic scene, natural skin and lighting. No copy of the collage's original outfits, sunglasses, pose or scarf. No generic print substitution, invented motifs, extra people, text overlays, watermarks or invented logos.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p05-cats-lilac.webp"
+    ],
+    "qa": {
+      "observations": "Reviewed: consistent face with broad smile; lilac border and pale mermaid-cat reef visible in natural headwrap with trailing end.",
+      "status": "accepted"
+    }
+  },
+  {
+    "designId": "wind-01",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-01.png",
+    "prompt": "Use case: identity-preserve. Asset type: second modeled image for Muguetli product detail wind-01. Input images: Image 1 is the real Elnaz identity reference collage; preserve her recognizable facial features and natural skin. Image 2 is the EXACT artwork for this shawl; Image 3 is the real flat product photograph showing textile colors and border. Create one high-end, photorealistic fashion editorial portrait of Elnaz wearing THIS exact 180 x 70 cm long shawl in a generous shoulder drape with an end hanging vertically so the dark teal swirling clouds, pale mint sky, lime-green field, violet winding serpent, figure, gold-brown lower flourishes and mint border are visibly faithful to Images 2 and 3. Keep print scale and geometry plausible for a real long shawl; no invented motifs or generic floral pattern. Elnaz has a relaxed thoughtful half-smile and looks slightly off camera, a visibly different expression/pose from Image 1. Pale stone architectural backdrop with soft daylight; understated cream outfit; modern luxury editorial photography, realistic textile folds, natural proportions, vertical portrait with visible upper body and substantial scarf area. Single image, single person, no collage, no added text, no watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p06-serpent-green.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p06-serpent-green\\img-9121.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Recognizable Elnaz face; distinct half-smile and pale-stone editorial setting; long shawl drape carries the reference colorway, cloud swirls, violet serpent and lower gold-brown motif. Small printed signatures and microscopic details are approximate, so reference flatlay remains the authoritative print view."
+    }
+  },
+  {
+    "designId": "wind-02",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-02.png",
+    "prompt": "Use case: identity-preserve. Asset type: distinct second modeled photo for Muguetli detail wind-02. Image 1 is Elnaz's face identity collage; preserve her recognizable facial structure and natural skin. Image 2 is the exact artwork of this product and Image 3 is the real flat textile photo, both authoritative for the scarf print. Create one photorealistic luxury fashion editorial portrait of Elnaz. wear the 180 x 70 cm long shawl as a one-shoulder drape over a black tailored dress, long printed end fully visible. Print fidelity is critical: reproduce black-and-white coiling clouds, vivid red-to-amber central sky, silver constellation marks, dark winding serpent and illustrated woman, matching the source color, border and motif placement; never invent or substitute pattern. Plausible real fabric folds and 180 x 70 cm shawl geometry. Expression and pose: confident soft smile, looking toward the camera, distinct from the reference collage. Background/lighting: bright white editorial studio with a subtle shadow line. Vertical product-detail portrait, face and ample scarf both visible. One person, one image; no collage, no overlaid text, no watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p06-serpent-red.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p06-serpent-red\\img-9122.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Recognizable face and distinct black dress; red amber gradient, grayscale clouds and serpent motif closely follow both references. Expression is subdued and resembles source more than intended."
+    }
+  },
+  {
+    "designId": "wind-03",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-03.png",
+    "prompt": "Use case: identity-preserve. Asset type: distinct second modeled photo for Muguetli detail wind-03. Image 1 is Elnaz's face identity collage; preserve her recognizable facial structure and natural skin. Image 2 is the exact artwork of this product and Image 3 is the real flat textile photo, both authoritative for the scarf print. Create one photorealistic luxury fashion editorial portrait of Elnaz. wear the 180 x 70 cm long shawl loosely around the shoulders over a pale lilac blouse, one full printed tail cascading down. Print fidelity is critical: reproduce burgundy and blush curled cloud borders, plum purple star field, lime dotted green winding serpent, illustrated woman and blue-grey lower waves, matching the source color, border and motif placement; never invent or substitute pattern. Plausible real fabric folds and 180 x 70 cm shawl geometry. Expression and pose: contemplative three-quarter glance with a small natural smile, distinct from the reference collage. Background/lighting: soft lilac stone wall and daylight. Vertical product-detail portrait, face and ample scarf both visible. One person, one image; no collage, no overlaid text, no watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p06-serpent-purple.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p06-serpent-purple\\img-9120.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Recognizable face, pale-lilac stone setting and blouse; purple field, burgundy clouds, green serpent and lower waves visibly faithful. Pose resembles wind-01, so the collection has limited pose diversity here."
+    }
+  },
+  {
+    "designId": "wind-04",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-04.png",
+    "prompt": "Use case: identity-preserve. Asset type: distinct second modeled photo for Muguetli detail wind-04. Image 1 is Elnaz's face identity collage; preserve her recognizable facial structure and natural skin. Image 2 is the exact artwork of this product and Image 3 is the real flat textile photo, both authoritative for the scarf print. Create one photorealistic luxury fashion editorial portrait of Elnaz. wear the 180 x 70 cm long shawl as a relaxed over-shoulder wrap over a cream sleeveless top, with a long panel showing the bird and lower ornaments. Print fidelity is critical: reproduce sage border, mint and turquoise spiral clouds, central ochre mythical bird carrying two line-drawn people, aqua-to-lilac field, hanging ornamental elements at lower edge, matching the source color, border and motif placement; never invent or substitute pattern. Plausible real fabric folds and 180 x 70 cm shawl geometry. Expression and pose: gentle open smile, looking slightly away, distinct from the reference collage. Background/lighting: airy indoor window light and pale stone backdrop. Vertical product-detail portrait, face and ample scarf both visible. One person, one image; no collage, no overlaid text, no watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p06-journey-mint.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p06-journey-mint\\img-9127.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Recognizable face and airy window scene; mint cloud spirals, ochre bird with two figures and lower ornaments retain source structure. Slight motif smoothing in small details; flatlay remains definitive."
+    }
+  },
+  {
+    "designId": "wind-05",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-05.png",
+    "prompt": "Use case: identity-preserve. Asset type: distinct second modeled photo for Muguetli detail wind-05. Image 1 is Elnaz's face identity collage; preserve her recognizable facial structure and natural skin. Image 2 is the exact artwork of this product and Image 3 is the real flat textile photo, both authoritative for the scarf print. Create one photorealistic luxury fashion editorial portrait of Elnaz. wear the 180 x 70 cm long shawl down both shoulders over a minimal charcoal jacket, printed length visible. Print fidelity is critical: reproduce strict black, charcoal, silver and white monochrome spiral clouds, central mythical bird with two figures, hanging ornaments and fine outer border, matching the source color, border and motif placement; never invent or substitute pattern. Plausible real fabric folds and 180 x 70 cm shawl geometry. Expression and pose: quiet serious editorial gaze, head turned slightly, distinct from the reference collage. Background/lighting: clean pale grey architectural backdrop with soft side light. Vertical product-detail portrait, face and ample scarf both visible. One person, one image; no collage, no overlaid text, no watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p06-journey-grey.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p06-journey-grey\\img-9126.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Recognizable face, charcoal tailoring and monochrome shawl; central bird, clouds and hanging motifs faithful. Some mirrored/repeated motif interpretation across the two hanging tails; flatlay remains definitive."
+    }
+  },
+  {
+    "designId": "wind-06",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-06.png",
+    "prompt": "Use case: identity-preserve. Asset type: distinct second modeled photo for Muguetli detail wind-06. Image 1 is Elnaz's face identity collage; preserve her recognizable facial structure and natural skin. Image 2 is the exact artwork of this product and Image 3 is the real flat textile photo, both authoritative for the scarf print. Create one photorealistic luxury fashion editorial portrait of Elnaz. wear the 180 x 70 cm long shawl across both shoulders, one end raised by her hand to show the full printed panel, with a tailored ivory vest. Print fidelity is critical: reproduce lavender border, pink-plum spiral clouds, central purple bird carrying two line-drawn people, peach-to-mint gradient and hanging ornament shapes, matching the source color, border and motif placement; never invent or substitute pattern. Plausible real fabric folds and 180 x 70 cm shawl geometry. Expression and pose: warm candid smile with teeth barely showing; hair gathered into a neat low bun; upright posture, distinct from the reference collage and preceding catalog portraits. Background/lighting: pale-lilac gallery corridor in diffused daylight. Vertical product-detail portrait, face and ample scarf both visible. One person, one image; no collage, no overlaid text, no watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p06-journey-pink.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p06-journey-pink\\img-9128.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Low-bun gallery portrait; lavender border, pink clouds, violet bird and mint lower panel visibly faithful. Raised edge shows more of the true long-shawl design; tiny printed marks approximate."
+    }
+  },
+  {
+    "designId": "wind-07",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-07.png",
+    "prompt": "Use case: identity-preserve. Asset type: distinct second modeled photo for Muguetli detail wind-07. Image 1 is Elnaz's face identity collage; preserve her recognizable facial structure and natural skin. Image 2 is the exact artwork of this product and Image 3 is the real flat textile photo, both authoritative for the scarf print. Create one photorealistic luxury fashion editorial portrait of Elnaz. wear the 180 x 70 cm long shawl draped from one shoulder over a crisp pale blue shirt, substantial full printed tail visible while walking. Print fidelity is critical: reproduce silver border, deep blue and silver clouds, white bird perched on an open blue book, lavender ribbon and black buds, lower green-haired illustrated figure, matching the source color, border and motif placement; never invent or substitute pattern. Plausible real fabric folds and 180 x 70 cm shawl geometry. Expression and pose: thoughtful near-profile gaze toward a window; dark hair pulled into a low ponytail, no hand to face, distinct from the reference collage and preceding catalog portraits. Background/lighting: airy white windowed interior with cool natural daylight. Vertical product-detail portrait, face and ample scarf both visible. One person, one image; no collage, no overlaid text, no watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p07-book-blue.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p07-book-blue\\img-9131.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Ponytail profile and cool window setting differ from earlier portraits; white bird, blue book, lavender ribbons, green-haired figure and blue clouds closely follow source. Minor small lettering approximation."
+    }
+  },
+  {
+    "designId": "wind-08",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-08.png",
+    "prompt": "Use case: identity-preserve. Asset type: distinct second modeled photo for Muguetli detail wind-08. Image 1 is Elnaz's face identity collage; preserve her recognizable facial structure and natural skin. Image 2 is the exact artwork of this product and Image 3 is the real flat textile photo, both authoritative for the scarf print. Create one photorealistic luxury fashion editorial portrait of Elnaz. wear the 180 x 70 cm long shawl as a long front drape over a sage green tailored jacket, print displayed across a straight hanging section. Print fidelity is critical: reproduce navy border, warm brown upper clouds, black bird on an open ivory book, long olive-green ribbon, navy lower clouds and mauve-haired illustrated figure, matching the source color, border and motif placement; never invent or substitute pattern. Plausible real fabric folds and 180 x 70 cm shawl geometry. Expression and pose: lively gentle smile, eyes looking directly to camera; hair in a high bun, standing upright with hands by sides, distinct from the reference collage and preceding catalog portraits. Background/lighting: quiet botanical courtyard against pale stone. Vertical product-detail portrait, face and ample scarf both visible. One person, one image; no collage, no overlaid text, no watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p07-book-dark.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p07-book-dark\\img-9129.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "High-bun garden portrait and sage jacket; black bird, open book, olive ribbons, mauve figure, brown and navy fields are faithful. Print repeats over two tails, a plausible fold but not a literal full flat view."
+    }
+  },
+  {
+    "designId": "wind-09",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-09.png",
+    "prompt": "Use case: identity-preserve. Asset type: distinct second modeled photo for Muguetli detail wind-09. Image 1 is Elnaz's face identity collage; preserve her recognizable facial structure and natural skin. Image 2 is the exact artwork of this product and Image 3 is the real flat textile photo, both authoritative for the scarf print. Create one photorealistic luxury fashion editorial portrait of Elnaz. wear the 180 x 70 cm long shawl sweeping across a shoulder over a plum high-neck top, hold one scarf end lightly to reveal the bird and book. Print fidelity is critical: reproduce raspberry border, pink cloudy sky, white bird above a burgundy book, peach ribbons, mint lower clouds and violet-haired illustrated figure, matching the source color, border and motif placement; never invent or substitute pattern. Plausible real fabric folds and 180 x 70 cm shawl geometry. Expression and pose: serene downward gaze with a subtle smile; dark hair in a loose braid over one shoulder, upright pose, distinct from the reference collage and preceding catalog portraits. Background/lighting: soft pale-pink plaster studio with diffused side light. Vertical product-detail portrait, face and ample scarf both visible. One person, one image; no collage, no overlaid text, no watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p07-book-rose.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p07-book-rose\\img-9123.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Braided/downward-looking portrait with plum top; white bird, burgundy book, peach ribbons and mint clouds visibly match source. Very small source lettering remains approximate."
+    }
+  },
+  {
+    "designId": "wind-10",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-10.png",
+    "prompt": "Create one photoreal luxury fashion editorial portrait of the SAME adult Iranian woman identified by the first reference collage, preserving recognizable facial structure, dark brown eyes and hair, natural skin texture. The second and third references show the EXACT long rectangular Muguetli silk shawl to be modeled. Its print is beige/taupe and pale grey cloud layers, pale spring-green looping vine, tiny black lily-of-valley bells, a white winged bird above an open dark olive book, a mauve-haired illustrated woman below. Preserve that intricate print, its placements and colors on visible fabric, not a generic floral substitute. Drape the 180x70 cm shawl vertically over one shoulder with a visible broad printed tail down the front. New pose: upright head, facing camera, broad open warm smile showing teeth and crinkled eyes, visibly different from the serious tilted source photos. Outfit is an elegant black high-neck top. Airy pale stone courtyard background with soft daylight. Mid-thigh portrait, realistic silk folds, editorial photography. One person, one continuous scarf, no collage, no added text/watermark. Identity reference is only for the face, print references only for the scarf.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p07-book-green.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p07-book-green\\img-9130.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Accepted: recognizable face with toothy smile; accurate pale green vine, white winged bird, open book and cloud motif on long shoulder drape. Tiny lettering is generative and should be verified against flatlay."
+    }
+  },
+  {
+    "designId": "wind-11",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-11.png",
+    "prompt": "Make one photoreal editorial portrait of the SAME adult Iranian woman from the first face collage, preserving her recognizable features and natural skin. Model the exact 90x90 cm square silk scarf in the two product references: deep dusty lilac and slate-indigo cloud background, central black-haired illustrated female figure with a cream mask and serpent, pale ivory lily-of-the-valley bells and green twisting vine frame, small winged fairy. Preserve the source print and violet-to-teal border rather than inventing a generic pattern. Fold the square diagonally and tie it as a chic loose headscarf framing but not hiding her face, with one patterned corner draped over shoulder and printed silk visible. Give her a genuine laughing three-quarter side profile looking to her right, teeth visible, eyes smiling, head upright; different expression from source collage. Tailored cream trench coat over dark top, airy pale lilac plaster terrace with daylight. Mid-torso fashion photograph, satin folds plausible, one woman, no collage/text/watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p07-twins-lilac.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p07-twins-lilac\\img-9135.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Accepted: recognizable face with laughing gaze right; lilac square worn as headscarf, white bell flowers, green vine and central figure readable. Micro lettering remains approximate."
+    }
+  },
+  {
+    "designId": "wind-12",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-12.png",
+    "prompt": "Create a single photoreal fashion editorial portrait of the SAME Iranian adult woman in the first collage, face recognizable with natural skin and dark brown eyes. Wear the exact square 90x90 cm silk scarf shown in artwork and flatlay references: dark teal-blue and dusk-purple cloud fields, strong orange top band and orange lily-of-the-valley blossoms, a central illustrated orange-faced woman with long white hair and symbolic mask, intricate curved vines. Keep those vivid colors, edge and illustrated motif visible and source-faithful. Style the square as a generous asymmetrical neck tie over a tailored charcoal blazer, with one broad scarf panel across chest displaying the print and orange flowers. Pose is candid as if in conversation, upright and looking off-camera to the right, warm joyful smile with teeth, different from source face photos. Soft window light, muted pale stone studio, fashion editorial composition mid-torso. One woman, one scarf, no collage, no text, no watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p07-twins-orange.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p07-twins-orange\\img-9144.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Accepted: accurate dark teal/orange colors, white-haired central figure and orange blossoms; natural neck tie with warm smile. Small motif details may differ from flatlay."
+    }
+  },
+  {
+    "designId": "wind-13",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-13.png",
+    "prompt": "Create one realistic fashion editorial portrait of the SAME adult Iranian woman from the first identity collage, retaining her facial identity but with a new expression and head pose. The exact 90x90 cm square silk scarf in references is saturated forest/emerald green with striking hot pink-magenta top band and lily-of-the-valley flowers, white flowing hair of a central magenta illustrated woman, purple/pink fairy and green vine frame. Preserve exact color blocking, floral shapes, border and illustrated details on visible silk, not a generic print. Wear the square scarf draped over both shoulders like a short cape, with its central artwork visible on one broad front panel, over a cream sleeveless blouse. Her hair in a polished low bun; turn her head right in a near profile and laugh openly with teeth and eyes crinkling, clearly not the neutral tilted source pose. Pale garden wall and soft filtered daylight, mid-torso editorial photography, plausible satin folds, one model, no collage, no text/watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p07-twins-green.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p07-twins-green\\img-9134.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Accepted: distinct laughing near-profile and low bun; green/magenta square with central figure, white hair and pink bell flowers closely follows source. Square editorial crop is suitable for detail gallery."
+    }
+  },
+  {
+    "designId": "wind-14",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-14.png",
+    "prompt": "Single photoreal luxury fashion editorial portrait of the same adult Iranian woman identified by first collage; preserve recognizable facial features, dark brown eyes, natural skin. Model the exact 90x90 cm square silk scarf from second and third references. Source print: cool slate blue and pale grey cloud fields, muted mauve edges, black-haired illustrated woman with bronze face and mint lips, scattered brown lily-of-the-valley bells and looping lavender vines, delicate winged fairy. Preserve actual print colors and border on visible folds. Fold into a narrow neckerchief tucked into a tailored camel blazer, with a loose side knot and a motif-rich triangle at neckline; plausible square scarf geometry, not a huge bib. Hair tied in a neat high ponytail. New expression: confident open smile showing teeth, head upright while she looks directly at camera, not the tilted neutral expression in reference. Pale stone doorway and soft side daylight. Mid-torso editorial photo, one woman, no collage, no added text or watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p07-twins-grey.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p07-twins-grey\\img-9133.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Accepted: face with high bun and upright smile; grey/mauve square tied at neck, central figure and brown bell flowers visible. Micro motif details approximate."
+    }
+  },
+  {
+    "designId": "wind-15",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-15.png",
+    "prompt": "Create one photoreal editorial portrait of the SAME adult Iranian woman from the first face collage, preserving identity and natural skin while giving a visibly different expression. Wear the exact 90x90 square silk scarf shown in the other references. Print is luminous icy mint/pale blue, soft lavender and blush, round mauve ring framing an illustrated violet-faced white-haired woman, large pale pink lily-of-the-valley bells and mint cloud shapes. Keep source color softness, ring and bell flowers on visible folds, no generic florals. Style as an old-Hollywood triangle headscarf tied lightly under chin, silk framing her face with one patterned point over shoulder; realistic 90cm square. Hair partly swept underneath. She looks right in near profile and laughs warmly, teeth showing, eyes crinkled; not source neutral tilt. Wear a tailored soft grey coat, background a bright pale-lilac garden terrace, diffuse daylight. Single fashion photograph, no collage/text/watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p08-lily-mint.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p08-lily-mint\\img-9146.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Accepted: face recognizable and open smile to right; mint/lavender square tied under chin, violet illustrated face and pink bell flowers visible. Tiny print text is approximate."
+    }
+  },
+  {
+    "designId": "wind-16",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-16.png",
+    "prompt": "Make one realistic luxury fashion portrait of the SAME Iranian adult woman from the face collage, distinctive dark eyes, eyebrows and features preserved, skin natural. The exact 90x90 square silk scarf comes from the other two references: pale rosy pink and lavender iridescent cloud ground, olive-green circular border, central white-haired illustrated woman with rose-pink face and cream blossoms, pale yellow lily-of-the-valley bells around the circle. Preserve gentle pastel colors, circular motif and flowers on the visible silk. Style as a loose silk wrap over hair, tied behind the neck so two short points fall toward the back; one front edge reveals the circle and bells, not a flat placard. Wear a black boatneck dress. Pose upright facing slightly left and looking straight at camera, joyful toothy grin with lifted cheeks, different from source collage. Bright window studio with subtle pale blush backdrop, soft editorial daylight. One person, one scarf, no collage, no text or watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p08-lily-pink.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p08-lily-pink\\img-9147.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Accepted: recognizable face, smile and loose pastel head wrap; olive circle, illustrated white-haired woman and pale bells visible. Background and style differ from other products."
+    }
+  },
+  {
+    "designId": "wind-17",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-17.png",
+    "prompt": "Create a single photoreal editorial fashion portrait of the same adult Iranian woman in first collage; recognize her face but vary expression and pose. The other references are exact source artwork and flat product of 90x90 cm square silk scarf: midnight indigo/navy ground, cyan cloud bands, lime-green circular ring, illustrated black-haired woman in purple holding blue berries, white bell blossoms, orange-red berries, pastel pink and yellow corner clouds. Preserve those colors and motifs on visible fabric, not random flower pattern. Fold square into a relaxed asymmetrical shoulder wrap over a sage-green knit top, with navy and cyan visible around neck and a partial circular illustrated motif on the front point. Her hair in a sleek bun. Head upright, turn toward left as if reacting to a friend, laughing natural open-mouth smile with teeth, distinct expression from source. Soft pale stone courtyard with window light. Mid-torso photographic editorial, plausible silk folds, single woman, no collage/text/watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p08-lily-dark.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p08-lily-dark\\img-9132.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Accepted: high bun and open laughing expression; navy/cyan scarf over shoulder, lime circle, central woman and white bells closely follow source."
+    }
+  },
+  {
+    "designId": "wind-18",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-18.png",
+    "prompt": "One photoreal fashion editorial portrait of the SAME adult Iranian woman in first face collage, preserving recognizable natural features. Model the exact square 90x90 cm silk scarf of artwork and flatlay references: creamy ivory ground, lavender circular ring, central dark navy-faced illustrated woman with white hair and mint lips, black lily-of-the-valley bells around ring, rusty red and cyan cloud shapes, green and black corners. Keep this particular print and palette visible on realistic folded silk, no generic pattern. Style the square diagonally across one shoulder over a deep plum tailored jacket; the diagonal point shows only a substantial PART of the circle and flowers, with back corner tucked behind collar. A fresh soft smile, teeth showing, head turned slightly left and eyes looking past camera; different from reference collage. Hair styled in a side braid. Background pale limestone arcade with diffused daylight. Three-quarter fashion photo, one person, no collage, no added text or watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p08-lily-blue.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p08-lily-blue\\img-9145.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Accepted: side braid and off-camera smile; cream scarf with lavender circle, navy illustrated face and black bell flowers; source colors follow flatlay."
+    }
+  },
+  {
+    "designId": "wind-19",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-19.png",
+    "prompt": "Edit the fourth reference portrait ONLY to fix print fidelity while keeping this same model identity, black blouse, red silk headscarf styling, expression, photographic lighting and background. The actual scarf is a single 90x90 cm square shown fully in references 2 and 3. Its small seated monk/guardian appears ONLY ONCE on the entire silk square. The current portrait incorrectly duplicates that guardian figure: one on her head and one on her chest. REMOVE the duplicate guardian on her head, replacing that head section with the source scarf's red/coral, turquoise cloud swirls and white lily-of-the-valley bells on pale green stems. Keep the guardian printed only on the lower front panel. Preserve the source red border, cloud colors, red ribbon, green leaves and dark-haired woman's face on lower front. Preserve recognizable face from first collage but distinct toothy laughing expression. Realistically folded silk, no added text, watermark or collage.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p08-cloud-red.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p08-cloud-red\\img-9141.webp",
+      "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-4eacdf82-2170-4f2a-9084-8af72f8fec59.png"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Accepted after targeted retry: removed duplicated guardian figure on head; now guardian appears once on lower panel. Red, turquoise cloud, white bell flowers and green leaves follow source. Distinct toothy laughing side glance."
+    }
+  },
+  {
+    "designId": "wind-20",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-20.png",
+    "prompt": "Generate one photoreal fashion portrait of the SAME Iranian adult woman in first collage; retain eye/face identity and natural skin but change expression. Exact 90x90 cm silk square scarf in artwork and flatlay references: saturated cobalt blue upper border, olive/black swirling clouds, yellow luminous cloud forms, grape-green middle, small seated violet monk/guardian, black lily-of-the-valley bells, lilac curving ribbon, navy female face at lower corner, lavender leaves. Preserve these unusual source motifs and colors on visible fabric, no generic florals. Fold scarf into a slim neck wrap tucked inside an off-white tailored blazer, with a short triangular silk point at one side carrying cobalt, olive cloud and bell motif; physically plausible square scarf. Hair low ponytail. She faces camera directly with an open animated smile and teeth, head straight, fresh expression. Airy window-lit pale lavender studio. Mid torso editorial photo, one woman, no collage, no extra text/watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p08-cloud-blue.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p08-cloud-blue\\img-9148.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Accepted: direct warm smile, low ponytail, compact cobalt neck wrap with dark bell flowers and olive cloud shapes. Central motif is partly hidden by realistic folds."
+    }
+  },
+  {
+    "designId": "wind-21",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-21.png",
+    "prompt": "Single photoreal editorial fashion portrait of the same adult Iranian woman from face collage, recognizable dark brown eyes, brows and natural skin. Model exact square 90x90 cm silk scarf in product artwork and flatlay: luminous lemon-yellow top field, violet and navy cloud curls, pale turquoise clouds, greenish glow in middle, tall stems with very dark tiny bell flowers, small green seated guardian, pale yellow ribbon, olive-green illustrated woman's face at bottom, mint leaves. Preserve source composition/colors as seen on naturally draped fabric, do not replace with generic abstract. Style scarf as a relaxed one-shoulder silk cape over a charcoal sleeveless dress, one side pinned near collarbone so yellow and violet/cloud sections fall diagonally, realistic 90cm square folds. Hair loose but tucked behind ears. She gazes left in near profile and gives a lively unexpected laughing smile with teeth, head upright. Background light garden wall in pale stone and green bokeh, daylight. One person, no collage, no added text/watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p08-cloud-yellow.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p08-cloud-yellow\\img-9149.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Accepted: laughing side glance and yellow one-shoulder square; guardian, dark bells, lilac/blue clouds and olive illustrated face match source palette."
+    }
+  },
+  {
+    "designId": "wind-22",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-22.png",
+    "prompt": "Create one photoreal luxury fashion editorial portrait of the SAME Iranian adult woman from first face collage, preserving recognizable eyes, face and natural skin. Model the exact 90x90 cm silk scarf shown by full artwork and flatlay: ivory outer field, dramatic dark brown circular halo at top, tiny black bell flowers on violet curling stems, a blue-and-black owl with elaborate outstretched wing, blue swirled cloud on right, smoky sage-grey cloud on left, a stylized navy female figure below. Preserve the unusual owl wing and cloud motif and restrained blue/ivory palette on visible silk; not generic bird or florals. Style square as a loosely folded neck tie over crisp white shirt and dark navy blazer, one printed triangular end revealing owl wing, realistic compact 90cm scarf fold. Hair in polished low ponytail. Upright head, gaze to right, broad joyful smile showing teeth, subtly laughing; differs from tilted serious identity collage. Bright pale-stone gallery background, soft window daylight. One model, no collage, no added text/watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p09-bird-blue.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p09-bird-blue\\img-9140.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Accepted: recognizable face with open smile and ponytail; compact ivory/blue neck style, owl wing, brown halo and black hanging bells accurate to product reference."
+    }
+  },
+  {
+    "designId": "wind-23",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-23.png",
+    "prompt": "Make one photoreal editorial portrait of the SAME adult Iranian woman identified by first collage; face recognizable, skin natural. Exact 90x90 cm silk square in artwork and flatlay: cream outer band, glowing deep rust-brown circular halo, tiny brown bell flowers dangling on purple stems, powerful brown/icy-blue owl with broad wing, cascading peach-tan cloud scrolls on left and cool grey-blue curls on right, illustrated dark brown female below. Keep this specific rust, bronze, pale blue print, not a substitute. Wear square as elegant loose over-hair wrap tied at nape, with one long patterned corner over left shoulder showing owl feathers and rust halo. Tailored slate-blue coat. Hair partly tucked. In an upright candid side profile she laughs openly at someone beyond frame, teeth visible and cheeks lifted; expression markedly different from source. Background warm pale stone terrace and soft foliage bokeh. Fashion photograph, one woman, realistic silk folds, no collage/text/watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p09-bird-rust.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p09-bird-rust\\img-9139.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Accepted: laughing side profile and over-hair rust wrap; brown/blue owl, rust halo, peach/grey cloud scrolls follow source. Small print lettering approximate."
+    }
+  },
+  {
+    "designId": "wind-24",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-24.png",
+    "prompt": "One realistic luxury fashion photograph of the SAME adult Iranian woman from identity collage, preserve dark eyes, brows and face identity with natural skin. The exact 90x90 cm square silk scarf in other references has pale lilac/blue outer field, peach pink circular halo, tiny turquoise-white hanging bells, jewel-like rainbow owl with turquoise head and coral/green wing, lilac-grey curling cloud masses at left and vivid coral/green curls at right, pale blue illustrated woman below. Preserve unusual source bird and color placement on a natural fold, no generic pastel pattern. Style as a relaxed shoulder drape over a structured soft lilac blouse, secured near one shoulder with a discreet silk knot, colored owl wing visible in one diagonal panel. Hair swept up in a low braided bun. Head upright and looking directly toward camera with a playful, bright wide grin showing teeth, eyes crinkled, unlike source collage. Pale blush studio wall with soft window light. Mid-torso, one model, no collage, no text/watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p09-bird-pastel.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p09-bird-pastel\\img-9137.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Accepted: braided bun and toothy smile; one-shoulder pastel square with rainbow owl and peach halo closely matches source colors and composition."
+    }
+  },
+  {
+    "designId": "wind-25",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-25.png",
+    "prompt": "Create single photoreal fashion editorial portrait of the SAME adult Iranian woman in first collage, recognizable features and natural skin, but with a new expression. Wear exact 90x90 cm silk scarf from artwork and flatlay: warm ivory background, sky-blue circular halo, white little bell blossoms on violet curling strands, cream and muted mauve owl with broad cyan/lavender wings, intricate sage grey-green cloud scrolls left, turquoise/mauve curl clouds right, pale illustrated woman below. Preserve owl and colors on visible silk, not abstract generic. Fold the square diagonally and drape its two corners around neck over a dark cocoa tailored blouse, one side revealing sky-blue circle and pastel owl feathers, not a broad flat bib. Hair in a sleek shoulder-length blowout. She looks slightly left in near profile with a gentle open smile, teeth visible, head straight; expression differs from reference. Airy window-lit pale limestone studio, editorial photo, one person, no collage or added text/watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p09-bird-cream.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p09-bird-cream\\img-9138.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Accepted: direct cream-blue silk neck styling; owl, pale sky halo, white bells and sage/turquoise cloud scrolls visible; natural expression and identity."
+    }
+  },
+  {
+    "designId": "wind-26",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/wind-26.png",
+    "prompt": "Edit the FOURTH reference portrait while preserving exactly the same Elnaz model face identity, warm smiling gaze, black blazer, midnight navy silk headscarf, moonlit stone terrace, lighting and composition. Fix one clear print-fidelity error. The actual single 90x90 cm scarf in references 2 and 3 contains only ONE illustrated black-haired woman's face beneath the copper owl. The current portrait duplicates this figure: one immediately below the owl wing on the side of the head, and another on the hanging pointed scarf tail. Remove the duplicate illustrated woman on the hanging pointed scarf tail. Replace it with the scarf's real purple-grey and bronze scrolling cloud motifs from the lower portions of artwork, preserving fabric folds and natural silk texture. Keep the illustrated woman once below the owl wing near ear, preserve the owl, sky-blue halo, white bell flowers and dark navy border. Do not change face, expression or scarf tying. One photo, no added text or watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p09-bird-night.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p09-bird-night\\img-9136.webp",
+      "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-5d75d298-eea4-4167-b92f-aa842cf9d8b2.png"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Accepted after targeted retry: duplicated printed woman removed from pointed scarf tail; one illustrated woman appears below copper owl wing, with accurate blue halo, tiny white bells, purple and bronze cloud scrolls. Natural smiling face and moonlit background."
+    }
+  },
+  {
+    "designId": "calligraphy-01",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/calligraphy-01.png",
+    "prompt": "Photorealistic vertical luxury shawl portrait, one woman. The face collage gives the same Iranian woman's recognizable facial identity only; make a NEW upright relaxed pose with an open warm toothy smile, eyes crinkled, dark hair tied back, looking toward the left of camera. Tailored charcoal blazer over cream blouse. She wears ONE narrow long 180×70 cm silk shawl, not a square scarf, based precisely on the artwork reference: beige and warm brown ombré, ornate thin arched brown frame, central flowing dark-brown Persian calligraphic strokes, owl and wing near upper end, elegant woman's illustrated face and pearls near lower end. Drape around the back of neck with two slim ends falling to the waist, letting partial calligraphic marks and one illustrated end show in natural folds. Do not invent readable wording or logos; if exact lettering cannot be preserved, use only fragments of the reference's strokes obscured by folds. Warm sandstone corridor with soft directional light, real skin and silk texture, upper body, no extra people or watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\calligraphy-p10-script-brown.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Warm brown long shawl shown in two narrow ends, with wing and illustrated woman recognizable. No verified ZIP textile photo exists for this design; generated calligraphic strokes are approximate and must not be treated as exact Persian wording."
+    }
+  },
+  {
+    "designId": "calligraphy-02",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/calligraphy-02.png",
+    "prompt": "Create a single photorealistic vertical fashion portrait of the SAME recognizable woman in face collage, using a very different candid right-facing three-quarter pose: she laughs naturally, teeth visible, eyes crinkled, chin level, dark brunette hair in a tidy low bun. Cool gray tailored jacket and black top. Style the exact 180×70 cm long narrow silk shawl in the artwork and verified model photo as one soft loop around neck with a single loose end down the lapel, true narrow scale. Its print is pale butter-yellow with blush-pink border, delicate pink Persian calligraphic strokes, a stylized white-haired woman at one end, pale winged/feather motif at the other. Keep the real reference's letterlike pattern; don't invent readable text. Fresh daylight in a pale pink architectural studio, realistic folds and skin, upper torso, no extra person, no watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\calligraphy-p10-script-yellow.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\calligraphy-p10-script-yellow\\img-8966.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Yellow long shawl has a plausible neck loop and single end, pink border and illustrated woman preserved. Persian calligraphy is an approximate visual interpretation; consult exact artwork for lettering."
+    }
+  },
+  {
+    "designId": "calligraphy-03",
+    "method": "built-in-imagegen",
+    "output": "public/media/product-models/elnaz/calligraphy-03.png",
+    "prompt": "Photorealistic editorial half-body portrait, vertical, of the SAME woman identified by the face collage. Fresh pose: standing upright in three-quarter left profile, composed self-assured expression with a subtle closed smile; dark hair tied in a sleek low knot, face unobscured and recognizable. Sculptural cream knit dress and slender black leather belt. Style the exact long narrow 180×70 cm silk shawl from artwork and verified reference photo as a creative waist sash, gently tied at one side with one long hanging end visible down the hip, NOT a broad shoulder bib. The fabric remains soft pearl gray with black ornate arched border, fine black Persian calligraphic strokes, luminous golden orb and pale branching hands/roots near an end. Do not invent readable wording; let folds partly obscure lettering. Background quiet pale stone garden with filtered shade, realistic silk and skin, full head and waist visible, one person, no logo/watermark.",
+    "references": [
+      "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\calligraphy-p10-script-grey.webp",
+      "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\calligraphy-p10-script-grey\\img-8908.webp"
+    ],
+    "qa": {
+      "status": "accepted",
+      "observations": "Gray long shawl is tied as a waist sash, a distinct wearable style matching the verified model reference. Golden orb, roots, black border visible; Persian lettering is approximate, with exact source artwork retained separately."
+    }
+  }
+]

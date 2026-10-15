@@ -1,0 +1,18 @@
+{
+  "designId": "wind-06",
+  "src": "/media/product-models/elnaz/wind-06.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Use case: identity-preserve. Asset type: distinct second modeled photo for Muguetli detail wind-06. Image 1 is Elnaz's face identity collage; preserve her recognizable facial structure and natural skin. Image 2 is the exact artwork of this product and Image 3 is the real flat textile photo, both authoritative for the scarf print. Create one photorealistic luxury fashion editorial portrait of Elnaz. wear the 180 x 70 cm long shawl across both shoulders, one end raised by her hand to show the full printed panel, with a tailored ivory vest. Print fidelity is critical: reproduce lavender border, pink-plum spiral clouds, central purple bird carrying two line-drawn people, peach-to-mint gradient and hanging ornament shapes, matching the source color, border and motif placement; never invent or substitute pattern. Plausible real fabric folds and 180 x 70 cm shawl geometry. Expression and pose: warm candid smile with teeth barely showing; hair gathered into a neat low bun; upright posture, distinct from the reference collage and preceding catalog portraits. Background/lighting: pale-lilac gallery corridor in diffused daylight. Vertical product-detail portrait, face and ample scarf both visible. One person, one image; no collage, no overlaid text, no watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p06-journey-pink.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p06-journey-pink\\img-9128.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-3f7d54d2-eea9-41bf-9804-179d728f802a.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Low-bun gallery portrait; lavender border, pink clouds, violet bird and mint lower panel visibly faithful. Raised edge shows more of the true long-shawl design; tiny printed marks approximate."
+  }
+}

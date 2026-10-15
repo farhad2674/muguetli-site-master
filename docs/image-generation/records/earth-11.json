@@ -1,0 +1,18 @@
+{
+  "designId": "earth-11",
+  "src": "/media/product-models/elnaz/earth-11.png",
+  "width": 941,
+  "height": 1672,
+  "prompt": "Create one photorealistic vertical fashion portrait of the SAME woman from face collage, but in a lively new left-facing three-quarter pose with a candid laugh, teeth visible, eyes crinkled, hair swept into a casual high bun. Deep coral blouse and muted moss jacket. Drape the exact 180×70 cm long narrow Earth shawl from artwork and flat product reference over one shoulder so TWO slender ends hang naturally, not a giant bib. Visible fabric must show its turquoise upper sky and rich green long leaves, central green pod, reddish brown soil below with bright pale roots, plum border. Preserve authentic print geography and plausible silk folds. Background warm stone terrace with softly blurred trees; realistic skin and fabric, one woman only, no text or watermarks.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-roots-green.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-roots-green\\img-9109.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-cb433099-0cdf-4212-95c5-081bb7fbf781.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Two narrow long-shawl ends carry teal-green leaves, red-brown soil and white roots; lively open smile in a seated terrace pose. Motif remains textile-specific."
+  }
+}

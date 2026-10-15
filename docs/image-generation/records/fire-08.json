@@ -1,0 +1,18 @@
+{
+  "designId": "fire-08",
+  "src": "/media/product-models/elnaz/fire-08.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Use case: product-mockup. Asset type: second product gallery image for a 180 x 70 cm long silk shawl. Image 1 is identity only for the same real woman; Images 2 and 3 specify the one exact Fire 08 fabric. Create a photorealistic portrait of her facing almost front, hair pinned in a loose elegant updo, giving a confident visibly warm smile. She wears a caramel tailored jacket. Loop the narrow long shawl lightly at the neck and let a single end fall vertically to show the midnight indigo upper field, yellow arch outline, red orb, pink-orange flame, brown root landscape and narrow green-yellow border. Accurate motif sequence and plausible 180 x 70 cm proportions, no enormous fabric. Background: warm sandstone passage with a soft slice of daylight; cinematic but realistic skin and silk. No substitute print, invented logos/text, watermark, collage or extra people.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\fire-p01-roots-orange.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\fire-p01-roots-orange\\img-9118-2.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-590e450b-3a41-4dfc-a3e1-8633060c41fc.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Orange roots artwork appears as a narrow long shawl with indigo upper, yellow arch, red orb, and earthy base. Camel suit and sandstone setting provide variation."
+  }
+}

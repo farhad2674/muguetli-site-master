@@ -1,0 +1,17 @@
+{
+  "designId": "water-04",
+  "src": "/media/product-models/elnaz/water-04.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Photorealistic luxury fashion editorial portrait for Muguetli Water design water-04. Reference image 1 is a collage of the real woman's face: keep the same recognizable facial identity, dark brown eyes and dark hair, with natural skin texture, but create a new expression and pose. Reference image 2 is the exact product artwork: transfer its actual composition onto the scarf, especially mint aqua narrow outer border, pale turquoise underwater scene, white-haired illustrated woman, fish, jellyfish, coral, delicate colored seaweed. It is a 180 x 70 cm long rectangular shawl. wear the long rectangular shawl draped vertically over both shoulders with most of its long illustrated surface visible; cream high-neck top, warm open smile, blue-gray studio backdrop with soft window light. The artwork print must be faithful, with correct colors and motifs; do not swap in a generic marine print or print it on clothing or background. Show realistic fabric drape and one broad surface of the scarf clearly enough for a shopper to recognize the exact product. Vertical waist-up fashion photograph, natural elegant styling, tasteful simple clothes. The face collage guides identity only: do not reproduce its collage layout, original scarf, sunglasses, clothing, or pose. Single woman, single photo, no text, no watermark, no invented logo.",
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e26ed29256e1\\exec-26b49bb8-9649-4ca1-813d-c7e60ae1133e.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Consistent face; long mint-aqua shawl and aquatic figure, fish and coral visible; print is a stylized interpretation of the exact reference."
+  },
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p03-underwater-mint.webp"
+  ]
+}

@@ -3,35 +3,56 @@
 @import 'shadcn/tailwind.css';
 
 :root {
-  --plum: #531a45;
-  --teal: #00a894;
-  --porcelain: #fcfdfd;
-  --editorial-line: rgb(83 26 69 / .2);
-  --editorial-tint: #edf4f2;
+  --plum: #7b427e;
+  --teal: #40807a;
+  --ink: #1c1c1c;
+  --paper: #ffffff;
+  --porcelain: #ffffff;
+  --editorial-line: rgb(123 66 126 / .24);
+  --editorial-tint: #f5f0f5;
+  --editorial-mint: #eef6f4;
   --font-ui: 'Inter Variable', Inter, Arial, sans-serif;
   --font-display: 'Iowan Old Style', Baskerville, Georgia, serif;
-  --font-fa-ui: 'Vazirmatn Variable', Tahoma, sans-serif;
-  --font-fa-display: 'Estedad Variable', 'Vazirmatn Variable', Tahoma, sans-serif;
+  --font-fa-ui: 'Dana Pro', Tahoma, sans-serif;
+  --font-fa-display: 'Modam Pro', Tahoma, sans-serif;
+}
+
+@font-face {
+  font-family: 'Dana Pro';
+  src: url('/fonts/dana/DanaVF.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Modam Pro';
+  src: url('/fonts/modam/ModamVF.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
 }
 
 * { box-sizing: border-box; }
-html { background: var(--porcelain); color: var(--plum); scroll-behavior: smooth; }
+html { background: var(--paper); color: var(--ink); scroll-behavior: smooth; }
 body {
   margin: 0;
   min-width: 20rem;
   overflow-x: clip;
-  background: var(--porcelain);
-  color: var(--plum);
+  background: var(--paper);
+  color: var(--ink);
   font-family: var(--font-ui);
   font-size: 1rem;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
 }
 html[lang='fa'] body { font-family: var(--font-fa-ui); }
+html[lang='fa'] :is(h1, h2, h3, h4, h5, h6):not([lang='en']) { font-family: var(--font-fa-display); }
+html[lang='fa'] :is(h1, h2, h3, h4, h5, h6, p, li, small, span, a, button, label, input, textarea) { letter-spacing: 0; }
 button, a { color: inherit; }
 a { text-decoration: none; }
 button { font: inherit; }
-::selection { background: var(--teal); color: var(--plum); }
+::selection { background: var(--teal); color: var(--paper); }
 :focus-visible { outline: 3px solid var(--teal); outline-offset: 4px; }
 .sr-only {
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
@@ -47,7 +68,7 @@ button { font: inherit; }
   }
 }
 /* Keep focus and text legible when popup primitives are composed with brand styling. */
-:root { --popover: #fcfdfd; --popover-foreground: #531a45; --foreground: #531a45; --background: #fcfdfd; --ring: #00a894; }
+:root { --popover: #ffffff; --popover-foreground: #1c1c1c; --foreground: #1c1c1c; --background: #ffffff; --ring: #40807a; }
 [data-slot='navigation-menu-link']:focus-visible,[data-slot='navigation-menu-trigger']:focus-visible,[data-slot='accordion-trigger']:focus-visible{outline:2px solid var(--teal)!important;outline-offset:4px}
 /* Lenis owns programmatic easing; native CSS smoothing must not compete with it. */
 html{scroll-behavior:auto}

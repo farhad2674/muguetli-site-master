@@ -1,0 +1,17 @@
+{
+  "designId": "water-06",
+  "src": "/media/product-models/elnaz/water-06.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Make one photorealistic Muguetli luxury fashion editorial product portrait for Water design water-06. Use reference image 1 ONLY for the same woman's recognizable facial identity: dark brown eyes, dark hair and facial structure, naturally realistic skin. Create a fresh expression, hair styling and pose. Use reference image 2 as the EXACT printed artwork on the 90 x 90 cm square scarf, retaining the source composition and distinctive details: mauve outer border and black inset, salmon pink sea field, dark-skinned illustrated woman with abundant black hair and turquoise lips, bright fish and jellyfish. Her hair is gathered into a low loose chignon; she stands upright in a muted plum blouse, wears the scarf in a wide soft shoulder wrap with the main portrait panel visible, and gives a warm open smile. Set in a quiet sand-toned studio with indirect daylight. Keep a large flat visible textile surface so a shopper can recognize this exact product, its shape, border and central imagery; render fabric folds and daylight convincingly. Keep the entire scene a single believable photograph of one model; art appears ONLY on the scarf, not in the background or other clothes. Do not copy the collage pose, outfit, sunglasses or layout. No text overlay, no watermark, no invented logo, no generic substitute print. Vertical fashion editorial photograph.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p03-portrait-rose.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e26ed29256e1\\exec-1f15041e-3933-4889-906d-d7ffa4cf77ba.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "observations": "Reviewed: face consistent; mauve border, salmon field, central black-haired woman and fish reproduced; chignon/plum styling adds variety.",
+    "status": "accepted"
+  }
+}

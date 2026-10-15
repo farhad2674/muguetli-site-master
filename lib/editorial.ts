@@ -1,17 +1,25 @@
 import type { LocalizedText } from './muguetli';
 
-export interface Collection { id: number; name: string; description: string; image: string; url: string }
+export interface Collection {
+  id: number;
+  name: string;
+  localizedName?: LocalizedText;
+  description: string;
+  localizedDescription?: LocalizedText;
+  image: string;
+  url: string;
+}
 export interface JournalArticle { id: string; title: LocalizedText; excerpt: LocalizedText; category: LocalizedText; image: string; url: string; date?: string }
 export interface Book { title: LocalizedText; originalTitle: string; subtitle: LocalizedText; author: LocalizedText; synopsis: LocalizedText; format: LocalizedText; language: LocalizedText; image?: string; url?: string; ebookUrl?: string }
 // Only approved editorial records belong here. Missing records remain unpublished.
 export const editorial: { founder: { name: LocalizedText; role: LocalizedText; image: string; copy: LocalizedText } | null; book: Book | null; articles: JournalArticle[] } = {
   founder: {
     name: { en: 'Elnaz Bakhtiari', fa: 'الناز بختیاری' },
-    role: { en: 'Author, artist & designer · Muti', fa: 'نویسنده، هنرمند و طراح · موتی' },
+    role: { en: 'Narrative Textile & Image Architect', fa: 'معمار روایت، منسوجات و تصویر' },
     image: '/media/collection/founder.jpg',
     copy: {
-      en: 'Elnaz Bakhtiari, known as Muti, is an Iranian author, artist and designer. Her work brings Bakhtiari heritage, Persian mystical literature and Jungian psychology into a personal language of transformation. Muguetli gives that language form in words, images and scarves.',
-      fa: 'الناز بختیاری، با نام هنری موتی، نویسنده، هنرمند و طراح ایرانی است. آثار او میراث بختیاری، ادبیات عرفانی ایران و روان‌شناسی تحلیلی را به زبانی شخصی برای دگرگونی پیوند می‌زنند. موگه‌تلی این زبان را در کلمه، تصویر و روسری زندگی می‌کند.',
+      en: 'Elnaz Bakhtiari is a writer, artist and designer whose work brings Bakhtiari heritage, Persian mystical literature and the inner journey into a personal language of transformation. Muguetli gives that language form through words, images, textiles and lived form.',
+      fa: 'الناز بختیاری نویسنده، هنرمند و طراح است. او میراث بختیاری، ادبیات عرفانی ایران و سفر درونی را به زبانی شخصی برای دگرگونی پیوند می‌دهد. موگه‌تلی این زبان را در کلمه، تصویر، منسوجات و فرمِ زیسته شکل می‌دهد.',
     },
   },
   book: {
@@ -23,8 +31,72 @@ export const editorial: { founder: { name: LocalizedText; role: LocalizedText; i
     format: { fa: 'کتاب چاپی و الکترونیکی', en: 'Physical book & eBook' },
     synopsis: { fa: 'زنگله‌ام، سفر مقدس گل موگه، روایت گذر از سوگ به خودشناسی است؛ سفری در ۲۱ مرحله، از سوزش در آتش و ریشه‌گرفتن در خاک تا فرو‌رفتن در ناخودآگاهِ آب و رهایی با باد.', en: 'Zangole’am, The Sacred Journey of the Lily of the Valley, follows a passage from grief to self-discovery across 21 stages: burning in fire, rooting in earth, descending into the subconscious of water and finding liberation with the wind.' },
   },
-  articles: [],
+  articles: [
+    {
+      id: 'how-to-wear-a-pocket-square',
+      category: { en: 'Wearable Art / Guide', fa: 'هنر پوشیدنی / راهنما' },
+      title: { en: 'A pocket square, folded like a small frame', fa: 'دستمال جیبی؛ قابی کوچک برای داستان' },
+      excerpt: { en: 'A practical introduction to the 50 × 50 cm pocket square: proportion, fold and a little room for the artwork to breathe.', fa: 'راهنمایی ساده برای دستمال جیبی ۵۰×۵۰ سانتی‌متر؛ تناسب، تا و کمی فضا برای نفس‌کشیدن تصویر.' },
+      image: '/media/collection/scarf-rust.jpg',
+      url: '/en/journal/how-to-wear-a-pocket-square',
+    },
+    {
+      id: 'the-square-scarf',
+      category: { en: 'Wearable Art / Guide', fa: 'هنر پوشیدنی / راهنما' },
+      title: { en: 'The square scarf: one image, many gestures', fa: 'روسری مربع؛ یک تصویر، چند حرکت' },
+      excerpt: { en: 'How a 90 × 90 cm square becomes a shoulder, neck or hair gesture without asking the artwork to disappear.', fa: 'چطور یک روسری ۹۰×۹۰ سانتی‌متر روی شانه، دور گردن یا در مو جان می‌گیرد؛ بی‌آنکه تصویر ناپدید شود.' },
+      image: '/media/collection/scarf-red.jpg',
+      url: '/en/journal/the-square-scarf',
+    },
+    {
+      id: 'the-long-shawl',
+      category: { en: 'Wearable Art / Guide', fa: 'هنر پوشیدنی / راهنما' },
+      title: { en: 'The long shawl and the architecture of a silhouette', fa: 'شال بلند و معماریِ سیلوئت' },
+      excerpt: { en: 'A quiet guide to the 180 × 70 cm shawl: movement, proportion and the space between body and textile.', fa: 'راهنمایی آرام برای شال ۱۸۰×۷۰ سانتی‌متر؛ حرکت، تناسب و فاصلهٔ میان بدن و پارچه.' },
+      image: '/media/collection/scarf-indigo.jpg',
+      url: '/en/journal/the-long-shawl',
+    },
+  ],
 };
+
+export const editorialCollections: Collection[] = [
+  {
+    id: 1,
+    name: 'Fire',
+    localizedName: { en: 'Fire', fa: 'آتش' },
+    description: 'Creation through conscious burning.',
+    localizedDescription: { en: 'Creation through conscious burning.', fa: 'آفرینش از راه سوختن آگاهانه.' },
+    image: '/media/four-mothers/fire-key.webp',
+    url: '/en/collections/fire',
+  },
+  {
+    id: 2,
+    name: 'Earth',
+    localizedName: { en: 'Earth', fa: 'خاک' },
+    description: 'Rooting in truth.',
+    localizedDescription: { en: 'Rooting in truth.', fa: 'ریشه‌دواندن در حقیقت.' },
+    image: '/media/four-mothers/earth-key.webp',
+    url: '/en/collections/earth',
+  },
+  {
+    id: 3,
+    name: 'Water',
+    localizedName: { en: 'Water', fa: 'آب' },
+    description: 'At one with the inner world.',
+    localizedDescription: { en: 'At one with the inner world.', fa: 'یگانگی با روان.' },
+    image: '/media/four-mothers/water-key.webp',
+    url: '/en/collections/water',
+  },
+  {
+    id: 4,
+    name: 'Wind',
+    localizedName: { en: 'Wind', fa: 'باد' },
+    description: 'From the heights we came, to the heights we ascend.',
+    localizedDescription: { en: 'From the heights we came, to the heights we ascend.', fa: 'ما ز بالاییم و بالا می‌رویم.' },
+    image: '/media/four-mothers/air-key.webp',
+    url: '/en/collections/wind',
+  },
+];
 
 // Descriptive labels for supplied photographs, not official product names or SKUs.
 export const scarfStudies = [
@@ -35,10 +107,10 @@ export const scarfStudies = [
 ];
 export const moreLabel: LocalizedText = { en: 'More', fa: 'بیشتر' };
 export const services = [
-  { title: { en: 'Personal Styling', fa: 'استایل شخصی' }, description: { en: 'Clothing and wardrobe direction.', fa: 'راهنمایی برای پوشش و کمد لباس شما.' } },
-  { title: { en: 'Hair & Image Direction', fa: 'مو و هویت بصری' }, description: { en: 'Connect your hair with your overall visual identity.', fa: 'پیوند میان مو و هویت بصری شما.' } },
-  { title: { en: 'Scarf Styling', fa: 'استایل روسری' }, description: { en: 'Personal ways to wear and integrate your scarves.', fa: 'روش‌های شخصی برای پوشیدن و ترکیب روسری.' } },
-  { title: { en: 'Bespoke Scarf Design', fa: 'طراحی اختصاصی روسری' }, description: { en: 'Scarf design with a personal point of view.', fa: 'طراحی روسری با نگاه شخصی شما.' } },
+  { title: { en: 'Architectural Styling & Wardrobe Direction', fa: 'استایل معماری و هدایت کمد لباس' }, description: { en: 'A considered wardrobe language for the way you want to be seen.', fa: 'زبانی سنجیده برای کمد لباس و شیوه‌ای که می‌خواهید دیده شوید.' } },
+  { title: { en: 'Hair Architecture & Image Direction', fa: 'معماری مو و هدایت تصویر' }, description: { en: 'Shape hair and image as one visible signature.', fa: 'مو و تصویر را به یک امضای دیداری پیوند می‌دهیم.' } },
+  { title: { en: 'Bespoke Fashion & Silhouette Design', fa: 'طراحی اختصاصی لباس و سیلوئت' }, description: { en: 'A personal form built around your body, movement and mythology.', fa: 'فرمی شخصی بر اساس بدن، حرکت و اسطورهٔ زیستهٔ شما.' } },
+  { title: { en: 'Bespoke Narrative Textile & Scarf Commission', fa: 'سفارش اختصاصی منسوجات روایی و شال' }, description: { en: 'A textile made for a story that belongs to you.', fa: 'منسوجی برای داستانی که به خود شما تعلق دارد.' } },
 ];
 export const values: LocalizedText[] = [
   { en:'Bakhtiari heritage',fa:'میراث بختیاری' },{en:'Persian mystical literature',fa:'ادبیات عرفانی ایران'},

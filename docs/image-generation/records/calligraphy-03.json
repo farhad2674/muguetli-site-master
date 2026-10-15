@@ -1,0 +1,18 @@
+{
+  "designId": "calligraphy-03",
+  "src": "/media/product-models/elnaz/calligraphy-03.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Photorealistic editorial half-body portrait, vertical, of the SAME woman identified by the face collage. Fresh pose: standing upright in three-quarter left profile, composed self-assured expression with a subtle closed smile; dark hair tied in a sleek low knot, face unobscured and recognizable. Sculptural cream knit dress and slender black leather belt. Style the exact long narrow 180×70 cm silk shawl from artwork and verified reference photo as a creative waist sash, gently tied at one side with one long hanging end visible down the hip, NOT a broad shoulder bib. The fabric remains soft pearl gray with black ornate arched border, fine black Persian calligraphic strokes, luminous golden orb and pale branching hands/roots near an end. Do not invent readable wording; let folds partly obscure lettering. Background quiet pale stone garden with filtered shade, realistic silk and skin, full head and waist visible, one person, no logo/watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\calligraphy-p10-script-grey.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\calligraphy-p10-script-grey\\img-8908.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-53075b8e-abcd-4fc9-bea6-2a699b513085.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Gray long shawl is tied as a waist sash, a distinct wearable style matching the verified model reference. Golden orb, roots, black border visible; Persian lettering is approximate, with exact source artwork retained separately."
+  }
+}

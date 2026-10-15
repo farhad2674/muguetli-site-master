@@ -1,0 +1,18 @@
+{
+  "designId": "wind-11",
+  "src": "/media/product-models/elnaz/wind-11.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Make one photoreal editorial portrait of the SAME adult Iranian woman from the first face collage, preserving her recognizable features and natural skin. Model the exact 90x90 cm square silk scarf in the two product references: deep dusty lilac and slate-indigo cloud background, central black-haired illustrated female figure with a cream mask and serpent, pale ivory lily-of-the-valley bells and green twisting vine frame, small winged fairy. Preserve the source print and violet-to-teal border rather than inventing a generic pattern. Fold the square diagonally and tie it as a chic loose headscarf framing but not hiding her face, with one patterned corner draped over shoulder and printed silk visible. Give her a genuine laughing three-quarter side profile looking to her right, teeth visible, eyes smiling, head upright; different expression from source collage. Tailored cream trench coat over dark top, airy pale lilac plaster terrace with daylight. Mid-torso fashion photograph, satin folds plausible, one woman, no collage/text/watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p07-twins-lilac.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p07-twins-lilac\\img-9135.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-95d72974-ae7a-45e3-8ca0-94d246a27be4.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Accepted: recognizable face with laughing gaze right; lilac square worn as headscarf, white bell flowers, green vine and central figure readable. Micro lettering remains approximate."
+  }
+}

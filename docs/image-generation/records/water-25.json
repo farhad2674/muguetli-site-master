@@ -1,0 +1,17 @@
+{
+  "designId": "water-25",
+  "src": "/media/product-models/elnaz/water-25.png",
+  "width": 941,
+  "height": 1672,
+  "prompt": "Create a single photorealistic high-end fashion editorial photograph for Muguetli Water design water-25. Reference image 1 is only the same real woman's facial identity (recognizable dark eyes, face structure, dark hair); invent a fresh pose and expression, distinctly different from the reference collage's tilted head and closed neutral lips. Reference image 2 is the exact printed design for a 90 x 90 cm square scarf: dusty-lilac outside border and white inset, lavender-grey underwater reef, illustrated black-silhouette white-haired mermaid holding a grey cat, turquoise flowing ribbon, pastel mint-yellow coral and small fish. Use its actual palette and recognizable artwork on the worn textile, with realistic folds and scale. Model in a deep aubergine knit top. Style scarf as a relaxed headwrap with a knot behind the head, one end crossing the neck and falling down a shoulder; lilac border and white-haired mermaid, cat and mint reef visible on the end. She stands with shoulders turned right, head straight, sparkling candid laugh with teeth visible while looking slightly past camera. Cool pale lavender plaster and gentle side light. The textile is worn naturally, not shown as a rigid poster or bib. Keep visible print fragments accurate; the full flat artwork exists elsewhere on the product page. One model in a vertical photographic scene, natural skin and lighting. No copy of the collage's original outfits, sunglasses, pose or scarf. No generic print substitution, invented motifs, extra people, text overlays, watermarks or invented logos.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p05-cats-lilac.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e26ed29256e1\\exec-6158469f-29d3-45bb-97a3-256f1e128769.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "observations": "Reviewed: consistent face with broad smile; lilac border and pale mermaid-cat reef visible in natural headwrap with trailing end.",
+    "status": "accepted"
+  }
+}

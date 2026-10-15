@@ -1,0 +1,18 @@
+{
+  "designId": "wind-12",
+  "src": "/media/product-models/elnaz/wind-12.png",
+  "width": 941,
+  "height": 1672,
+  "prompt": "Create a single photoreal fashion editorial portrait of the SAME Iranian adult woman in the first collage, face recognizable with natural skin and dark brown eyes. Wear the exact square 90x90 cm silk scarf shown in artwork and flatlay references: dark teal-blue and dusk-purple cloud fields, strong orange top band and orange lily-of-the-valley blossoms, a central illustrated orange-faced woman with long white hair and symbolic mask, intricate curved vines. Keep those vivid colors, edge and illustrated motif visible and source-faithful. Style the square as a generous asymmetrical neck tie over a tailored charcoal blazer, with one broad scarf panel across chest displaying the print and orange flowers. Pose is candid as if in conversation, upright and looking off-camera to the right, warm joyful smile with teeth, different from source face photos. Soft window light, muted pale stone studio, fashion editorial composition mid-torso. One woman, one scarf, no collage, no text, no watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p07-twins-orange.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p07-twins-orange\\img-9144.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-3e7d41b8-a173-4787-9a62-3f19ff04e921.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Accepted: accurate dark teal/orange colors, white-haired central figure and orange blossoms; natural neck tie with warm smile. Small motif details may differ from flatlay."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "designId": "fire-02",
+  "src": "/media/product-models/elnaz/fire-02-v2.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Generate a NEW photorealistic fashion portrait for this exact square scarf. The face collage defines the SAME Iranian woman's facial identity ONLY; do not copy its head tilt, loose hair or closed-mouth expression. She stands HEAD UPRIGHT, square to camera, with a genuinely warm broad smile showing teeth and eyes crinkled. Wear a tailored charcoal jacket over an ivory top. Style the actual 90×90 cm silk square from the other two references as a CLASSIC TRIANGULAR HEADSCARF tied lightly under the chin, with two short tails; no giant flat chest panel. On the visible folds, preserve the sage-olive border, pastel aqua and green cloud field, vivid orange and hot-pink phoenix wing, pink flames and narrow multicolor ribbons of this exact Fire print. Allow natural folds to obscure part of the bird, but do not replace its colors or motif. Cool pale-lavender sculptural studio with soft daylight, realistic skin, plausible silky cloth, one woman, head and upper torso, no extra logos, text or watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\fire-p01-phoenix-green.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\fire-p01-phoenix-green\\img-9115-2.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-2ba3b39a-b304-4574-9362-b9fdc05b22da.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Selected v2 replaces broad shoulder panel with a classic under-chin headscarf. Upright toothy smile and cool lavender studio give meaningful pose/style variety; sage phoenix, pink flame and colored ribbons visible in natural folds."
+  }
+}

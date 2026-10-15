@@ -1,0 +1,19 @@
+{
+  "designId": "wind-26",
+  "src": "/media/product-models/elnaz/wind-26.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Edit the FOURTH reference portrait while preserving exactly the same Elnaz model face identity, warm smiling gaze, black blazer, midnight navy silk headscarf, moonlit stone terrace, lighting and composition. Fix one clear print-fidelity error. The actual single 90x90 cm scarf in references 2 and 3 contains only ONE illustrated black-haired woman's face beneath the copper owl. The current portrait duplicates this figure: one immediately below the owl wing on the side of the head, and another on the hanging pointed scarf tail. Remove the duplicate illustrated woman on the hanging pointed scarf tail. Replace it with the scarf's real purple-grey and bronze scrolling cloud motifs from the lower portions of artwork, preserving fabric folds and natural silk texture. Keep the illustrated woman once below the owl wing near ear, preserve the owl, sky-blue halo, white bell flowers and dark navy border. Do not change face, expression or scarf tying. One photo, no added text or watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p09-bird-night.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p09-bird-night\\img-9136.webp",
+    "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-5d75d298-eea4-4167-b92f-aa842cf9d8b2.png"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-168fdb6d-b47b-44a6-adbb-936d234c25c6.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Accepted after targeted retry: duplicated printed woman removed from pointed scarf tail; one illustrated woman appears below copper owl wing, with accurate blue halo, tiny white bells, purple and bronze cloud scrolls. Natural smiling face and moonlit background."
+  }
+}

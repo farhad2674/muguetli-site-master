@@ -1,15 +1,13 @@
 import type { Metadata } from 'next';
 import '@fontsource-variable/inter';
-import '@fontsource-variable/estedad';
-import '@fontsource-variable/vazirmatn';
 import './globals.css';
 import 'lenis/dist/lenis.css';
 import { SmoothScroll } from '@/components/smooth-scroll';
 import { MotionPreference } from '@/components/motion-preference';
 
 export const metadata: Metadata = {
-  title: { default: 'MUGUETLI — The Four Mothers', template: '%s — MUGUETLI' },
-  description: 'Four passages through matter, memory and transformation. A bilingual Muguetli story in silk.',
+  title: { default: 'MUGUETLI — Narrative Textile & Image Architecture', template: '%s — MUGUETLI' },
+  description: 'From the heights we came, to the heights we ascend. A bilingual Muguetli world of narrative textiles, image and private inquiry.',
 };
 
 const localeBootstrap = `

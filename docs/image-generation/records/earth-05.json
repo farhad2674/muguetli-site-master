@@ -1,0 +1,18 @@
+{
+  "designId": "earth-05",
+  "src": "/media/product-models/elnaz/earth-05.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Photorealistic vertical designer accessory campaign portrait. Use the face collage ONLY for the same woman's recognizable face; NEW pose: right-facing three-quarter angle with chin level, reflective gentle closed-lip expression looking out a window, no tilt. Hair swept back under a loose but practical silk headwrap with a short tail at the nape. Dark olive tailored shirt. The headwrap is the precise 90×90 cm gray Earth scarf in other two references: show sections of the cold pearl/gray-lavender sky, tiny black lily-of-the-valley blossoms, pale curling foliage, subdued olive-black diagonal ground and thin border. Pattern must be materially faithful yet naturally interrupted by folds, not a flat full print bib. Moody pale plaster studio near a window, soft realistic skin and light, one woman, no invented lettering or watermarks.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-landscape-grey.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-landscape-grey\\img-9106.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-0b83737e-cd31-4b05-8a5e-a702d3f5e40a.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Reflective rightward look and plausible overhair wrap; gray landscape and black lily bells visible. Lower landscape sections are necessarily hidden in folds."
+  }
+}

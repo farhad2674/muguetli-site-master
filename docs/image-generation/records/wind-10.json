@@ -1,0 +1,18 @@
+{
+  "designId": "wind-10",
+  "src": "/media/product-models/elnaz/wind-10.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Create one photoreal luxury fashion editorial portrait of the SAME adult Iranian woman identified by the first reference collage, preserving recognizable facial structure, dark brown eyes and hair, natural skin texture. The second and third references show the EXACT long rectangular Muguetli silk shawl to be modeled. Its print is beige/taupe and pale grey cloud layers, pale spring-green looping vine, tiny black lily-of-valley bells, a white winged bird above an open dark olive book, a mauve-haired illustrated woman below. Preserve that intricate print, its placements and colors on visible fabric, not a generic floral substitute. Drape the 180x70 cm shawl vertically over one shoulder with a visible broad printed tail down the front. New pose: upright head, facing camera, broad open warm smile showing teeth and crinkled eyes, visibly different from the serious tilted source photos. Outfit is an elegant black high-neck top. Airy pale stone courtyard background with soft daylight. Mid-thigh portrait, realistic silk folds, editorial photography. One person, one continuous scarf, no collage, no added text/watermark. Identity reference is only for the face, print references only for the scarf.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p07-book-green.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p07-book-green\\img-9130.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-5031b13d-3b38-497f-b5a0-6ef24bffbf10.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Accepted: recognizable face with toothy smile; accurate pale green vine, white winged bird, open book and cloud motif on long shoulder drape. Tiny lettering is generative and should be verified against flatlay."
+  }
+}

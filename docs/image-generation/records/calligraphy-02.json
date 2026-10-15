@@ -1,0 +1,18 @@
+{
+  "designId": "calligraphy-02",
+  "src": "/media/product-models/elnaz/calligraphy-02.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Create a single photorealistic vertical fashion portrait of the SAME recognizable woman in face collage, using a very different candid right-facing three-quarter pose: she laughs naturally, teeth visible, eyes crinkled, chin level, dark brunette hair in a tidy low bun. Cool gray tailored jacket and black top. Style the exact 180×70 cm long narrow silk shawl in the artwork and verified model photo as one soft loop around neck with a single loose end down the lapel, true narrow scale. Its print is pale butter-yellow with blush-pink border, delicate pink Persian calligraphic strokes, a stylized white-haired woman at one end, pale winged/feather motif at the other. Keep the real reference's letterlike pattern; don't invent readable text. Fresh daylight in a pale pink architectural studio, realistic folds and skin, upper torso, no extra person, no watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\calligraphy-p10-script-yellow.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\calligraphy-p10-script-yellow\\img-8966.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-40b8a4c2-ff3a-4ddb-83db-eda0b69085d9.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Yellow long shawl has a plausible neck loop and single end, pink border and illustrated woman preserved. Persian calligraphy is an approximate visual interpretation; consult exact artwork for lettering."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "designId": "wind-14",
+  "src": "/media/product-models/elnaz/wind-14.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Single photoreal luxury fashion editorial portrait of the same adult Iranian woman identified by first collage; preserve recognizable facial features, dark brown eyes, natural skin. Model the exact 90x90 cm square silk scarf from second and third references. Source print: cool slate blue and pale grey cloud fields, muted mauve edges, black-haired illustrated woman with bronze face and mint lips, scattered brown lily-of-the-valley bells and looping lavender vines, delicate winged fairy. Preserve actual print colors and border on visible folds. Fold into a narrow neckerchief tucked into a tailored camel blazer, with a loose side knot and a motif-rich triangle at neckline; plausible square scarf geometry, not a huge bib. Hair tied in a neat high ponytail. New expression: confident open smile showing teeth, head upright while she looks directly at camera, not the tilted neutral expression in reference. Pale stone doorway and soft side daylight. Mid-torso editorial photo, one woman, no collage, no added text or watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p07-twins-grey.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p07-twins-grey\\img-9133.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-b4bfd335-925d-4382-a1ff-a6112276dd96.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Accepted: face with high bun and upright smile; grey/mauve square tied at neck, central figure and brown bell flowers visible. Micro motif details approximate."
+  }
+}

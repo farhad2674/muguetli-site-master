@@ -1,0 +1,18 @@
+{
+  "designId": "wind-03",
+  "src": "/media/product-models/elnaz/wind-03.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Use case: identity-preserve. Asset type: distinct second modeled photo for Muguetli detail wind-03. Image 1 is Elnaz's face identity collage; preserve her recognizable facial structure and natural skin. Image 2 is the exact artwork of this product and Image 3 is the real flat textile photo, both authoritative for the scarf print. Create one photorealistic luxury fashion editorial portrait of Elnaz. wear the 180 x 70 cm long shawl loosely around the shoulders over a pale lilac blouse, one full printed tail cascading down. Print fidelity is critical: reproduce burgundy and blush curled cloud borders, plum purple star field, lime dotted green winding serpent, illustrated woman and blue-grey lower waves, matching the source color, border and motif placement; never invent or substitute pattern. Plausible real fabric folds and 180 x 70 cm shawl geometry. Expression and pose: contemplative three-quarter glance with a small natural smile, distinct from the reference collage. Background/lighting: soft lilac stone wall and daylight. Vertical product-detail portrait, face and ample scarf both visible. One person, one image; no collage, no overlaid text, no watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p06-serpent-purple.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p06-serpent-purple\\img-9120.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-b739094d-cc81-49c9-a7ab-dfbee8bf533b.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Recognizable face, pale-lilac stone setting and blouse; purple field, burgundy clouds, green serpent and lower waves visibly faithful. Pose resembles wind-01, so the collection has limited pose diversity here."
+  }
+}

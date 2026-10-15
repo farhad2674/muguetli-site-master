@@ -1,0 +1,17 @@
+{
+  "designId": "water-18",
+  "src": "/media/product-models/elnaz/water-18.png",
+  "width": 941,
+  "height": 1672,
+  "prompt": "Photorealistic Muguetli fashion editorial product image, one woman, Water design water-18. Reference image 1 establishes only her recognizable real facial identity; her pose and expression must be NEW, not the familiar tilted head and closed neutral lips in the collage. Reference image 2 establishes the exact artwork and colors printed on this 90 x 90 cm square scarf: deep navy outer border and dark inset frame; central illustrated mermaid woman with black curly hair holding a grey cat; vivid orange-yellow ribbons, fish, coral in red, purple, green and turquoise. Print only this design on the actual wearable textile; preserve the distinctive border and artwork glimpses on visible folds; no generic replacement. Style the scarf over the model's hair like a soft hood and loop once around the neck, visible navy border and flashes of mermaid-cat and coral print in realistic folds. Model wears a pale sky-blue shirt. She laughs spontaneously with teeth showing, eyes nearly crinkled closed, body in motion and face turned three quarters left. Background of warm cream stone, airy side light. The scarf should look naturally worn in a believable fashion portrait, with realistic fabric folds, size, lighting and skin texture. Vertical composition; one photographic image. Do not copy the reference collage's outfits, sunglasses, pose, or scarf styling. No text overlay, watermark, extra person, or invented logo.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p05-cats-navy.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e26ed29256e1\\exec-4f37d00e-237d-4cd4-b807-421b37788e66.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "observations": "Reviewed: recognizable face with laughing expression; navy border, mermaid with cat, colorful reef visible in naturally worn hood wrap.",
+    "status": "accepted"
+  }
+}

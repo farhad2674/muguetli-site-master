@@ -1,0 +1,18 @@
+{
+  "designId": "fire-05",
+  "src": "/media/product-models/elnaz/fire-05.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Use case: product-mockup. Asset type: second product gallery image. Image 1 supplies only the recognizable adult woman's face. Images 2 and 3 are the exact Fire 05 90 x 90 cm square silk scarf artwork and physical textile. Create a realistic editorial portrait with her dark hair tied in a neat low bun, body upright and face in a three-quarter profile, a genuinely warm closed-mouth smile. She wears a matte cream sleeveless tailored jacket. The square scarf is loosely wrapped around her neck with a broad triangular panel over her chest, revealing the dark brown ground, central embracing woman, golden orange radiating flames, purple edge ribbons and green/teal wing colors from the references. Setting: sunlit sculptural travertine staircase, soft shadow geometry. Silk scale and folds plausible, natural skin. No invented print, added lettering/logo/watermark, collage, or other person.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\fire-p01-figure-dark.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\fire-p01-figure-dark\\img-1895.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-13d6317b-50a0-469f-8eb7-75c4646b6be8.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Recognizable identity with low bun and tailored white vest; dark figure and golden flame motif reads clearly on a square scarf. Requested warm smile is subtle."
+  }
+}

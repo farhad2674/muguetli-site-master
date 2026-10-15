@@ -1,0 +1,18 @@
+{
+  "designId": "earth-01",
+  "src": "/media/product-models/elnaz/earth-01.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Photorealistic vertical luxury fashion image for a scarf detail gallery. Use the first reference collage ONLY for the same woman's recognizable face; create a NEW candid pose: she is upright, looking to frame right, mid-laugh with a natural open smile and crinkled eyes, not the calm tilted expression in the collage. Dark brown hair tied into a relaxed low ponytail. Soft ivory knit top beneath a tailored charcoal jacket. Wear the exact 90×90 cm Earth scarf from the artwork and product references folded into a generous neck cowl, one front panel visible: muted olive upper sky, layered cool-gray/lavender soil, central bluish seed pod with roots, winding purple-green DNA strands at the border. Translate this same print onto silk with realistic folds and scale, no generic floral substitution. Background a warm minimalist stone courtyard with diffused morning light, skin texture realistic, upper-body framing, one person, no text or watermarks.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-seed-grey.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-seed-grey\\img-7897.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-a6add336-34ae-4f2d-b65b-7b4eb8a27018.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Candid laughing expression and rightward gaze; grey/olive seed, roots, and DNA border match verified textile. Generous cowl has a broad front triangle."
+  }
+}

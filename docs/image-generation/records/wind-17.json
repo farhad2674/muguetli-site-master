@@ -1,0 +1,18 @@
+{
+  "designId": "wind-17",
+  "src": "/media/product-models/elnaz/wind-17.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Create a single photoreal editorial fashion portrait of the same adult Iranian woman in first collage; recognize her face but vary expression and pose. The other references are exact source artwork and flat product of 90x90 cm square silk scarf: midnight indigo/navy ground, cyan cloud bands, lime-green circular ring, illustrated black-haired woman in purple holding blue berries, white bell blossoms, orange-red berries, pastel pink and yellow corner clouds. Preserve those colors and motifs on visible fabric, not random flower pattern. Fold square into a relaxed asymmetrical shoulder wrap over a sage-green knit top, with navy and cyan visible around neck and a partial circular illustrated motif on the front point. Her hair in a sleek bun. Head upright, turn toward left as if reacting to a friend, laughing natural open-mouth smile with teeth, distinct expression from source. Soft pale stone courtyard with window light. Mid-torso photographic editorial, plausible silk folds, single woman, no collage/text/watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p08-lily-dark.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p08-lily-dark\\img-9132.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-a8481c61-2fb7-483a-a0d6-9f764ad9844c.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Accepted: high bun and open laughing expression; navy/cyan scarf over shoulder, lime circle, central woman and white bells closely follow source."
+  }
+}

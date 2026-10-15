@@ -1,0 +1,18 @@
+{
+  "designId": "fire-03",
+  "src": "/media/product-models/elnaz/fire-03-v2.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Create a DISTINCT photorealistic editorial portrait of the SAME woman identified by the facial collage; identity only, NOT its pose. She is in a right-facing THREE-QUARTER PROFILE with chin level, hair tied back in a clean low ponytail, caught mid-laugh with a clearly visible joyful open smile and crinkled eyes. Camel tailored blazer over simple dark blouse. Wear the exact 90×90 cm dark Fire square silk scarf in the artwork and product references as a NEAT LOOSE NECK LOOP with a small side knot and just one folded printed corner over the lapel, NOT a wide flat chest bib. Visible authentic portions show deep nearly-black purple border and violet clouds, golden-orange phoenix feathers, flame orange and thin teal-pink ribbons; physical folds may partially hide the full bird. Do not substitute generic bird print. Warm plain plaster architecture, soft directional daylight, real skin and silk texture, single woman, upper torso, no text, watermark or added props.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\fire-p01-phoenix-dark.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\fire-p01-phoenix-dark\\img-9116-2.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-dcca666d-02df-4b86-920f-42b42f4fa958.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Selected v2 replaces large bib with compact neck loop and one corner. Rightward laughing pose, tied hair, camel blazer and warm plaster differ clearly; dark-violet clouds, orange phoenix feathers and ribbons remain visible, while the full bird is partly hidden by folds."
+  }
+}

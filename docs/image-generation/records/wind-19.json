@@ -1,0 +1,19 @@
+{
+  "designId": "wind-19",
+  "src": "/media/product-models/elnaz/wind-19.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Edit the fourth reference portrait ONLY to fix print fidelity while keeping this same model identity, black blouse, red silk headscarf styling, expression, photographic lighting and background. The actual scarf is a single 90x90 cm square shown fully in references 2 and 3. Its small seated monk/guardian appears ONLY ONCE on the entire silk square. The current portrait incorrectly duplicates that guardian figure: one on her head and one on her chest. REMOVE the duplicate guardian on her head, replacing that head section with the source scarf's red/coral, turquoise cloud swirls and white lily-of-the-valley bells on pale green stems. Keep the guardian printed only on the lower front panel. Preserve the source red border, cloud colors, red ribbon, green leaves and dark-haired woman's face on lower front. Preserve recognizable face from first collage but distinct toothy laughing expression. Realistically folded silk, no added text, watermark or collage.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p08-cloud-red.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p08-cloud-red\\img-9141.webp",
+    "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-4eacdf82-2170-4f2a-9084-8af72f8fec59.png"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-e64ea49b-c6a3-419e-87ae-8a63267e6d94.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Accepted after targeted retry: removed duplicated guardian figure on head; now guardian appears once on lower panel. Red, turquoise cloud, white bell flowers and green leaves follow source. Distinct toothy laughing side glance."
+  }
+}

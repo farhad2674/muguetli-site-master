@@ -1,0 +1,18 @@
+{
+  "designId": "earth-08",
+  "src": "/media/product-models/elnaz/earth-08.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Single photorealistic vertical luxury scarf portrait. Preserve the recognizable face identity from the woman in the collage but make a fresh UPRIGHT forward posture, bright eyes and a spontaneous smile showing teeth. Brunette hair neatly tied at the back. Wear the exact 90×90 cm square silk scarf in artwork and flat product reference as a loose overhair wrap: folded triangle rests on crown, one edge draped along side of face and one short tail over shoulder, without swallowing the upper body. Visible print faithfully includes icy powder-blue ground, white hanging lily-of-the-valley bells, small dark fairy figure, rust-and-navy curling stems, white circular wreath and slim brown border. Tailored deep navy blouse. Soft daylight in contemporary limestone room. Realistic skin and silk folds, one woman, upper torso, no substitute pattern, no new text/watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-flowers-blue.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-flowers-blue\\img-9103.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-55595505-2c3a-4731-9ced-7e2083e1ff53.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Loose overhair square wrap with one hanging corner; powder-blue lily bells, small fairy, and brown/navy border recognizable. Visible smile."
+  }
+}

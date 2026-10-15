@@ -1,0 +1,1315 @@
+[
+  {
+    "designId": "fire-01",
+    "sourcePanelId": "fire-p01-phoenix-lilac",
+    "media": [
+      {
+        "src": "/media/products/fire-p01-phoenix-lilac/img-9114.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/اتش/1-1/IMG_9114.PNG"
+      },
+      {
+        "src": "/media/products/fire-p01-phoenix-lilac/img-8240.webp",
+        "kind": "model",
+        "width": 1123,
+        "height": 1401,
+        "sourceFile": "elnaz new/سایت/اتش/1-1/IMG_8240.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "fire-02",
+    "sourcePanelId": "fire-p01-phoenix-green",
+    "media": [
+      {
+        "src": "/media/products/fire-p01-phoenix-green/img-9115-2.webp",
+        "kind": "product",
+        "width": 1086,
+        "height": 1448,
+        "sourceFile": "elnaz new/سایت/اتش/1-2/IMG_9115 2.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "fire-03",
+    "sourcePanelId": "fire-p01-phoenix-dark",
+    "media": [
+      {
+        "src": "/media/products/fire-p01-phoenix-dark/img-9116-2.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/اتش/1-3/IMG_9116 2.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "fire-04",
+    "sourcePanelId": "fire-p01-figure-red",
+    "media": [
+      {
+        "src": "/media/products/fire-p01-figure-red/img-9111-2.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/اتش/2-1/IMG_9111 2.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "fire-05",
+    "sourcePanelId": "fire-p01-figure-dark",
+    "media": [
+      {
+        "src": "/media/products/fire-p01-figure-dark/img-1895.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/اتش/2-2/IMG_1895.PNG"
+      },
+      {
+        "src": "/media/products/fire-p01-figure-dark/img-1918.webp",
+        "kind": "product",
+        "width": 1274,
+        "height": 832,
+        "sourceFile": "elnaz new/سایت/اتش/2-2/IMG_1918.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "fire-06",
+    "sourcePanelId": "fire-p01-figure-orange",
+    "media": [
+      {
+        "src": "/media/products/fire-p01-figure-orange/img-9117.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/اتش/2-3/IMG_9117.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "fire-07",
+    "sourcePanelId": "fire-p01-roots-blue",
+    "media": [
+      {
+        "src": "/media/products/fire-p01-roots-blue/img-9119-2.webp",
+        "kind": "product",
+        "width": 844,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/اتش/شال3-1/IMG_9119 2.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "fire-08",
+    "sourcePanelId": "fire-p01-roots-orange",
+    "media": [
+      {
+        "src": "/media/products/fire-p01-roots-orange/img-9118-2.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/اتش/شال3-2/IMG_9118 2.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "fire-09",
+    "sourcePanelId": "fire-p01-figure-blue",
+    "media": [
+      {
+        "src": "/media/products/fire-p01-figure-blue/img-1896.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/اتش/2-4/IMG_1896.PNG"
+      },
+      {
+        "src": "/media/products/fire-p01-figure-blue/img-1899.webp",
+        "kind": "model",
+        "width": 778,
+        "height": 868,
+        "sourceFile": "elnaz new/سایت/اتش/2-4/IMG_1899.jpg"
+      }
+    ]
+  },
+  {
+    "designId": "earth-01",
+    "sourcePanelId": "earth-p02-seed-grey",
+    "media": [
+      {
+        "src": "/media/products/earth-p02-seed-grey/img-7897.webp",
+        "kind": "product",
+        "width": 1800,
+        "height": 1796,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۳/IMG_7897.jpg"
+      },
+      {
+        "src": "/media/products/earth-p02-seed-grey/img-8096.webp",
+        "kind": "product",
+        "width": 1158,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۳/IMG_8096.JPG"
+      },
+      {
+        "src": "/media/products/earth-p02-seed-grey/img-8101.webp",
+        "kind": "product",
+        "width": 1800,
+        "height": 1188,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۳/IMG_8101.JPG"
+      },
+      {
+        "src": "/media/products/earth-p02-seed-grey/img-8105.webp",
+        "kind": "product",
+        "width": 1156,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۳/IMG_8105.JPG"
+      },
+      {
+        "src": "/media/products/earth-p02-seed-grey/img-8106.webp",
+        "kind": "product",
+        "width": 1540,
+        "height": 1347,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۳/IMG_8106.JPG"
+      },
+      {
+        "src": "/media/products/earth-p02-seed-grey/img-9075.webp",
+        "kind": "product",
+        "width": 848,
+        "height": 1264,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۳/IMG_9075.JPG"
+      },
+      {
+        "src": "/media/products/earth-p02-seed-grey/img-9224.webp",
+        "kind": "product",
+        "width": 832,
+        "height": 1273,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۳/IMG_9224.PNG"
+      },
+      {
+        "src": "/media/products/earth-p02-seed-grey/img-9232.webp",
+        "kind": "product",
+        "width": 1097,
+        "height": 960,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۳/IMG_9232.PNG"
+      },
+      {
+        "src": "/media/products/earth-p02-seed-grey/img-9271.webp",
+        "kind": "product",
+        "width": 1261,
+        "height": 832,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۳/IMG_9271.PNG"
+      },
+      {
+        "src": "/media/products/earth-p02-seed-grey/img-9356.webp",
+        "kind": "product",
+        "width": 832,
+        "height": 1292,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۳/IMG_9356.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "earth-02",
+    "sourcePanelId": "earth-p02-seed-pink",
+    "media": [
+      {
+        "src": "/media/products/earth-p02-seed-pink/img-7893.webp",
+        "kind": "product",
+        "width": 1795,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۱/IMG_7893.jpg"
+      },
+      {
+        "src": "/media/products/earth-p02-seed-pink/img-8508.webp",
+        "kind": "product",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۱/IMG_8508.JPG"
+      },
+      {
+        "src": "/media/products/earth-p02-seed-pink/img-8509.webp",
+        "kind": "product",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۱/IMG_8509.JPG"
+      },
+      {
+        "src": "/media/products/earth-p02-seed-pink/img-8510.webp",
+        "kind": "product",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۱/IMG_8510.JPG"
+      },
+      {
+        "src": "/media/products/earth-p02-seed-pink/img-9076.webp",
+        "kind": "product",
+        "width": 843,
+        "height": 1264,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۱/IMG_9076.JPG"
+      }
+    ]
+  },
+  {
+    "designId": "earth-03",
+    "sourcePanelId": "earth-p02-seed-brown",
+    "media": [
+      {
+        "src": "/media/products/earth-p02-seed-brown/img-7900.webp",
+        "kind": "product",
+        "width": 1800,
+        "height": 1796,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۲/IMG_7900.jpg"
+      },
+      {
+        "src": "/media/products/earth-p02-seed-brown/img-8062.webp",
+        "kind": "product",
+        "width": 1086,
+        "height": 1449,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۲/IMG_8062.PNG"
+      },
+      {
+        "src": "/media/products/earth-p02-seed-brown/img-8074.webp",
+        "kind": "product",
+        "width": 1538,
+        "height": 1023,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۲/IMG_8074.PNG"
+      },
+      {
+        "src": "/media/products/earth-p02-seed-brown/img-8075.webp",
+        "kind": "product",
+        "width": 1086,
+        "height": 1448,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۲/IMG_8075.PNG"
+      },
+      {
+        "src": "/media/products/earth-p02-seed-brown/img-9081.webp",
+        "kind": "product",
+        "width": 843,
+        "height": 1264,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۲/IMG_9081.JPG"
+      },
+      {
+        "src": "/media/products/earth-p02-seed-brown/img-9306.webp",
+        "kind": "product",
+        "width": 1264,
+        "height": 841,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۲/IMG_9306.PNG"
+      },
+      {
+        "src": "/media/products/earth-p02-seed-brown/img-9321.webp",
+        "kind": "product",
+        "width": 896,
+        "height": 1195,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۲/IMG_9321.JPG"
+      },
+      {
+        "src": "/media/products/earth-p02-seed-brown/img-9384.webp",
+        "kind": "product",
+        "width": 896,
+        "height": 1195,
+        "sourceFile": "elnaz new/سایت/خاک/۱-۲/IMG_9384.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "earth-04",
+    "sourcePanelId": "earth-p02-flowers-mint",
+    "media": [
+      {
+        "src": "/media/products/earth-p02-flowers-mint/img-9107-2.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/خاک/۳-۱/IMG_9107 2.PNG"
+      },
+      {
+        "src": "/media/products/earth-p02-flowers-mint/img-9390.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1024,
+        "sourceFile": "elnaz new/سایت/خاک/۳-۱/IMG_9390.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "earth-05",
+    "sourcePanelId": "earth-p02-landscape-grey",
+    "media": [
+      {
+        "src": "/media/products/earth-p02-landscape-grey/img-9106.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/خاک/۴-۱/IMG_9106.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "earth-06",
+    "sourcePanelId": "earth-p02-flowers-green",
+    "media": [
+      {
+        "src": "/media/products/earth-p02-flowers-green/img-9074.webp",
+        "kind": "product",
+        "width": 843,
+        "height": 1264,
+        "sourceFile": "elnaz new/سایت/خاک/۴-۲/IMG_9074.JPG"
+      }
+    ]
+  },
+  {
+    "designId": "earth-07",
+    "sourcePanelId": "earth-p02-landscape-colour",
+    "media": [
+      {
+        "src": "/media/products/earth-p02-landscape-colour/img-9108.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/خاک/۴-۳/IMG_9108.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "earth-08",
+    "sourcePanelId": "earth-p02-flowers-blue",
+    "media": [
+      {
+        "src": "/media/products/earth-p02-flowers-blue/img-9103.webp",
+        "kind": "product",
+        "width": 848,
+        "height": 1264,
+        "sourceFile": "elnaz new/سایت/خاک/۲-۳/IMG_9103.JPG"
+      },
+      {
+        "src": "/media/products/earth-p02-flowers-blue/img-9336.webp",
+        "kind": "product",
+        "width": 992,
+        "height": 1060,
+        "sourceFile": "elnaz new/سایت/خاک/۲-۳/IMG_9336.PNG"
+      },
+      {
+        "src": "/media/products/earth-p02-flowers-blue/img-9403.webp",
+        "kind": "product",
+        "width": 1086,
+        "height": 1448,
+        "sourceFile": "elnaz new/سایت/خاک/۲-۳/IMG_9403.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "earth-09",
+    "sourcePanelId": "earth-p02-roots-blue",
+    "media": [
+      {
+        "src": "/media/products/earth-p02-roots-blue/img-9110.webp",
+        "kind": "product",
+        "width": 887,
+        "height": 1774,
+        "sourceFile": "elnaz new/سایت/خاک/شال۲-۳/IMG_9110.PNG"
+      },
+      {
+        "src": "/media/products/earth-p02-roots-blue/img-9184.webp",
+        "kind": "product",
+        "width": 816,
+        "height": 1294,
+        "sourceFile": "elnaz new/سایت/خاک/شال۲-۳/IMG_9184.PNG"
+      },
+      {
+        "src": "/media/products/earth-p02-roots-blue/img-9349.webp",
+        "kind": "product",
+        "width": 896,
+        "height": 1195,
+        "sourceFile": "elnaz new/سایت/خاک/شال۲-۳/IMG_9349.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "earth-10",
+    "sourcePanelId": "earth-p02-roots-grey",
+    "media": [
+      {
+        "src": "/media/products/earth-p02-roots-grey/img-0722.webp",
+        "kind": "product",
+        "width": 835,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/خاک/شال۲-۲/IMG_0722.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "earth-11",
+    "sourcePanelId": "earth-p02-roots-green",
+    "media": [
+      {
+        "src": "/media/products/earth-p02-roots-green/img-9109.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/خاک/شال۲-۱/IMG_9109.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "earth-12",
+    "sourcePanelId": "earth-p02-flowers-lilac",
+    "media": [
+      {
+        "src": "/media/products/earth-p02-flowers-lilac/img-9102.webp",
+        "kind": "product",
+        "width": 848,
+        "height": 1264,
+        "sourceFile": "elnaz new/سایت/خاک/۳-۳/IMG_9102.JPG"
+      }
+    ]
+  },
+  {
+    "designId": "water-02",
+    "sourcePanelId": "water-p03-figure-rose",
+    "media": [
+      {
+        "src": "/media/products/water-p03-figure-rose/img-9150.webp",
+        "kind": "product",
+        "width": 864,
+        "height": 1216,
+        "sourceFile": "elnaz new/سایت/اب/3-1/IMG_9150.JPG"
+      },
+      {
+        "src": "/media/products/water-p03-figure-rose/img-9280.webp",
+        "kind": "product",
+        "width": 1275,
+        "height": 832,
+        "sourceFile": "elnaz new/سایت/اب/3-1/IMG_9280.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "water-04",
+    "sourcePanelId": "water-p03-underwater-mint",
+    "media": [
+      {
+        "src": "/media/products/water-p03-underwater-mint/img-1868.webp",
+        "kind": "product",
+        "width": 640,
+        "height": 1645,
+        "sourceFile": "elnaz new/سایت/اب/شال1-1/IMG_1868.JPG"
+      },
+      {
+        "src": "/media/products/water-p03-underwater-mint/img-1865.webp",
+        "kind": "model",
+        "width": 922,
+        "height": 1152,
+        "sourceFile": "elnaz new/سایت/اب/شال1-1/IMG_1865.PNG"
+      },
+      {
+        "src": "/media/products/water-p03-underwater-mint/img-1866.webp",
+        "kind": "model",
+        "width": 1252,
+        "height": 848,
+        "sourceFile": "elnaz new/سایت/اب/شال1-1/IMG_1866.PNG"
+      },
+      {
+        "src": "/media/products/water-p03-underwater-mint/img-1867.webp",
+        "kind": "model",
+        "width": 854,
+        "height": 767,
+        "sourceFile": "elnaz new/سایت/اب/شال1-1/IMG_1867.jpg"
+      }
+    ]
+  },
+  {
+    "designId": "water-06",
+    "sourcePanelId": "water-p03-portrait-rose",
+    "media": [
+      {
+        "src": "/media/products/water-p03-portrait-rose/img-9245.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1024,
+        "sourceFile": "elnaz new/سایت/اب/2-1/IMG_9245.PNG"
+      },
+      {
+        "src": "/media/products/water-p03-portrait-rose/img-9257.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1024,
+        "sourceFile": "elnaz new/سایت/اب/2-1/IMG_9257.PNG"
+      },
+      {
+        "src": "/media/products/water-p03-portrait-rose/img-9608.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1024,
+        "sourceFile": "elnaz new/سایت/اب/2-1/IMG_9608.JPG"
+      }
+    ]
+  },
+  {
+    "designId": "water-07",
+    "sourcePanelId": "water-p03-portrait-peach",
+    "media": [
+      {
+        "src": "/media/products/water-p03-portrait-peach/img-8330.webp",
+        "kind": "product",
+        "width": 1086,
+        "height": 1448,
+        "sourceFile": "elnaz new/سایت/اب/2-2/IMG_8330.PNG"
+      },
+      {
+        "src": "/media/products/water-p03-portrait-peach/img-8331.webp",
+        "kind": "product",
+        "width": 1086,
+        "height": 1448,
+        "sourceFile": "elnaz new/سایت/اب/2-2/IMG_8331.PNG"
+      },
+      {
+        "src": "/media/products/water-p03-portrait-peach/img-8332.webp",
+        "kind": "product",
+        "width": 1402,
+        "height": 1122,
+        "sourceFile": "elnaz new/سایت/اب/2-2/IMG_8332.PNG"
+      },
+      {
+        "src": "/media/products/water-p03-portrait-peach/img-9159.webp",
+        "kind": "product",
+        "width": 896,
+        "height": 1199,
+        "sourceFile": "elnaz new/سایت/اب/2-2/IMG_9159.JPG"
+      }
+    ]
+  },
+  {
+    "designId": "water-08",
+    "sourcePanelId": "water-p03-portrait-grey",
+    "media": [
+      {
+        "src": "/media/products/water-p03-portrait-grey/img-9157.webp",
+        "kind": "product",
+        "width": 896,
+        "height": 1199,
+        "sourceFile": "elnaz new/سایت/اب/2-3/IMG_9157.JPG"
+      },
+      {
+        "src": "/media/products/water-p03-portrait-grey/img-9235.webp",
+        "kind": "product",
+        "width": 768,
+        "height": 1379,
+        "sourceFile": "elnaz new/سایت/اب/2-3/IMG_9235.PNG"
+      },
+      {
+        "src": "/media/products/water-p03-portrait-grey/img-9256.webp",
+        "kind": "product",
+        "width": 880,
+        "height": 1195,
+        "sourceFile": "elnaz new/سایت/اب/2-3/IMG_9256.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "water-10",
+    "sourcePanelId": "water-p04-swimmer-grey",
+    "media": [
+      {
+        "src": "/media/products/water-p04-swimmer-grey/img-9162.webp",
+        "kind": "product",
+        "width": 843,
+        "height": 1264,
+        "sourceFile": "elnaz new/سایت/اب/شال 2-4/IMG_9162.JPG"
+      }
+    ]
+  },
+  {
+    "designId": "water-11",
+    "sourcePanelId": "water-p04-swimmer-brown",
+    "media": [
+      {
+        "src": "/media/products/water-p04-swimmer-brown/img-0723.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/اب/شال 1-4/IMG_0723.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "water-12",
+    "sourcePanelId": "water-p04-swimmer-pastel",
+    "media": [
+      {
+        "src": "/media/products/water-p04-swimmer-pastel/img-9161-2.webp",
+        "kind": "product",
+        "width": 843,
+        "height": 1264,
+        "sourceFile": "elnaz new/سایت/اب/شال 3-4/IMG_9161 2.JPG"
+      }
+    ]
+  },
+  {
+    "designId": "water-13",
+    "sourcePanelId": "water-p04-horizon-green",
+    "media": [
+      {
+        "src": "/media/products/water-p04-horizon-green/img-9155.webp",
+        "kind": "product",
+        "width": 912,
+        "height": 1184,
+        "sourceFile": "elnaz new/سایت/اب/7-5/IMG_9155.JPG"
+      }
+    ]
+  },
+  {
+    "designId": "water-14",
+    "sourcePanelId": "water-p04-horizon-blue",
+    "media": [
+      {
+        "src": "/media/products/water-p04-horizon-blue/img-9154.webp",
+        "kind": "product",
+        "width": 864,
+        "height": 1216,
+        "sourceFile": "elnaz new/سایت/اب/7-3/IMG_9154.JPG"
+      }
+    ]
+  },
+  {
+    "designId": "water-15",
+    "sourcePanelId": "water-p04-horizon-purple",
+    "media": [
+      {
+        "src": "/media/products/water-p04-horizon-purple/img-9156.webp",
+        "kind": "product",
+        "width": 864,
+        "height": 1216,
+        "sourceFile": "elnaz new/سایت/اب/7-2/IMG_9156.JPG"
+      }
+    ]
+  },
+  {
+    "designId": "water-16",
+    "sourcePanelId": "water-p04-horizon-teal",
+    "media": [
+      {
+        "src": "/media/products/water-p04-horizon-teal/img-9181.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1024,
+        "sourceFile": "elnaz new/سایت/اب/7-4/IMG_9181.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "water-20",
+    "sourcePanelId": "water-p05-night-orange",
+    "media": [
+      {
+        "src": "/media/products/water-p05-night-orange/img-9165.webp",
+        "kind": "product",
+        "width": 843,
+        "height": 1264,
+        "sourceFile": "elnaz new/سایت/اب/شال 1-2/IMG_9165.JPG"
+      },
+      {
+        "src": "/media/products/water-p05-night-orange/img-9077.webp",
+        "kind": "product",
+        "width": 843,
+        "height": 1264,
+        "sourceFile": "elnaz new/سایت/اب/شال 6-1/IMG_9077.JPG"
+      },
+      {
+        "src": "/media/products/water-p05-night-orange/img-8799.webp",
+        "kind": "model",
+        "width": 1023,
+        "height": 1537,
+        "sourceFile": "elnaz new/سایت/اب/شال 6-1/IMG_8799.PNG"
+      },
+      {
+        "src": "/media/products/water-p05-night-orange/img-8801.webp",
+        "kind": "model",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/اب/شال 6-1/IMG_8801.jpg"
+      },
+      {
+        "src": "/media/products/water-p05-night-orange/img-8828.webp",
+        "kind": "model",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/اب/شال 6-1/IMG_8828.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "water-22",
+    "sourcePanelId": "water-p05-cats-grey",
+    "media": [
+      {
+        "src": "/media/products/water-p05-cats-grey/img-9153.webp",
+        "kind": "product",
+        "width": 864,
+        "height": 1216,
+        "sourceFile": "elnaz new/سایت/اب/5-2/IMG_9153.JPG"
+      }
+    ]
+  },
+  {
+    "designId": "water-23",
+    "sourcePanelId": "water-p05-cats-pale",
+    "media": [
+      {
+        "src": "/media/products/water-p05-cats-pale/img-9151-2.webp",
+        "kind": "product",
+        "width": 896,
+        "height": 1199,
+        "sourceFile": "elnaz new/سایت/اب/5-1/IMG_9151 2.JPG"
+      }
+    ]
+  },
+  {
+    "designId": "water-24",
+    "sourcePanelId": "water-p05-night-grey",
+    "media": [
+      {
+        "src": "/media/products/water-p05-night-grey/img-9160.webp",
+        "kind": "product",
+        "width": 843,
+        "height": 1264,
+        "sourceFile": "elnaz new/سایت/اب/شال 6-2/IMG_9160.JPG"
+      },
+      {
+        "src": "/media/products/water-p05-night-grey/img-9287.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1024,
+        "sourceFile": "elnaz new/سایت/اب/شال 6-2/IMG_9287.PNG"
+      },
+      {
+        "src": "/media/products/water-p05-night-grey/img-9337.webp",
+        "kind": "product",
+        "width": 848,
+        "height": 1245,
+        "sourceFile": "elnaz new/سایت/اب/شال 6-2/IMG_9337.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "water-25",
+    "sourcePanelId": "water-p05-cats-lilac",
+    "media": [
+      {
+        "src": "/media/products/water-p05-cats-lilac/img-9152.webp",
+        "kind": "product",
+        "width": 912,
+        "height": 1184,
+        "sourceFile": "elnaz new/سایت/اب/5-3/IMG_9152.JPG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-01",
+    "sourcePanelId": "wind-p06-serpent-green",
+    "media": [
+      {
+        "src": "/media/products/wind-p06-serpent-green/img-9121.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/شال۱-۲/IMG_9121.PNG"
+      },
+      {
+        "src": "/media/products/wind-p06-serpent-green/img-9302.webp",
+        "kind": "product",
+        "width": 1184,
+        "height": 896,
+        "sourceFile": "elnaz new/سایت/باد/شال۱-۲/IMG_9302.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-02",
+    "sourcePanelId": "wind-p06-serpent-red",
+    "media": [
+      {
+        "src": "/media/products/wind-p06-serpent-red/img-9122.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/شال۱-۱/IMG_9122.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-03",
+    "sourcePanelId": "wind-p06-serpent-purple",
+    "media": [
+      {
+        "src": "/media/products/wind-p06-serpent-purple/img-9120.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/شال۱-۳/IMG_9120.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-04",
+    "sourcePanelId": "wind-p06-journey-mint",
+    "media": [
+      {
+        "src": "/media/products/wind-p06-journey-mint/img-9127.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/شال۷-۱/IMG_9127.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-05",
+    "sourcePanelId": "wind-p06-journey-grey",
+    "media": [
+      {
+        "src": "/media/products/wind-p06-journey-grey/img-9126.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/شال۷-۳/IMG_9126.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-06",
+    "sourcePanelId": "wind-p06-journey-pink",
+    "media": [
+      {
+        "src": "/media/products/wind-p06-journey-pink/img-9128.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/شال۷-۲/IMG_9128.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-07",
+    "sourcePanelId": "wind-p07-book-blue",
+    "media": [
+      {
+        "src": "/media/products/wind-p07-book-blue/img-9131.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/شال کلاغ-۳/IMG_9131.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-08",
+    "sourcePanelId": "wind-p07-book-dark",
+    "media": [
+      {
+        "src": "/media/products/wind-p07-book-dark/img-9129.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/شال کلاغ-۲/IMG_9129.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-09",
+    "sourcePanelId": "wind-p07-book-rose",
+    "media": [
+      {
+        "src": "/media/products/wind-p07-book-rose/img-9123.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/شال کلاغ-۴/IMG_9123.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-10",
+    "sourcePanelId": "wind-p07-book-green",
+    "media": [
+      {
+        "src": "/media/products/wind-p07-book-green/img-9130.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/شال کلاغ-۱/IMG_9130.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-11",
+    "sourcePanelId": "wind-p07-twins-lilac",
+    "media": [
+      {
+        "src": "/media/products/wind-p07-twins-lilac/img-9135.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/پروانه-۱/IMG_9135.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-12",
+    "sourcePanelId": "wind-p07-twins-orange",
+    "media": [
+      {
+        "src": "/media/products/wind-p07-twins-orange/img-9144.webp",
+        "kind": "product",
+        "width": 896,
+        "height": 1199,
+        "sourceFile": "elnaz new/سایت/باد/پروانه-۳/IMG_9144.JPG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-13",
+    "sourcePanelId": "wind-p07-twins-green",
+    "media": [
+      {
+        "src": "/media/products/wind-p07-twins-green/img-9134.webp",
+        "kind": "product",
+        "width": 1086,
+        "height": 1448,
+        "sourceFile": "elnaz new/سایت/باد/پروانه-۴/IMG_9134.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-14",
+    "sourcePanelId": "wind-p07-twins-grey",
+    "media": [
+      {
+        "src": "/media/products/wind-p07-twins-grey/img-9133.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/پروانه-۲/IMG_9133.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-15",
+    "sourcePanelId": "wind-p08-lily-mint",
+    "media": [
+      {
+        "src": "/media/products/wind-p08-lily-mint/img-9146.webp",
+        "kind": "product",
+        "width": 896,
+        "height": 1199,
+        "sourceFile": "elnaz new/سایت/باد/مروارید-۱/IMG_9146.JPG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-16",
+    "sourcePanelId": "wind-p08-lily-pink",
+    "media": [
+      {
+        "src": "/media/products/wind-p08-lily-pink/img-9147.webp",
+        "kind": "product",
+        "width": 896,
+        "height": 1199,
+        "sourceFile": "elnaz new/سایت/باد/مروارید-۴/IMG_9147.JPG"
+      },
+      {
+        "src": "/media/products/wind-p08-lily-pink/img-8185.webp",
+        "kind": "model",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/مروارید-۴/IMG_8185.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-17",
+    "sourcePanelId": "wind-p08-lily-dark",
+    "media": [
+      {
+        "src": "/media/products/wind-p08-lily-dark/img-9132.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/مروارید-۳/IMG_9132.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-18",
+    "sourcePanelId": "wind-p08-lily-blue",
+    "media": [
+      {
+        "src": "/media/products/wind-p08-lily-blue/img-9145.webp",
+        "kind": "product",
+        "width": 896,
+        "height": 1199,
+        "sourceFile": "elnaz new/سایت/باد/مروارید-۲/IMG_9145.JPG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-19",
+    "sourcePanelId": "wind-p08-cloud-red",
+    "media": [
+      {
+        "src": "/media/products/wind-p08-cloud-red/img-9141.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/میمون-۱/IMG_9141.PNG"
+      },
+      {
+        "src": "/media/products/wind-p08-cloud-red/img-8277.webp",
+        "kind": "model",
+        "width": 1537,
+        "height": 1023,
+        "sourceFile": "elnaz new/سایت/باد/میمون-۱/IMG_8277.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-20",
+    "sourcePanelId": "wind-p08-cloud-blue",
+    "media": [
+      {
+        "src": "/media/products/wind-p08-cloud-blue/img-9148.webp",
+        "kind": "product",
+        "width": 896,
+        "height": 1199,
+        "sourceFile": "elnaz new/سایت/باد/میمون-۳/IMG_9148.JPG"
+      },
+      {
+        "src": "/media/products/wind-p08-cloud-blue/img-8183.webp",
+        "kind": "model",
+        "width": 1536,
+        "height": 1024,
+        "sourceFile": "elnaz new/سایت/باد/میمون-۳/IMG_8183.PNG"
+      },
+      {
+        "src": "/media/products/wind-p08-cloud-blue/img-8186.webp",
+        "kind": "model",
+        "width": 1254,
+        "height": 1254,
+        "sourceFile": "elnaz new/سایت/باد/میمون-۳/IMG_8186.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-21",
+    "sourcePanelId": "wind-p08-cloud-yellow",
+    "media": [
+      {
+        "src": "/media/products/wind-p08-cloud-yellow/img-9149.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/میمون-۲/IMG_9149.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-22",
+    "sourcePanelId": "wind-p09-bird-blue",
+    "media": [
+      {
+        "src": "/media/products/wind-p09-bird-blue/img-9140.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/جغد-۲/IMG_9140.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-23",
+    "sourcePanelId": "wind-p09-bird-rust",
+    "media": [
+      {
+        "src": "/media/products/wind-p09-bird-rust/img-9139.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/جغد-۱/IMG_9139.PNG"
+      },
+      {
+        "src": "/media/products/wind-p09-bird-rust/img-8226.webp",
+        "kind": "model",
+        "width": 1536,
+        "height": 1024,
+        "sourceFile": "elnaz new/سایت/باد/جغد-۱/IMG_8226.PNG"
+      },
+      {
+        "src": "/media/products/wind-p09-bird-rust/img-8237.webp",
+        "kind": "model",
+        "width": 1024,
+        "height": 1024,
+        "sourceFile": "elnaz new/سایت/باد/جغد-۱/IMG_8237.PNG"
+      },
+      {
+        "src": "/media/products/wind-p09-bird-rust/img-8269.webp",
+        "kind": "model",
+        "width": 1215,
+        "height": 1097,
+        "sourceFile": "elnaz new/سایت/باد/جغد-۱/IMG_8269.JPG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-24",
+    "sourcePanelId": "wind-p09-bird-pastel",
+    "media": [
+      {
+        "src": "/media/products/wind-p09-bird-pastel/img-9137.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/جغد-۳/IMG_9137.PNG"
+      },
+      {
+        "src": "/media/products/wind-p09-bird-pastel/img-8225.webp",
+        "kind": "model",
+        "width": 1536,
+        "height": 1024,
+        "sourceFile": "elnaz new/سایت/باد/جغد-۳/IMG_8225.PNG"
+      },
+      {
+        "src": "/media/products/wind-p09-bird-pastel/img-8228.webp",
+        "kind": "model",
+        "width": 1536,
+        "height": 1024,
+        "sourceFile": "elnaz new/سایت/باد/جغد-۳/IMG_8228.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-25",
+    "sourcePanelId": "wind-p09-bird-cream",
+    "media": [
+      {
+        "src": "/media/products/wind-p09-bird-cream/img-9138.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/جغد-۴/IMG_9138.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "wind-26",
+    "sourcePanelId": "wind-p09-bird-night",
+    "media": [
+      {
+        "src": "/media/products/wind-p09-bird-night/img-9136.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1536,
+        "sourceFile": "elnaz new/سایت/باد/جغد-۵/IMG_9136.PNG"
+      }
+    ]
+  },
+  {
+    "designId": "calligraphy-02",
+    "sourcePanelId": "calligraphy-p10-script-yellow",
+    "media": [
+      {
+        "src": "/media/products/calligraphy-p10-script-yellow/img-8966.webp",
+        "kind": "product",
+        "width": 843,
+        "height": 1264,
+        "sourceFile": "elnaz new.7z::group-3chars/IMG_8966.JPG"
+      },
+      {
+        "src": "/media/products/calligraphy-p10-script-yellow/img-8967.webp",
+        "kind": "product",
+        "width": 843,
+        "height": 1264,
+        "sourceFile": "elnaz new.7z::group-3chars/IMG_8967.JPG"
+      },
+      {
+        "src": "/media/products/calligraphy-p10-script-yellow/img-8972.webp",
+        "kind": "product",
+        "width": 843,
+        "height": 1264,
+        "sourceFile": "elnaz new.7z::group-3chars/IMG_8972.JPG"
+      },
+      {
+        "src": "/media/products/calligraphy-p10-script-yellow/img-8975.webp",
+        "kind": "product",
+        "width": 843,
+        "height": 1264,
+        "sourceFile": "elnaz new.7z::group-3chars/IMG_8975.JPG"
+      },
+      {
+        "src": "/media/products/calligraphy-p10-script-yellow/img-9082.webp",
+        "kind": "product",
+        "width": 843,
+        "height": 1264,
+        "sourceFile": "elnaz new.7z::group-3chars/IMG_9082.JPG"
+      },
+      {
+        "src": "/media/products/calligraphy-p10-script-yellow/img-9084.webp",
+        "kind": "product",
+        "width": 843,
+        "height": 1264,
+        "sourceFile": "elnaz new.7z::group-3chars/IMG_9084.JPG"
+      },
+      {
+        "src": "/media/products/calligraphy-p10-script-yellow/img-9591.webp",
+        "kind": "product",
+        "width": 843,
+        "height": 1264,
+        "sourceFile": "elnaz new.7z::group-3chars/IMG_9591.JPG"
+      },
+      {
+        "src": "/media/products/calligraphy-p10-script-yellow/img-9594.webp",
+        "kind": "product",
+        "width": 843,
+        "height": 1264,
+        "sourceFile": "elnaz new.7z::group-3chars/IMG_9594.JPG"
+      }
+    ]
+  },
+  {
+    "designId": "calligraphy-03",
+    "sourcePanelId": "calligraphy-p10-script-grey",
+    "media": [
+      {
+        "src": "/media/products/calligraphy-p10-script-grey/img-8908.webp",
+        "kind": "product",
+        "width": 1024,
+        "height": 1056,
+        "sourceFile": "elnaz new.7z::group-4chars/IMG_8908.JPG"
+      },
+      {
+        "src": "/media/products/calligraphy-p10-script-grey/img-8916.webp",
+        "kind": "product",
+        "width": 843,
+        "height": 1264,
+        "sourceFile": "elnaz new.7z::group-4chars/IMG_8916.JPG"
+      },
+      {
+        "src": "/media/products/calligraphy-p10-script-grey/img-8919.webp",
+        "kind": "product",
+        "width": 992,
+        "height": 1085,
+        "sourceFile": "elnaz new.7z::group-4chars/IMG_8919.JPG"
+      },
+      {
+        "src": "/media/products/calligraphy-p10-script-grey/img-9083.webp",
+        "kind": "product",
+        "width": 843,
+        "height": 1264,
+        "sourceFile": "elnaz new.7z::group-4chars/IMG_9083.JPG"
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "designId": "water-20",
+  "src": "/media/product-models/elnaz/water-20.png",
+  "width": 941,
+  "height": 1672,
+  "prompt": "Photorealistic Muguetli fashion editorial product image, one woman, Water design water-20. Reference image 1 establishes only her recognizable real facial identity; her pose and expression must be NEW, not the familiar tilted head and closed neutral lips in the collage. Reference image 2 establishes the exact artwork and colors printed on this 180 x 70 cm long rectangular shawl: long midnight-blue to burnt-orange seascape, dark clouds, illustrated blue-skinned white-haired mermaid in the upper half, purple plant and ribbons, birds, multicolored fish, blue coral near bottom, narrow grey edge. Print only this design on the actual wearable textile; preserve the distinctive border and artwork glimpses on visible folds; no generic replacement. Drape the long shawl once around the shoulders with two long ends falling naturally, one end lifted slightly in movement so the gradient, fish and mermaid imagery show. Model in sleek dark navy outfit, loose hair swept back by a light breeze. Laughing side profile facing left, teeth visible, genuine animated expression. Pale sand gallery arcade at dusk, cinematic but real daylight. The scarf should look naturally worn in a believable fashion portrait, with realistic fabric folds, size, lighting and skin texture. Vertical composition; one photographic image. Do not copy the reference collage's outfits, sunglasses, pose, or scarf styling. No text overlay, watermark, extra person, or invented logo.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p05-night-orange.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e26ed29256e1\\exec-b6b9df76-8f85-4ef2-b8f1-a5c3da38b48d.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "observations": "Reviewed: recognizable laughing side-profile; long midnight-to-orange mermaid shawl with fish and coral visible in moving drape.",
+    "status": "accepted"
+  }
+}

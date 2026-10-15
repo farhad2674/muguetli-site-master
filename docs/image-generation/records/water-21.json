@@ -1,0 +1,17 @@
+{
+  "designId": "water-21",
+  "src": "/media/product-models/elnaz/water-21.png",
+  "width": 941,
+  "height": 1672,
+  "prompt": "Create a single photorealistic high-end fashion editorial photograph for Muguetli Water design water-21. Reference image 1 is only the same real woman's facial identity (recognizable dark eyes, face structure, dark hair); invent a fresh pose and expression, distinctly different from the reference collage's tilted head and closed neutral lips. Reference image 2 is the exact printed design for a 90 x 90 cm square scarf: rust-copper outer border and dark inset, dark blue underwater scene, illustrated black-haired mermaid woman holding a grey cat, yellow-orange ribbons, vivid red-purple coral and fish. Use its actual palette and recognizable artwork on the worn textile, with realistic folds and scale. Model wears a soft terracotta linen shirt; scarf loosely over the hair and secured at the nape, one printed side falling naturally over a shoulder so cat, mermaid, coral, and rust border show in folds. Her dark hair is partly tucked in; she looks down then smiles to someone off camera, teeth visible and cheeks lifted. Weathered cream stone courtyard, warm morning light. The textile is worn naturally, not shown as a rigid poster or bib. Keep visible print fragments accurate; the full flat artwork exists elsewhere on the product page. One model in a vertical photographic scene, natural skin and lighting. No copy of the collage's original outfits, sunglasses, pose or scarf. No generic print substitution, invented motifs, extra people, text overlays, watermarks or invented logos.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p05-cats-rust.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e26ed29256e1\\exec-1301e6b7-ca6c-44e5-8710-ece28df01ea1.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "observations": "Reviewed: consistent face with warm smile; rust border, mermaid holding cat and colorful reef visible in an over-hair wrap.",
+    "status": "accepted"
+  }
+}

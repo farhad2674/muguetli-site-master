@@ -1,0 +1,284 @@
+[
+  {
+    "id": "pistachio",
+    "labelFa": "پسته‌ای",
+    "labelEn": "Pistachio study",
+    "sourceFolder": "elnaz new/سایت/Pre collection/پسته ای",
+    "images": [
+      {
+        "src": "/media/pre-collection/pistachio/img-9179.webp",
+        "width": 1024,
+        "height": 1024,
+        "sourceFile": "elnaz new/سایت/Pre collection/پسته ای/IMG_9179.PNG"
+      },
+      {
+        "src": "/media/pre-collection/pistachio/img-8590.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/پسته ای/IMG_8590.JPG"
+      },
+      {
+        "src": "/media/pre-collection/pistachio/img-8605.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/پسته ای/IMG_8605.JPG"
+      }
+    ]
+  },
+  {
+    "id": "black-white",
+    "labelFa": "سفید مشکی",
+    "labelEn": "Black and white study",
+    "sourceFolder": "elnaz new/سایت/Pre collection/سفیدمشکی",
+    "images": [
+      {
+        "src": "/media/pre-collection/black-white/img-1858.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/سفیدمشکی/IMG_1858.JPG"
+      },
+      {
+        "src": "/media/pre-collection/black-white/img-1859.webp",
+        "width": 1174,
+        "height": 1175,
+        "sourceFile": "elnaz new/سایت/Pre collection/سفیدمشکی/IMG_1859.JPG"
+      },
+      {
+        "src": "/media/pre-collection/black-white/img-1861.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/سفیدمشکی/IMG_1861.JPG"
+      },
+      {
+        "src": "/media/pre-collection/black-white/img-1863.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/سفیدمشکی/IMG_1863.JPG"
+      },
+      {
+        "src": "/media/pre-collection/black-white/img-1864.webp",
+        "width": 1799,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/سفیدمشکی/IMG_1864.JPG"
+      }
+    ]
+  },
+  {
+    "id": "blue-2",
+    "labelFa": "آبی ۲",
+    "labelEn": "Blue study 02",
+    "sourceFolder": "elnaz new/سایت/Pre collection/ابی۲",
+    "images": [
+      {
+        "src": "/media/pre-collection/blue-2/img-9175.webp",
+        "width": 1024,
+        "height": 1024,
+        "sourceFile": "elnaz new/سایت/Pre collection/ابی۲/IMG_9175.PNG"
+      },
+      {
+        "src": "/media/pre-collection/blue-2/img-1842.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/ابی۲/IMG_1842.JPG"
+      },
+      {
+        "src": "/media/pre-collection/blue-2/img-1843.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/ابی۲/IMG_1843.JPG"
+      },
+      {
+        "src": "/media/pre-collection/blue-2/img-1844.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/ابی۲/IMG_1844.JPG"
+      },
+      {
+        "src": "/media/pre-collection/blue-2/img-1845.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/ابی۲/IMG_1845.JPG"
+      }
+    ]
+  },
+  {
+    "id": "blue-3",
+    "labelFa": "آبی ۳",
+    "labelEn": "Blue study 03",
+    "sourceFolder": "elnaz new/سایت/Pre collection/ابی۳",
+    "images": [
+      {
+        "src": "/media/pre-collection/blue-3/img-9177.webp",
+        "width": 1024,
+        "height": 1024,
+        "sourceFile": "elnaz new/سایت/Pre collection/ابی۳/IMG_9177.PNG"
+      },
+      {
+        "src": "/media/pre-collection/blue-3/img-1846.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/ابی۳/IMG_1846.JPG"
+      },
+      {
+        "src": "/media/pre-collection/blue-3/img-1847.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/ابی۳/IMG_1847.JPG"
+      },
+      {
+        "src": "/media/pre-collection/blue-3/img-1848.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/ابی۳/IMG_1848.JPG"
+      },
+      {
+        "src": "/media/pre-collection/blue-3/img-1849.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/ابی۳/IMG_1849.JPG"
+      }
+    ]
+  },
+  {
+    "id": "green",
+    "labelFa": "سبز",
+    "labelEn": "Green study",
+    "sourceFolder": "elnaz new/سایت/Pre collection/سبز",
+    "images": [
+      {
+        "src": "/media/pre-collection/green/img-1853.webp",
+        "width": 1254,
+        "height": 1254,
+        "sourceFile": "elnaz new/سایت/Pre collection/سبز/IMG_1853.PNG"
+      },
+      {
+        "src": "/media/pre-collection/green/img-1851.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/سبز/IMG_1851.jpg"
+      },
+      {
+        "src": "/media/pre-collection/green/img-1852.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/سبز/IMG_1852.jpg"
+      }
+    ]
+  },
+  {
+    "id": "grey",
+    "labelFa": "طوسی",
+    "labelEn": "Grey study",
+    "sourceFolder": "elnaz new/سایت/Pre collection/طوسی",
+    "images": [
+      {
+        "src": "/media/pre-collection/grey/img-8654.webp",
+        "width": 1800,
+        "height": 1786,
+        "sourceFile": "elnaz new/سایت/Pre collection/طوسی/IMG_8654.JPG"
+      }
+    ]
+  },
+  {
+    "id": "navy",
+    "labelFa": "سرمه‌ای",
+    "labelEn": "Navy study",
+    "sourceFolder": "elnaz new/سایت/Pre collection/سرمه ای",
+    "images": [
+      {
+        "src": "/media/pre-collection/navy/img-1857.webp",
+        "width": 1024,
+        "height": 1024,
+        "sourceFile": "elnaz new/سایت/Pre collection/سرمه ای/IMG_1857.PNG"
+      },
+      {
+        "src": "/media/pre-collection/navy/img-1854.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/سرمه ای/IMG_1854.JPG"
+      },
+      {
+        "src": "/media/pre-collection/navy/img-1855.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/سرمه ای/IMG_1855.JPG"
+      },
+      {
+        "src": "/media/pre-collection/navy/img-1856.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/سرمه ای/IMG_1856.JPG"
+      }
+    ]
+  },
+  {
+    "id": "orange",
+    "labelFa": "نارنجی",
+    "labelEn": "Orange study",
+    "sourceFolder": "elnaz new/سایت/Pre collection/نارنجی",
+    "images": [
+      {
+        "src": "/media/pre-collection/orange/img-1883.webp",
+        "width": 1024,
+        "height": 1024,
+        "sourceFile": "elnaz new/سایت/Pre collection/نارنجی/IMG_1883.PNG"
+      },
+      {
+        "src": "/media/pre-collection/orange/img-1877.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/نارنجی/IMG_1877.jpg"
+      },
+      {
+        "src": "/media/pre-collection/orange/img-1878.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/نارنجی/IMG_1878.jpg"
+      },
+      {
+        "src": "/media/pre-collection/orange/img-1884.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/نارنجی/IMG_1884.jpg"
+      },
+      {
+        "src": "/media/pre-collection/orange/img-1886.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/نارنجی/IMG_1886.jpg"
+      }
+    ]
+  },
+  {
+    "id": "red",
+    "labelFa": "قرمز",
+    "labelEn": "Red study",
+    "sourceFolder": "elnaz new/سایت/Pre collection/قرمز",
+    "images": [
+      {
+        "src": "/media/pre-collection/red/img-1871.webp",
+        "width": 1254,
+        "height": 1254,
+        "sourceFile": "elnaz new/سایت/Pre collection/قرمز/IMG_1871.PNG"
+      },
+      {
+        "src": "/media/pre-collection/red/img-1869.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/قرمز/IMG_1869.jpg"
+      },
+      {
+        "src": "/media/pre-collection/red/img-1872.webp",
+        "width": 1800,
+        "height": 1101,
+        "sourceFile": "elnaz new/سایت/Pre collection/قرمز/IMG_1872.jpg"
+      },
+      {
+        "src": "/media/pre-collection/red/img-1873.webp",
+        "width": 1200,
+        "height": 1800,
+        "sourceFile": "elnaz new/سایت/Pre collection/قرمز/IMG_1873.jpg"
+      }
+    ]
+  }
+]

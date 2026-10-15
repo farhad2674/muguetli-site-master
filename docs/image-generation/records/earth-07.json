@@ -1,0 +1,18 @@
+{
+  "designId": "earth-07",
+  "src": "/media/product-models/elnaz/earth-07.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Create a single photorealistic vertical editorial portrait of the SAME woman from the facial collage, with new movement and expression: she stands in left profile, laughing softly while looking down and to her left, dark hair loosely tied back, face recognizable. Warm camel linen blazer and black top. Wear the exact 90×90 cm Earth silk square from the artwork and flat product photo as a slim folded neck scarf with an elegant loose side knot and one modest printed tail over the lapel. The visible print retains violet-magenta night sky and coral moon, white lily-of-the-valley stems and dark green leaves, turquoise flowing river with white arcs and a pastel edge. Natural folds, realistic 90 cm scale, no giant flat front panel. Sunlit courtyard with lavender-gray wall, tactile silk, real skin texture, upper body, one woman, no text or watermarks.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-landscape-colour.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-landscape-colour\\img-9108.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-7537ad85-a6db-48a2-8753-ce6c83aeaf14.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Slim side-tied neck scarf with moonlit violet sky, lily stems, and turquoise river regions visible. Laughing downcast pose and camel tailoring add variety."
+  }
+}

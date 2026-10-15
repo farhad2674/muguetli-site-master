@@ -1,0 +1,17 @@
+{
+  "designId": "water-01",
+  "src": "/media/product-models/elnaz/water-01.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Photorealistic luxury fashion editorial portrait for Muguetli Water design water-01. Reference image 1 is a collage of the real woman's face: preserve her recognizable facial identity, dark brown eyes, dark hair, natural skin texture and features, but create a fresh pose and expression. Reference image 2 is the exact artwork for the scarf; faithfully reproduce its purple outer border, black inner line, cobalt blue underwater field, dark-haired illustrated woman, olive dress, green flowing ribbons, bright tropical fish and coral. Make this exact artwork visible on a 90 x 90 cm square scarf worn loosely over one shoulder and softly around the neck, with a broad flat panel facing the camera so motifs and borders read clearly. The model has a gentle relaxed smile, wears a minimal cream blouse, stands by a pale blue-gray stone wall with soft window light. Waist-up vertical photographic composition, elegant natural stance, realistic fabric drape, no other printed garments. The face collage is identity guidance only; do not copy its original outfits, sunglasses, pose, or collage layout. The artwork is scarf print guidance only; do not place the print on background. Single photo only, no text, no watermark, no extra person, no invented logos.",
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e26ed29256e1\\exec-6bbd3dc3-ebdf-4226-8aec-2e914989ea6f.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Consistent face; purple border and cobalt underwater artwork clearly readable on a broad square-scarf panel."
+  },
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p03-figure-purple.webp"
+  ]
+}

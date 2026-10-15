@@ -1,0 +1,17 @@
+{
+  "designId": "water-14",
+  "src": "/media/product-models/elnaz/water-14.png",
+  "width": 941,
+  "height": 1672,
+  "prompt": "Create ONE photorealistic fashion product editorial image for Muguetli Water design water-14. Use reference image 1 only to keep the same real woman's recognizable face and natural skin, dark eyes and hair; vary her expression and pose from the collage. Use reference image 2 as the exact textile artwork on a 90 x 90 cm square scarf: black outer frame and white inset, cobalt-blue sky above copper-orange sea, white-haired dark-blue-faced illustrated woman in coral top, clouds, pink palm and small fish. Preserve its composition, dominant colors, distinctive figures, motifs, and borders. Model wears a slate-blue sleeveless tailored dress; square scarf loosely under the chin and opened widely over one shoulder, central portrait facing the viewer. Hair pulled back low, calm thoughtful side glance, shoulders almost profile. Background: warm pale sand-colored stone wall with soft angled daylight. The printed scarf/shawl must be visibly worn, realistic in scale, fabric folds and drape; keep a broad portion flat enough to identify the exact design. Single woman, vertical photographic composition, refined natural styling, no second person. Do not copy clothing, sunglasses, poses, or original scarf from the face collage. Do not introduce a generic marine pattern, place artwork in the scene, add text, watermark, or invented logos.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p04-horizon-blue.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e26ed29256e1\\exec-caff1b4e-d756-436b-b515-7d258ea6984e.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "observations": "Reviewed: same recognizable face; blue-orange horizon portrait, white-haired dark-blue figure and palm visible; over-shoulder pose.",
+    "status": "accepted"
+  }
+}

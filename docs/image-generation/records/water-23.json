@@ -1,0 +1,17 @@
+{
+  "designId": "water-23",
+  "src": "/media/product-models/elnaz/water-23.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Create a single photorealistic high-end fashion editorial photograph for Muguetli Water design water-23. Reference image 1 is only the same real woman's facial identity (recognizable dark eyes, face structure, dark hair); invent a fresh pose and expression, distinctly different from the reference collage's tilted head and closed neutral lips. Reference image 2 is the exact printed design for a 90 x 90 cm square scarf: powder-blue outer border, white inset, very pale rose and ivory reef, white-haired illustrated mermaid woman in soft pink holding cat, lavender branches and pastel fish. Use its actual palette and recognizable artwork on the worn textile, with realistic folds and scale. Model wears a muted periwinkle blouse and off-white trousers. Drape scarf over both shoulders like a relaxed soft wrap, lightly gathered at the collarbone with her hand; show the powder-blue edge and pink/lavender reef in the draping fabric. Hair in a relaxed side braid. She faces camera directly, upright head, a warm smile with teeth showing, no neutral closed-mouth expression. Pearl-grey studio with soft skylight. The textile is worn naturally, not shown as a rigid poster or bib. Keep visible print fragments accurate; the full flat artwork exists elsewhere on the product page. One model in a vertical photographic scene, natural skin and lighting. No copy of the collage's original outfits, sunglasses, pose or scarf. No generic print substitution, invented motifs, extra people, text overlays, watermarks or invented logos.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p05-cats-pale.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e26ed29256e1\\exec-80a5c3a7-2cf3-434f-8c95-9ef2344e32cf.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "observations": "Reviewed: consistent face with gentle teeth-visible smile; powder-blue edge, pale pink mermaid-cat reef and purple coral visible in shoulder wrap.",
+    "status": "accepted"
+  }
+}

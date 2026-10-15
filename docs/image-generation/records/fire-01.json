@@ -1,0 +1,18 @@
+{
+  "designId": "fire-01",
+  "src": "/media/product-models/elnaz/fire-01.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Use case: product-mockup. Asset type: second image for a luxury silk scarf product detail gallery. Input images: Image 1 is a collage of the same real woman; use it only to preserve her recognizable face, dark brown eyes, brows, hairline, skin texture and mature adult proportions. Image 2 is the exact flat PDF artwork for Fire 01, and Image 3 is the physical scarf photo; use these only as the one textile to model. Create a photorealistic three-quarter editorial portrait of this woman wearing the actual 90 x 90 cm square silk scarf, folded diagonally and loosely draped around her shoulders with one corner hanging enough to reveal the large orange-pink phoenix, lilac-purple sky, dark violet border, green and blue tendrils. The print, motif positions and palette should track Images 2 and 3 as closely as possible; no generic replacement print. She gives a small assured smile and slight head turn, in a pale ivory tailored blouse. Setting: warm limestone arch with soft reflected daylight, contemporary luxury fashion photography, realistic silk weave and natural facial detail, waist-up framing, no other people. Distinct from reference poses and background. No added text, logos, watermark, collage, giant fabric, or fantasy wings.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\fire-p01-phoenix-lilac.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\fire-p01-phoenix-lilac\\img-9114.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-82033b69-335a-4559-9180-8bf5fa28fc0a.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Recognizable face, plausible square-scarf drape, correct lilac phoenix palette and border. Folded print is illustrative and does not reproduce every line exactly."
+  }
+}

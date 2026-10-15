@@ -1,6 +1,7 @@
 'use client';
 
 import { ArrowUpRight, X } from 'lucide-react';
+import Link from 'next/link';
 import { Dialog, DialogTrigger, DialogContent, DialogTitle, DialogDescription, DialogClose } from '@/components/ui/dialog';
 import { scarfStudies } from '@/lib/editorial';
 import { t, type Locale } from '@/lib/muguetli';
@@ -8,6 +9,7 @@ import styles from './scarf-gallery.module.css';
 
 export function ScarfGallery({ locale, ids, cinematic = false }: { locale: Locale; ids?: string[]; cinematic?: boolean }) {
   const fa = locale === 'fa';
+  const catalogIds: Record<string, string> = { rust: 'water-21', red: 'water-05', indigo: 'water-18', olive: 'water-03' };
   return <div className={`${styles.grid} ${cinematic ? styles.cinematic : ''}`}>
     {scarfStudies.filter(scarf => !ids || ids.includes(scarf.id)).map((scarf) => <article key={scarf.id} className={styles.card} id={`scarf-${scarf.id}`}>
       <Dialog>
@@ -29,7 +31,8 @@ export function ScarfGallery({ locale, ids, cinematic = false }: { locale: Local
             <span className={styles.detailLabel}>MUGUETLI / {fa ? 'روسری' : 'SCARVES'}</span>
             <DialogTitle className={styles.title}>{t(scarf.name, locale)}</DialogTitle>
             <DialogDescription className={styles.description}>{t(scarf.description, locale)}</DialogDescription>
-            <p className={styles.availability}>{fa ? 'اطلاعات اندازه، جنس و خرید به‌زودی اعلام می‌شود.' : 'Size, material and purchase details are yet to be announced.'}</p>
+            <p className={styles.availability}>{fa ? 'فرم‌ها و اندازه‌های ثبت‌شده را در صفحهٔ اثر ببینید. جنس و موجودی پس از تأیید اعلام می‌شود.' : 'See documented forms and sizes on the artwork page. Fabric and availability await confirmation.'}</p>
+            <Link className={styles.productLink} href={`/${locale}/products/${catalogIds[scarf.id]}`}>{fa ? 'دیدن صفحهٔ اثر' : 'View artwork page'}<ArrowUpRight size={17} /></Link>
           </div>
         </DialogContent>
       </Dialog>

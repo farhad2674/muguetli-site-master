@@ -1,0 +1,18 @@
+{
+  "designId": "earth-06",
+  "src": "/media/product-models/elnaz/earth-06.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Photorealistic vertical fashion portrait with one woman wearing exactly the square silk scarf in the Earth artwork and product photo. The same Iranian woman's identity from face collage must remain recognizable, but not its pose: upright head, left-facing three-quarter angle, infectious open smile showing teeth, eyes visibly joyful. Brunette hair mostly covered by a CLASSIC triangular 90×90 cm headscarf tied lightly under chin, with real silk folds and one short corner beside shoulder. Deep charcoal coat over simple white top. Visible print shows dark forest-green leaves, ivory hanging lily-of-the-valley bells, small fairy figure, pink-lilac circular rim and lavender border. Keep actual motif and palette, no generic floral replacement, no oversized floating cloth. Warm white architectural arch in background, editorial daylight and realistic skin, upper torso, one person, no text/watermarks.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-flowers-green.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-flowers-green\\img-9074.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-8fe07491-3cfd-4e7a-aabf-b9c5a7c8e607.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Classic triangular headscarf tied under chin; forest-green floral print, white bells, fairy and lavender edge legible. Warm smiling expression."
+  }
+}

@@ -1,88 +1,183 @@
 'use client';
-import { useEffect, useRef, useState } from 'react';
+
+import { Suspense, useEffect, useRef, useState, type MouseEvent, type ReactNode } from 'react';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { ArrowUpRight, ShoppingBag } from 'lucide-react';
-import { Sheet,SheetTrigger,SheetContent,SheetTitle,SheetDescription,SheetClose } from '@/components/ui/sheet';
-import { NavigationMenu,NavigationMenuList,NavigationMenuItem,NavigationMenuTrigger,NavigationMenuContent,NavigationMenuLink } from '@/components/ui/navigation-menu';
-import { Accordion,AccordionItem,AccordionTrigger,AccordionContent } from '@/components/ui/accordion';
-import { t,type Locale } from '@/lib/muguetli';
-import { moreLabel,type Collection } from '@/lib/editorial';
-import styles from './site-chrome.module.css';
+import { usePathname, useSearchParams } from 'next/navigation';
+import { ArrowUpRight } from 'lucide-react';
+import { Sheet, SheetClose, SheetContent, SheetDescription, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
+import { navigation, t, type Locale } from '@/lib/muguetli';
+import { collectionIds, collectionMeta, type CollectionId } from '@/lib/catalog';
 import { MotionToggle, useMotionPreference } from './motion-preference';
+import styles from './site-chrome.module.css';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-function RollingLabel({ children }: { children: string }) {
- return <span className={styles.rollingLabel}><span>{children}</span><span aria-hidden="true">{children}</span></span>;
-}
-
 function rememberLocale(locale: Locale) {
- document.cookie=`muguetli_locale=${locale}; Max-Age=31536000; Path=/; SameSite=Lax`;
+  document.cookie = `muguetli_locale=${locale}; Max-Age=31536000; Path=/; SameSite=Lax`;
 }
 
-export function SiteChrome({locale,shopUrl,journalUrl,collections,children}:{locale:Locale;shopUrl?:string;journalUrl?:string;collections:Collection[];children:React.ReactNode}){
- const pathname=usePathname();const fa=locale==='fa';const home=`/${locale}`;const other=fa?'en':'fa';
- const otherPath=pathname.replace(/^\/(?:en|fa)(?=\/|$)/,`/${other}`);
- const [open,setOpen]=useState(false);const headerRef=useRef<HTMLElement>(null);
- const footerRef=useRef<HTMLElement>(null);const {reduced}=useMotionPreference();
- useEffect(()=>{
-  if(reduced||!footerRef.current)return;
-  gsap.registerPlugin(ScrollTrigger);
-  const context=gsap.context(()=>{gsap.fromTo('[data-footer-mark]',{y:24},{y:0,ease:'none',scrollTrigger:{trigger:footerRef.current,start:'top bottom',end:'top 75%',scrub:true}});},footerRef);
-  return()=>context.revert();
- },[reduced]);
- useEffect(()=>{
-  document.documentElement.lang=locale;
-  document.documentElement.dir=locale==='fa'?'rtl':'ltr';
-  rememberLocale(locale);
- },[locale]);
- const copy=(en:string,faText:string)=>fa?faText:en;
- const more=[{slug:'nfts',name:'NFTs',fa:'ان‌اف‌تی'},{slug:'books',name:'Books',fa:'کتاب‌ها'},{slug:'ebook',name:'eBook',fa:'کتاب الکترونیکی'},{slug:'consulting',name:'Consulting',fa:'مشاوره'}];
- useEffect(()=>{
-  let frame=0;
-  const update=()=>{frame=0;const story=document.querySelector('main>section');const rect=story?.getBoundingClientRect();const commerce=pathname!==home||!rect?1:Math.max(0,Math.min(1,rect.height<=innerHeight+1?-rect.top/180:(innerHeight-rect.bottom+180)/180));headerRef.current?.style.setProperty('--commerce',String(commerce));headerRef.current?.style.setProperty('--shrink',String(Math.min(1,scrollY/350)));const surface=document.elementsFromPoint(innerWidth/2,160).map(el=>el.closest<HTMLElement>('[data-surface]')).find(Boolean);if(headerRef.current)headerRef.current.dataset.surface=surface?.dataset.surface||'light';};
-  const scroll=()=>{if(!frame)frame=requestAnimationFrame(update);};
-  update();addEventListener('scroll',scroll,{passive:true});addEventListener('resize',scroll);return()=>{removeEventListener('scroll',scroll);removeEventListener('resize',scroll);cancelAnimationFrame(frame);};
- },[pathname,home]);
- const productsContent=<div className={styles.mega}><div className={styles.megaHead}><span>{copy('COLLECTIONS','مجموعه‌ها')}</span><a href={shopUrl||`${home}/collections`}>{copy('Shop All','همهٔ محصولات')}<ArrowUpRight size={16}/></a></div>{collections.length?<div className={styles.megaCards}>{collections.slice(0,6).map(c=><NavigationMenuLink key={c.id} href={c.url} className={styles.megaCard}><img src={c.image} alt="" width={400} height={400}/><span>{c.name}</span></NavigationMenuLink>)}</div>:<div className={styles.megaEmpty}><img src="/media/collection/scarf-red.jpg" alt="" width={1280} height={1280}/><div><p>{copy('Wear the story.','داستان را بپوش.')}</p><span>{copy('Illustrated scarves. A world in every fold.','روسری‌های مصور؛ جهانی در هر تا.')}</span><NavigationMenuLink href={`${home}/collections`}>{copy('Explore Collections','دیدن مجموعه‌ها')}<ArrowUpRight size={17}/></NavigationMenuLink></div></div>}</div>;
- return <>
- <a href="#main-content" className={styles.skipContent}>{copy('Skip navigation','عبور از ناوبری')}</a>
- <header ref={headerRef} className={styles.header}>
-  <Link className={styles.brand} href={home}>MUGUETLI<span>{copy('ART IN TRANSFORMATION','هنر در دگرگونی')}</span></Link>
-  <div className={styles.desktop}>
-   <NavigationMenu align="center" aria-label={copy('Primary navigation','ناوبری اصلی')}><NavigationMenuList className={styles.navList}>
-    <NavigationMenuItem><NavigationMenuTrigger className={styles.navLink}><RollingLabel>{copy('Products','محصولات')}</RollingLabel></NavigationMenuTrigger><NavigationMenuContent>{productsContent}</NavigationMenuContent></NavigationMenuItem>
-    <NavigationMenuItem><NavigationMenuLink href={journalUrl||`${home}/journal`} className={styles.navLink}><RollingLabel>{copy('Articles','مقاله‌ها')}</RollingLabel></NavigationMenuLink></NavigationMenuItem>
-    <NavigationMenuItem><NavigationMenuTrigger className={styles.navLink}><RollingLabel>{t(moreLabel,locale)}</RollingLabel></NavigationMenuTrigger><NavigationMenuContent><div className={styles.moreMenu}>{more.map(m=><NavigationMenuLink href={`${home}/${m.slug}`} key={m.slug}>{fa?m.fa:m.name}<ArrowUpRight size={16}/></NavigationMenuLink>)}</div></NavigationMenuContent></NavigationMenuItem>
-   </NavigationMenuList></NavigationMenu>
-  </div>
-  <div className={styles.utilities}><MotionToggle locale={locale} /><Link className={styles.language} href={otherPath} onClick={()=>rememberLocale(other)} aria-label={copy('Switch to Persian','تغییر زبان به انگلیسی')}>{fa?'EN':'FA'}</Link>{shopUrl&&<a href={shopUrl} aria-label={copy('Shop','فروشگاه')}><ShoppingBag size={19} strokeWidth={1.3}/></a>}
-   <a className={styles.exploreCta} href={pathname===home?'#collections':`${home}/collections`}><span>{copy('Explore','کاوش')}</span><span className={styles.arrowBadge}><ArrowUpRight size={16}/></span></a>
-   <Sheet open={open} onOpenChange={setOpen}>
-    <SheetTrigger className={styles.menuButton} aria-label={copy('Open navigation menu','باز کردن فهرست')} aria-expanded={open} aria-controls="muguetli-menu"><svg viewBox="0 0 32 24" aria-hidden="true"><path d="M2 7 Q15 5 29 7"/><path d="M7 16 Q18 18 30 16"/></svg></SheetTrigger>
-    <SheetContent id="muguetli-menu" side="right" showCloseButton={false} className={styles.mobileMenu} dir={fa?'rtl':'ltr'}>
-     <div className={styles.menuTop}><SheetTitle>MUGUETLI</SheetTitle><SheetClose className={styles.menuButton} aria-label={copy('Close navigation menu','بستن فهرست')}><svg viewBox="0 0 32 24" aria-hidden="true" className={styles.closeIcon}><path d="M5 3 L27 21"/><path d="M5 21 L27 3"/></svg></SheetClose></div>
-     <SheetDescription className={styles.menuDescription}>{copy('A world of art, memory and transformation.','جهانی از هنر، حافظه و دگرگونی.')}</SheetDescription>
-     <nav><Link onClick={()=>setOpen(false)} href={home} className={styles.mobileLink}>{copy('Home','خانه')}</Link>
-      <Accordion><AccordionItem value="products"><AccordionTrigger className={styles.mobileLink}>{copy('Products','محصولات')}</AccordionTrigger><AccordionContent><div className={styles.mobileCollections}>{collections.map(c=><a onClick={()=>setOpen(false)} href={c.url} key={c.id}><img src={c.image} alt="" width={120} height={120}/><span>{c.name}</span></a>)}<a onClick={()=>setOpen(false)} href={shopUrl||`${home}/collections`}>{copy('Explore Collections','دیدن مجموعه‌ها')} ↗</a></div></AccordionContent></AccordionItem></Accordion>
-      <Link onClick={()=>setOpen(false)} href={journalUrl||`${home}/journal`} className={styles.mobileLink}>{copy('Articles','مقاله‌ها')}</Link>
-      <Accordion><AccordionItem value="more"><AccordionTrigger className={styles.mobileLink}>{t(moreLabel,locale)}</AccordionTrigger><AccordionContent><div className={styles.mobileMore}>{more.map(m=><Link onClick={()=>setOpen(false)} href={`${home}/${m.slug}`} key={m.slug}>{fa?m.fa:m.name}<ArrowUpRight size={16}/></Link>)}</div></AccordionContent></AccordionItem></Accordion>
-     </nav><div className={styles.menuBottom}>MATTER · MEMORY · METAMORPHOSIS</div>
-    </SheetContent>
-   </Sheet>
-  </div>
- </header>
- <div id="main-content" tabIndex={-1}>{children}</div>
- <footer ref={footerRef} className={styles.footer} data-surface="dark">
-  <div className={styles.footerTop}>
-   <div className={styles.footerIdentity}><Link href={home} className={styles.footerLogo} data-footer-mark>MUGUETLI</Link><p>{copy('A world to wear. A story to live.','جهانی برای پوشیدن. داستانی برای زیستن.')}</p><a className={styles.backToTop} href="#main-content">{copy('Back to top','بازگشت به بالا')} ↑</a></div>
-   <nav aria-label={copy('Sitemap','نقشهٔ سایت')} className={styles.footerMap}><h2>{copy('SITEMAP','نقشهٔ سایت')}</h2><div><Link href={home}>{copy('Home','خانه')}</Link><Link href={shopUrl||`${home}/collections`}>{copy('Scarves & collections','روسری‌ها و مجموعه‌ها')}</Link><Link href={`${home}/books`}>{copy('Physical book','کتاب چاپی')}</Link><Link href={`${home}/ebook`}>{copy('eBook','کتاب الکترونیکی')}</Link><Link href={`${home}/about`}>{copy('Founder & story','بنیان‌گذار و داستان')}</Link><Link href={`${home}/consulting`}>{copy('The atelier','آتلیه')}</Link><Link href={journalUrl||`${home}/journal`}>{copy('Journal','ژورنال')}</Link><Link href={`${home}/nfts`}>{copy('Digital art','هنر دیجیتال')}</Link><Link href={`${home}/mythology`}>{copy('The Four Mothers','چهار مادر')}</Link></div></nav>
-   <nav aria-label={copy('Information','اطلاعات')} className={styles.footerInfo}><h2>{copy('INFORMATION','اطلاعات')}</h2><Link href={`${home}/contact`}>{copy('Contact','ارتباط')}</Link><Link href={`${home}/privacy`}>{copy('Privacy','حریم خصوصی')}</Link><Link href={`${home}/accessibility`}>{copy('Accessibility','دسترسی‌پذیری')}</Link><Link href={`${home}/cookies`}>{copy('Cookies','کوکی‌ها')}</Link></nav>
-  </div>
-  <div className={styles.footerBottom}><span>© {new Date().getFullYear()} MUGUETLI</span><span>{copy('ART IN TRANSFORMATION','هنر در دگرگونی')}</span><Link href={otherPath} onClick={()=>rememberLocale(other)}>{fa?'English':'فارسی'} ↗</Link></div>
- </footer>
- </>;
+function LanguageLink({ path, targetLocale, children, className, ariaLabel }: { path: string; targetLocale: Locale; children: ReactNode; className?: string; ariaLabel?: string }) {
+  const searchParams = useSearchParams();
+  const query = searchParams.toString();
+  const href = `${path}${query ? `?${query}` : ''}`;
+  const switchLocale = (event: MouseEvent<HTMLAnchorElement>) => {
+    event.preventDefault();
+    rememberLocale(targetLocale);
+    window.location.assign(`${path}${window.location.search}${window.location.hash}`);
+  };
+  return <Link className={className} href={href} onClick={switchLocale} aria-label={ariaLabel}>{children}</Link>;
 }
 
+function LanguageSwitch(props: { path: string; targetLocale: Locale; children: ReactNode; className?: string; ariaLabel?: string }) {
+  const fallback = <Link className={props.className} href={props.path} aria-label={props.ariaLabel}>{props.children}</Link>;
+  return <Suspense fallback={fallback}><LanguageLink {...props} /></Suspense>;
+}
 
+export function SiteChrome({ locale, children }: { locale: Locale; children: React.ReactNode }) {
+  const pathname = usePathname();
+  const fa = locale === 'fa';
+  const home = `/${locale}`;
+  const other = fa ? 'en' : 'fa';
+  const otherPath = pathname.replace(/^\/(?:en|fa)(?=\/|$)/, `/${other}`);
+  const [open, setOpen] = useState(false);
+  const headerRef = useRef<HTMLElement>(null);
+  const footerRef = useRef<HTMLElement>(null);
+  const { reduced } = useMotionPreference();
+  const copy = (en: string, faText: string) => fa ? faText : en;
+  const collectionHref = (collection: CollectionId) => `${home}/collections/${collection}`;
+  const collectionLabel = (collection: CollectionId) => t(collectionMeta[collection].name, locale);
+  const primaryNavigation = [navigation[2], navigation[1], navigation[3], navigation[4], navigation[5]];
+  const productForms = [
+    { id: 'pocket-square', size: '50 × 50', en: 'Pocket square', fa: 'دستمال جیبی' },
+    { id: 'square-scarf', size: '90 × 90', en: 'Square scarf', fa: 'روسری مربع' },
+    { id: 'long-shawl', size: '180 × 70', en: 'Long shawl', fa: 'شال بلند' },
+  ];
+  const isActive = (slug: string) => pathname === `${home}/${slug}` || pathname.startsWith(`${home}/${slug}/`);
+
+  useEffect(() => {
+    if (reduced || !footerRef.current) return;
+    gsap.registerPlugin(ScrollTrigger);
+    const context = gsap.context(() => {
+      gsap.fromTo('[data-footer-mark]', { y: 24 }, { y: 0, ease: 'none', scrollTrigger: { trigger: footerRef.current, start: 'top bottom', end: 'top 75%', scrub: true } });
+    }, footerRef);
+    return () => context.revert();
+  }, [reduced]);
+
+  useEffect(() => {
+    document.documentElement.lang = locale;
+    document.documentElement.dir = fa ? 'rtl' : 'ltr';
+    rememberLocale(locale);
+  }, [fa, locale]);
+
+  useEffect(() => {
+    let frame = 0;
+    const update = () => {
+      frame = 0;
+      headerRef.current?.style.setProperty('--header-progress', String(Math.min(1, scrollY / 220)));
+    };
+    const queueUpdate = () => { if (!frame) frame = requestAnimationFrame(update); };
+    update();
+    addEventListener('scroll', queueUpdate, { passive: true });
+    return () => { removeEventListener('scroll', queueUpdate); cancelAnimationFrame(frame); };
+  }, []);
+
+  return <>
+    <a href="#main-content" className={styles.skipContent}>{copy('Skip navigation', 'عبور از ناوبری')}</a>
+    <header ref={headerRef} className={styles.header} dir={fa ? 'rtl' : 'ltr'}>
+      <Link className={styles.brand} href={home} aria-label={copy('Muguetli home', 'صفحهٔ اصلی موگه‌تلی')}>
+        <span className={styles.wordmark}>MUGUETLI</span>
+        <span className={styles.brandLine}>{copy('Narrative textile & image architecture', 'معماری روایت، منسوجات و تصویر')}</span>
+      </Link>
+
+      <nav className={styles.desktopNavigation} aria-label={copy('Primary navigation', 'ناوبری اصلی')}>
+        {primaryNavigation.map((item, index) => (
+          <Link href={`${home}/${item.slug}`} className={styles.navLink} data-active={isActive(item.slug) || undefined} aria-current={isActive(item.slug) ? 'page' : undefined} key={item.slug}>
+            <span className={styles.navIndex}>{String(index + 1).padStart(2, '0')}</span>
+            <span>{t(item.label, locale)}</span>
+          </Link>
+        ))}
+      </nav>
+
+      <div className={styles.utilities}>
+        <LanguageSwitch className={styles.language} path={otherPath} targetLocale={other} ariaLabel={copy('Switch to Persian', 'تغییر زبان به انگلیسی')}>{fa ? 'EN' : 'FA'}</LanguageSwitch>
+        <Sheet open={open} onOpenChange={setOpen}>
+          <SheetTrigger className={styles.menuButton} aria-label={copy('Open navigation menu', 'باز کردن فهرست')} aria-expanded={open} aria-controls="muguetli-menu">
+            <span className={styles.menuLabel}>{copy('Menu', 'فهرست')}</span>
+            <span className={styles.menuGlyph} aria-hidden="true"><span /><span /></span>
+          </SheetTrigger>
+          <SheetContent id="muguetli-menu" side={fa ? 'left' : 'right'} showCloseButton={false} className={styles.menuPanel} dir={fa ? 'rtl' : 'ltr'}>
+            <div className={styles.menuTop}>
+              <div>
+                <SheetTitle className={styles.menuWordmark}>MUGUETLI</SheetTitle>
+                <SheetDescription className={styles.menuDescription}>{copy('Browse the world of Muguetli', 'مسیر خود را در جهان موگه‌تلی پیدا کنید')}</SheetDescription>
+              </div>
+              <SheetClose className={styles.closeButton} aria-label={copy('Close navigation menu', 'بستن فهرست')}><span>{copy('Close', 'بستن')}</span><span className={styles.closeGlyph} aria-hidden="true" /></SheetClose>
+            </div>
+
+            <div className={styles.menuBody}>
+              <section className={styles.wearableMenu} aria-labelledby="wearable-menu-title">
+                <div className={styles.menuHeading}>
+                  <span>01</span>
+                  <div><p>{copy('Wearable art', 'هنر پوشیدنی')}</p><h2 id="wearable-menu-title">{copy('Scarves & textiles', 'روسری و منسوجات')}</h2></div>
+                  <Link href={`${home}/collections`} className={styles.viewAll}>{copy('View all', 'دیدن همه')} <ArrowUpRight size={16} /></Link>
+                </div>
+
+                <div className={styles.browsePaths}>
+                  <div className={styles.browseGroup}>
+                    <h3>{copy('Browse by collection', 'بر اساس مجموعه')}</h3>
+                    <div className={styles.collectionLinks}>
+                      {collectionIds.map((collection, index) => (
+                        <Link href={collectionHref(collection)} key={collection}>
+                          <span>{String(index + 1).padStart(2, '0')}</span><strong>{collectionLabel(collection)}</strong><ArrowUpRight size={17} />
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className={styles.browseGroup}>
+                    <h3>{copy('Browse by form', 'بر اساس فرم و اندازه')}</h3>
+                    <div className={styles.formLinks}>
+                      {productForms.map(form => (
+                        <Link href={`${home}/products?type=${form.id}`} key={form.id}>
+                          <span className={styles.formSize}>{form.size}</span><span>{fa ? form.fa : form.en}</span><ArrowUpRight size={17} />
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <nav className={styles.menuNavigation} aria-label={copy('All sections', 'همهٔ بخش‌ها')}>
+                {primaryNavigation.slice(1).map((item, index) => (
+                  <Link href={`${home}/${item.slug}`} key={item.slug}>
+                    <span>{String(index + 2).padStart(2, '0')}</span><strong>{t(item.label, locale)}</strong><ArrowUpRight size={18} />
+                  </Link>
+                ))}
+              </nav>
+            </div>
+
+            <div className={styles.menuBottom}>
+              <div className={styles.menuUtilities}>
+                <MotionToggle locale={locale} />
+                <LanguageSwitch path={otherPath} targetLocale={other}>{fa ? 'English' : 'فارسی'} ↗</LanguageSwitch>
+                <Link href={`${home}/size-guide`}>{copy('Size guide', 'راهنمای اندازه')} ↗</Link>
+              </div>
+              <p>{copy('Matter · Memory · Metamorphosis', 'ماده · حافظه · دگرگونی')}</p>
+            </div>
+          </SheetContent>
+        </Sheet>
+      </div>
+    </header>
+
+    <div id="main-content" tabIndex={-1}>{children}</div>
+
+    <footer ref={footerRef} className={styles.footer}>
+      <div className={styles.footerTop}>
+        <div className={styles.footerIdentity}><Link href={home} className={styles.footerLogo} data-footer-mark>MUGUETLI</Link><p>{copy('A world to wear. A story to live.', 'جهانی برای پوشیدن. داستانی برای زیستن.')}</p><a className={styles.backToTop} href="#main-content">{copy('Back to top', 'بازگشت به بالا')} ↑</a></div>
+        <nav aria-label={copy('Sitemap', 'نقشهٔ سایت')} className={styles.footerMap}><h2>{copy('SITEMAP', 'نقشهٔ سایت')}</h2><div><Link href={home}>{copy('Home', 'خانه')}</Link><Link href={`${home}/collections`}>{copy('Wearable art', 'هنر پوشیدنی')}</Link><Link href={`${home}/journal`}>{copy('Philosophy & journal', 'فلسفه و ژورنال')}</Link><Link href={`${home}/about`}>{copy('About Elnaz Bakhtiari', 'دربارهٔ الناز بختیاری')}</Link><Link href={`${home}/consulting`}>{copy('Form & embodiment', 'فرم و تجسّم')}</Link><Link href={`${home}/books`}>{copy('Zangole’am', 'زنگله‌ام')}</Link><Link href={`${home}/nfts`}>{copy('Digital art', 'هنر دیجیتال')}</Link><Link href={`${home}/mythology`}>{copy('The four mothers', 'چهار مادر')}</Link></div></nav>
+        <nav aria-label={copy('Information', 'اطلاعات')} className={styles.footerInfo}><h2>{copy('INFORMATION', 'اطلاعات')}</h2><Link href={`${home}/contact`}>{copy('Private inquiries', 'پرسش خصوصی')}</Link><Link href={`${home}/size-guide`}>{copy('Size guide', 'راهنمای اندازه')}</Link><Link href={`${home}/privacy`}>{copy('Privacy', 'حریم خصوصی')}</Link><Link href={`${home}/accessibility`}>{copy('Accessibility', 'دسترسی‌پذیری')}</Link><Link href={`${home}/cookies`}>{copy('Cookies', 'کوکی‌ها')}</Link></nav>
+      </div>
+      <div className={styles.footerBottom}><span>© {new Date().getFullYear()} MUGUETLI</span><span>{copy('NARRATIVE TEXTILE & IMAGE ARCHITECTURE', 'معماری روایت، منسوجات و تصویر')}</span><LanguageSwitch path={otherPath} targetLocale={other}>{fa ? 'English' : 'فارسی'} ↗</LanguageSwitch></div>
+    </footer>
+  </>;
+}

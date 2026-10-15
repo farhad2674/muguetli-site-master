@@ -42,28 +42,28 @@ export const t = (text: LocalizedText, locale: Locale) => text[locale];
 
 export const chapters: ElementChapter[] = [
   {
-    id: 'water', index: 1, name: { en: 'WATER', fa: 'آب' },
-    title: { en: 'SURRENDER', fa: 'تن‌سپاری' },
-    microLine: { en: 'What sinks returns transformed.', fa: 'آنچه فرو می‌رود، دگرگون بازمی‌گردد.' },
-    wooCategory: 'water', poster: '/media/four-mothers/water-key.webp',
-    cue: { element: 'water', scrollStart: .08, scrollEnd: .27, videoStart: .9, videoEnd: 2.42, productReveal: .2 },
-  },
-  {
-    id: 'fire', index: 2, name: { en: 'FIRE', fa: 'آتش' },
+    id: 'fire', index: 1, name: { en: 'FIRE', fa: 'آتش' },
     title: { en: 'PURIFICATION', fa: 'پالایش' },
     microLine: { en: 'What must end becomes essence.', fa: 'آنچه باید پایان یابد، به جوهر بدل می‌شود.' },
     wooCategory: 'fire', poster: '/media/four-mothers/fire-key.webp',
-    cue: { element: 'fire', scrollStart: .31, scrollEnd: .5, videoStart: 2.45, videoEnd: 4.42, productReveal: .43 },
+    cue: { element: 'fire', scrollStart: .08, scrollEnd: .27, videoStart: .9, videoEnd: 2.42, productReveal: .2 },
   },
   {
-    id: 'earth', index: 3, name: { en: 'EARTH', fa: 'خاک' },
+    id: 'earth', index: 2, name: { en: 'EARTH', fa: 'خاک' },
     title: { en: 'ANCESTRAL MEMORY', fa: 'حافظهٔ نیاکان' },
     microLine: { en: 'What remains takes root.', fa: 'آنچه می‌ماند، ریشه می‌دواند.' },
     wooCategory: 'earth', poster: '/media/four-mothers/earth-key.webp',
-    cue: { element: 'earth', scrollStart: .54, scrollEnd: .73, videoStart: 4.5, videoEnd: 7.42, productReveal: .66 },
+    cue: { element: 'earth', scrollStart: .31, scrollEnd: .5, videoStart: 2.45, videoEnd: 4.42, productReveal: .43 },
   },
   {
-    id: 'air', index: 4, name: { en: 'AIR', fa: 'باد' },
+    id: 'water', index: 3, name: { en: 'WATER', fa: 'آب' },
+    title: { en: 'SURRENDER', fa: 'تن‌سپاری' },
+    microLine: { en: 'What sinks returns transformed.', fa: 'آنچه فرو می‌رود، دگرگون بازمی‌گردد.' },
+    wooCategory: 'water', poster: '/media/four-mothers/water-key.webp',
+    cue: { element: 'water', scrollStart: .54, scrollEnd: .73, videoStart: 4.5, videoEnd: 7.42, productReveal: .66 },
+  },
+  {
+    id: 'air', index: 4, name: { en: 'WIND', fa: 'باد' },
     title: { en: 'LIBERATION', fa: 'رهایی' },
     microLine: { en: 'What was carried becomes light.', fa: 'آنچه بر دوش بود، سبک می‌شود.' },
     wooCategory: 'air', poster: '/media/four-mothers/air-key.webp',
@@ -73,7 +73,7 @@ export const chapters: ElementChapter[] = [
 
 export const siteCopy = {
   brand: 'MUGUETLI',
-  heroHook: { en: 'WHAT YOU SURVIVE BECOMES SILK.', fa: 'آنچه از سر می‌گذرانی، ابریشم می‌شود.' },
+  heroHook: { en: 'FROM THE HEIGHTS WE CAME, TO THE HEIGHTS WE ASCEND.', fa: 'ما ز بالاییم و بالا می‌رویم.' },
   mothers: { en: 'THE FOUR MOTHERS', fa: 'چهار مادر' },
   intro: { en: 'Four passages through matter, memory and transformation.', fa: 'چهار گذر از ماده، حافظه و دگرگونی.' },
   finale: { en: 'WEAR WHAT TRANSFORMED YOU.', fa: 'آنچه دگرگونت کرد، بپوش.' },
@@ -85,8 +85,10 @@ export const siteCopy = {
 
 export const navigation = [
   { slug: '', label: { en: 'Home', fa: 'خانه' } },
-  { slug: 'mythology', label: { en: 'Mythology', fa: 'اسطوره' } },
-  { slug: 'about', label: { en: 'About', fa: 'درباره' } },
-  { slug: 'contact', label: { en: 'Contact', fa: 'ارتباط' } },
+  { slug: 'journal', label: { en: 'Philosophy & Journal', fa: 'فلسفه و ژورنال' } },
+  { slug: 'collections', label: { en: 'Wearable Art', fa: 'هنر پوشیدنی' } },
+  { slug: 'consulting', label: { en: 'Form & Embodiment', fa: 'فرم و تجسّم' } },
+  { slug: 'about', label: { en: 'About Elnaz Bakhtiari', fa: 'دربارهٔ الناز بختیاری' } },
+  { slug: 'contact', label: { en: 'Private Consultation', fa: 'مشاورهٔ خصوصی' } },
 ] as const;
 

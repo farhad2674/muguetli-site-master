@@ -1,0 +1,18 @@
+{
+  "designId": "wind-04",
+  "src": "/media/product-models/elnaz/wind-04.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Use case: identity-preserve. Asset type: distinct second modeled photo for Muguetli detail wind-04. Image 1 is Elnaz's face identity collage; preserve her recognizable facial structure and natural skin. Image 2 is the exact artwork of this product and Image 3 is the real flat textile photo, both authoritative for the scarf print. Create one photorealistic luxury fashion editorial portrait of Elnaz. wear the 180 x 70 cm long shawl as a relaxed over-shoulder wrap over a cream sleeveless top, with a long panel showing the bird and lower ornaments. Print fidelity is critical: reproduce sage border, mint and turquoise spiral clouds, central ochre mythical bird carrying two line-drawn people, aqua-to-lilac field, hanging ornamental elements at lower edge, matching the source color, border and motif placement; never invent or substitute pattern. Plausible real fabric folds and 180 x 70 cm shawl geometry. Expression and pose: gentle open smile, looking slightly away, distinct from the reference collage. Background/lighting: airy indoor window light and pale stone backdrop. Vertical product-detail portrait, face and ample scarf both visible. One person, one image; no collage, no overlaid text, no watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p06-journey-mint.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p06-journey-mint\\img-9127.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-6832e5f5-6632-4c3a-b432-d409bca61d93.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Recognizable face and airy window scene; mint cloud spirals, ochre bird with two figures and lower ornaments retain source structure. Slight motif smoothing in small details; flatlay remains definitive."
+  }
+}

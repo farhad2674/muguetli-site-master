@@ -1,0 +1,17 @@
+{
+  "designId": "water-12",
+  "src": "/media/product-models/elnaz/water-12.png",
+  "width": 941,
+  "height": 1672,
+  "prompt": "Create ONE photorealistic fashion product editorial image for Muguetli Water design water-12. Use reference image 1 only to keep the same real woman's recognizable face and natural skin, dark eyes and hair; vary her expression and pose from the collage. Use reference image 2 as the exact textile artwork on a 180 x 70 cm long rectangular shawl: pale pink-lilac ground, mint aqua edges, white translucent mermaid silhouette, turquoise flowing ribbons, bright green small fish and dark-blue plants. Preserve its composition, dominant colors, distinctive figures, motifs, and borders. Model wears a muted lilac blouse and ivory wide-leg trousers. Both long ends of the shawl hang in front, with the mermaid body and edge ribbons visible. Upright poised stance with one arm relaxed at side, hair in a neat loose bun, reflective expression. Cool pearl-grey studio and diffused sky light. The printed scarf/shawl must be visibly worn, realistic in scale, fabric folds and drape; keep a broad portion flat enough to identify the exact design. Single woman, vertical photographic composition, refined natural styling, no second person. Do not copy clothing, sunglasses, poses, or original scarf from the face collage. Do not introduce a generic marine pattern, place artwork in the scene, add text, watermark, or invented logos.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p04-swimmer-pastel.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e26ed29256e1\\exec-f67c38c6-2474-4c3a-84fd-5576a9ed5e12.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "observations": "Reviewed: same recognizable face; pastel long shawl with white mermaid, aqua ribbons and green fish readable; lilac outfit and cool studio.",
+    "status": "accepted"
+  }
+}

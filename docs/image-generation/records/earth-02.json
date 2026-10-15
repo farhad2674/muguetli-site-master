@@ -1,0 +1,18 @@
+{
+  "designId": "earth-02",
+  "src": "/media/product-models/elnaz/earth-02.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Make one photorealistic vertical editorial portrait of the SAME woman identified by the face collage (recognizable facial structure, brown eyes, dark brows, brunette hair), but a fresh pose and expression. She faces almost full right profile with chin level and gives an easy closed-lip smile toward someone off-camera; eyebrows relaxed, head upright, hair neatly swept into a bun. Pink clay tailored blouse with simple collar. Wear the exact 90×90 cm silk Earth scarf shown in the other two references as a loose headscarf framing the face, with a silk tail over one shoulder. The visible fabric must retain the cool blue/sea-green sky, broad rose-pink soil bands, central periwinkle seed pod and magenta roots, and DNA helix border in green/lavender. Show actual print on plausible folds, no generic motifs. Background soft sage plaster wall and plant shadows; elegant natural light, realistic skin, full face visible, single woman, no text/watermarks.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-seed-pink.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-seed-pink\\img-7893.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-2a50d5fb-b8e2-443c-aa29-c7178939f7ef.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Distinct right-facing headscarf treatment with closed smile; pink soil bands, periwinkle seed and DNA border stay recognizable."
+  }
+}

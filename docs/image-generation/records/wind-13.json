@@ -1,0 +1,18 @@
+{
+  "designId": "wind-13",
+  "src": "/media/product-models/elnaz/wind-13.png",
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Create one realistic fashion editorial portrait of the SAME adult Iranian woman from the first identity collage, retaining her facial identity but with a new expression and head pose. The exact 90x90 cm square silk scarf in references is saturated forest/emerald green with striking hot pink-magenta top band and lily-of-the-valley flowers, white flowing hair of a central magenta illustrated woman, purple/pink fairy and green vine frame. Preserve exact color blocking, floral shapes, border and illustrated details on visible silk, not a generic print. Wear the square scarf draped over both shoulders like a short cape, with its central artwork visible on one broad front panel, over a cream sleeveless blouse. Her hair in a polished low bun; turn her head right in a near profile and laugh openly with teeth and eyes crinkling, clearly not the neutral tilted source pose. Pale garden wall and soft filtered daylight, mid-torso editorial photography, plausible satin folds, one model, no collage, no text/watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p07-twins-green.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p07-twins-green\\img-9134.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-98f4f367-d87c-4108-aa80-e38919e39a7f.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Accepted: distinct laughing near-profile and low bun; green/magenta square with central figure, white hair and pink bell flowers closely follows source. Square editorial crop is suitable for detail gallery."
+  }
+}

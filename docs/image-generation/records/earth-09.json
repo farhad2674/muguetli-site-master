@@ -1,0 +1,18 @@
+{
+  "designId": "earth-09",
+  "src": "/media/product-models/elnaz/earth-09.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Photorealistic vertical editorial image of the SAME woman from facial collage, identity preserved but NEW upright stance and expression: friendly visible toothy smile, looking slightly left of camera, hair in clean sleek bun. Tailored ivory jacket with dark blue shirt. Wear the exact 180×70 cm long silk Earth shawl from artwork and textile photo simply draped around back of neck with TWO narrow loose ends hanging at chest; do not make a broad bib or square scarf. One end reveals deep cobalt upper field, pale mint leaves and central white flower, the other the lemon-yellow ground, black roots and pink border. Keep authentic motif/palette on realistic folds. Minimal pale blue studio background, soft directional light, real skin, upper body, one woman, no text/watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\earth-p02-roots-blue.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\earth-p02-roots-blue\\img-9110.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-7323b390-d1ce-4900-9c80-b68cbb0285f7.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Long shawl is plausibly narrow with two loose ends, one showing cobalt leaves and the other pale-yellow soil and roots. Upright toothy smile."
+  }
+}

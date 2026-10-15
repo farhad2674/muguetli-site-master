@@ -1,0 +1,18 @@
+{
+  "designId": "wind-25",
+  "src": "/media/product-models/elnaz/wind-25.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Create single photoreal fashion editorial portrait of the SAME adult Iranian woman in first collage, recognizable features and natural skin, but with a new expression. Wear exact 90x90 cm silk scarf from artwork and flatlay: warm ivory background, sky-blue circular halo, white little bell blossoms on violet curling strands, cream and muted mauve owl with broad cyan/lavender wings, intricate sage grey-green cloud scrolls left, turquoise/mauve curl clouds right, pale illustrated woman below. Preserve owl and colors on visible silk, not abstract generic. Fold the square diagonally and drape its two corners around neck over a dark cocoa tailored blouse, one side revealing sky-blue circle and pastel owl feathers, not a broad flat bib. Hair in a sleek shoulder-length blowout. She looks slightly left in near profile with a gentle open smile, teeth visible, head straight; expression differs from reference. Airy window-lit pale limestone studio, editorial photo, one person, no collage or added text/watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p09-bird-cream.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p09-bird-cream\\img-9138.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-07ad2c8a-63ca-48ab-a503-34dff41f5d53.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Accepted: direct cream-blue silk neck styling; owl, pale sky halo, white bells and sage/turquoise cloud scrolls visible; natural expression and identity."
+  }
+}

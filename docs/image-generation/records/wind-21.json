@@ -1,0 +1,18 @@
+{
+  "designId": "wind-21",
+  "src": "/media/product-models/elnaz/wind-21.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Single photoreal editorial fashion portrait of the same adult Iranian woman from face collage, recognizable dark brown eyes, brows and natural skin. Model exact square 90x90 cm silk scarf in product artwork and flatlay: luminous lemon-yellow top field, violet and navy cloud curls, pale turquoise clouds, greenish glow in middle, tall stems with very dark tiny bell flowers, small green seated guardian, pale yellow ribbon, olive-green illustrated woman's face at bottom, mint leaves. Preserve source composition/colors as seen on naturally draped fabric, do not replace with generic abstract. Style scarf as a relaxed one-shoulder silk cape over a charcoal sleeveless dress, one side pinned near collarbone so yellow and violet/cloud sections fall diagonally, realistic 90cm square folds. Hair loose but tucked behind ears. She gazes left in near profile and gives a lively unexpected laughing smile with teeth, head upright. Background light garden wall in pale stone and green bokeh, daylight. One person, no collage, no added text/watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p08-cloud-yellow.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p08-cloud-yellow\\img-9149.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-f24aa345-c276-4b00-83eb-258eb320a58e.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Accepted: laughing side glance and yellow one-shoulder square; guardian, dark bells, lilac/blue clouds and olive illustrated face match source palette."
+  }
+}

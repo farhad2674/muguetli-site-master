@@ -1,0 +1,18 @@
+{
+  "designId": "fire-07",
+  "src": "/media/product-models/elnaz/fire-07.png",
+  "width": 941,
+  "height": 1672,
+  "prompt": "Use case: product-mockup. Asset type: second product gallery image for a long shawl. Image 1 is the woman's face identity, Images 2 and 3 are the exact Fire 07 textile artwork and physical 180 x 70 cm shawl. Photorealistic fashion portrait of her in left-facing near profile, dark hair in a low ponytail, thoughtful calm gaze toward window light. She wears a slate-blue structured blouse. Drape the actual narrow rectangular silk shawl once around her shoulders, with one long vertical end visible from collar to hip; retain the cream top, cobalt and teal arch, luminous blue center, flowing roots, icy blue lower section and slim dark border from the references. Scene: cool pale-blue architectural wall with deep window reveal; soft directional light. Show plausible shawl width and full-body scale, natural face and real fabric folds. No generic print, added text/logo/watermark, collage or fantasy elements.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\fire-p01-roots-blue.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\fire-p01-roots-blue\\img-9119-2.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-f3e5ab1c-d980-4bb9-9373-536f0b5604ce.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Distinct left profile and tied hair. Blue roots artwork appears as a narrow, plausible 180×70 shawl panel with cream, cobalt, and icy blue regions."
+  }
+}

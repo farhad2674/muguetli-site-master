@@ -1,7 +1,7 @@
 import type { LocalizedText } from './muguetli';
 import { founderStory } from './book-story';
 
-export const pageSlugs = ['mythology', 'about', 'contact', 'privacy', 'accessibility', 'cookies', 'collections', 'consulting', 'books', 'ebook', 'nfts', 'journal'] as const;
+export const pageSlugs = ['mythology', 'about', 'contact', 'privacy', 'accessibility', 'cookies', 'collections', 'consulting', 'books', 'ebook', 'nfts', 'journal', 'size-guide'] as const;
 export type PageSlug = typeof pageSlugs[number];
 export const isPageSlug = (value: string): value is PageSlug => pageSlugs.includes(value as PageSlug);
 
@@ -17,13 +17,13 @@ export const pages: Record<PageSlug, PageCopy> = {
     eyebrow: { en: 'MUGUETLI / COLLECTIONS', fa: 'موگه‌تلی / مجموعه‌ها' },
     title: { en: 'WEAR THE STORY', fa: 'داستان را بپوش' },
     lede: { en: 'Artworks made to live beyond the frame.', fa: 'آثاری برای زندگی، فراتر از قاب.' },
-    body: [{ en: 'The catalog is not available in this preview yet. Please return to discover the collections when the store opens here.', fa: 'فهرست محصولات هنوز در این پیش‌نمایش در دسترس نیست. مجموعه‌ها پس از اتصال فروشگاه در اینجا نمایش داده می‌شوند.' }],
+    body: [{ en: 'Fire, Earth, Water and Wind are four ways into the Muguetli catalogue. Browse by the element that speaks to you, then begin a private inquiry for the artwork and size that belongs in your story.', fa: 'آتش، خاک، آب و باد چهار راه ورود به فهرست موگه‌تلی‌اند. از عنصری شروع کنید که با شما حرف می‌زند و سپس برای اثر و اندازهٔ مناسب، گفت‌وگویی خصوصی را آغاز کنید.' }],
   },
   consulting: {
     eyebrow: { en: 'MUGUETLI / CREATIVE CONSULTING', fa: 'موگه‌تلی / مشاورهٔ خلاق' },
     title: { en: 'BECOME YOUR OWN MUSE', fa: 'خودت الهام‌بخش باش' },
     lede: { en: 'Your clothes. Your image. Your way of being seen.', fa: 'لباس تو. تصویر تو. شیوهٔ دیده‌شدن تو.' },
-    body: [{ en: 'Consultation booking is not available in this preview yet.', fa: 'رزرو مشاوره هنوز در این پیش‌نمایش در دسترس نیست.' }],
+    body: [{ en: 'The Atelier is a private conversation about the architecture of your presence: wardrobe, hair, silhouette and narrative textile.', fa: 'آتلیه گفت‌وگویی خصوصی دربارهٔ معماری حضور شماست: کمد لباس، مو، سیلوئت و منسوجات روایی.' }],
   },
   books: {
     eyebrow: { en: 'MUGUETLI / BOOKS', fa: 'موگه‌تلی / کتاب‌ها' },
@@ -46,8 +46,8 @@ export const pages: Record<PageSlug, PageCopy> = {
   journal: {
     eyebrow: { en: 'MUGUETLI / JOURNAL', fa: 'موگه‌تلی / ژورنال' },
     title: { en: 'NOTES FROM OUR WORLD', fa: 'یادداشت‌هایی از جهان ما' },
-    lede: { en: 'Stories are taking shape.', fa: 'داستان‌ها در حال شکل‌گرفتن‌اند.' },
-    body: [{ en: 'Our journal will appear here when published.', fa: 'یادداشت‌های منتشرشده در اینجا قرار می‌گیرند.' }],
+    lede: { en: 'Notes on form, memory, philosophy and the ways an image enters daily life.', fa: 'یادداشت‌هایی دربارهٔ فرم، حافظه، فلسفه و راه‌هایی که تصویر وارد زندگی روزمره می‌شود.' },
+    body: [{ en: 'Read slowly. Return to the catalogue when a passage begins to feel wearable.', fa: 'آرام بخوانید؛ وقتی جمله‌ای پوشیدنی شد، به فهرست آثار برگردید.' }],
   },
   mythology: {
     eyebrow: { en: 'ZANGOLE’AM / THE FOUR ELEMENTS', fa: 'زنگله‌ام / چهار عنصر' },
@@ -67,24 +67,22 @@ export const pages: Record<PageSlug, PageCopy> = {
     eyebrow: { en: 'MUGUETLI / THE AUTHOR & ARTIST', fa: 'موگه‌تلی / نویسنده و آفریننده' },
     title: { en: 'ELNAZ BAKHTIARI', fa: 'الناز بختیاری' },
     lede: {
-      en: 'Muti. Author, artist and designer at the meeting of Bakhtiari heritage, Persian mysticism and the inner journey.',
-      fa: 'موتی؛ نویسنده، هنرمند و طراح در تلاقی میراث بختیاری، عرفان ایرانی و سفر درونی.',
+      en: 'Narrative Textile & Image Architect at the meeting of Bakhtiari heritage, Persian mysticism and the inner journey.',
+      fa: 'معمار روایت، منسوجات و تصویر در تلاقی میراث بختیاری، عرفان ایرانی و سفر درونی.',
     },
     body: founderStory,
   },
   contact: {
-    eyebrow: { en: 'CONTACT & STOCKISTS / 03', fa: 'ارتباط و فروشگاه‌ها / ۰۳' },
-    title: { en: 'WHERE THE SILK FINDS YOU', fa: 'جایی که ابریشم تو را پیدا می‌کند' },
-    lede: {
-      en: 'Official contact and stockist details are being prepared for this standalone experience.',
-      fa: 'اطلاعات رسمی ارتباط و فروشگاه‌های عرضه‌کننده برای این تجربهٔ مستقل در حال آماده‌سازی است.',
-    },
-    body: [
-      {
-        en: 'No inquiry form collects information until an official Muguetli destination is connected.',
-        fa: 'تا زمان اتصال مقصد رسمی موگه‌تلی، هیچ فرم پرسشی اطلاعات شما را جمع‌آوری نمی‌کند.',
-      },
-    ],
+    eyebrow: { en: 'MUGUETLI / PRIVATE INQUIRIES', fa: 'موگه‌تلی / پرسش‌های خصوصی' },
+    title: { en: 'BEGIN A PRIVATE CONVERSATION', fa: 'گفت‌وگویی خصوصی را آغاز کنید' },
+    lede: { en: 'For an artwork, a book edition or a bespoke Atelier commission.', fa: 'برای یک اثر، نسخه‌ای از کتاب یا سفارشی اختصاصی از آتلیه.' },
+    body: [{ en: 'Tell us what has found you. We will keep the first step clear and personal.', fa: 'بگویید چه چیزی شما را پیدا کرده است؛ قدم اول را روشن و شخصی نگه می‌داریم.' }],
+  },
+  'size-guide': {
+    eyebrow: { en: 'MUGUETLI / SIZE GUIDE', fa: 'موگه‌تلی / راهنمای اندازه' },
+    title: { en: 'THREE SIZES, THREE GESTURES', fa: 'سه اندازه، سه شیوهٔ حضور' },
+    lede: { en: 'Choose the scale that gives the artwork room to live.', fa: 'مقیاسی را انتخاب کنید که به اثر فرصت زندگی‌کردن بدهد.' },
+    body: [{ en: 'Pocket square 50 × 50 cm. Square scarf 90 × 90 cm. Shawl 180 × 70 cm. These are catalogue size options, not inventory claims.', fa: 'دستمال جیبی ۵۰×۵۰ سانتی‌متر. روسری مربع ۹۰×۹۰ سانتی‌متر. شال ۱۸۰×۷۰ سانتی‌متر. این‌ها گزینه‌های اندازه در فهرست آثارند، نه ادعای موجودی.' }],
   },
   privacy: {
     eyebrow: { en: 'UTILITY / PRIVACY', fa: 'اطلاعات / حریم خصوصی' },

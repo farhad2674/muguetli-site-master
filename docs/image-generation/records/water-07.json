@@ -1,0 +1,17 @@
+{
+  "designId": "water-07",
+  "src": "/media/product-models/elnaz/water-07.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Make one photorealistic Muguetli luxury fashion editorial product portrait for Water design water-07. Use reference image 1 ONLY for the same woman's recognizable facial identity: dark brown eyes, dark hair and facial structure, naturally realistic skin. Create a fresh expression, hair styling and pose. Use reference image 2 as the EXACT printed artwork on the 90 x 90 cm square scarf, retaining the source composition and distinctive details: coral-peach outer border, pale lilac and white sea field, white-haired illustrated woman with lavender lips and blue dress, pastel fish, jellyfish and fine coral stems. She turns three-quarters toward camera, hair tied back with soft loose strands, wearing a charcoal tailored jacket; the scarf is loosely styled over her hair and brought down to one broad visible shoulder panel. A subtle playful smile. Background: softly lit pale grey stone corridor. Keep a large flat visible textile surface so a shopper can recognize this exact product, its shape, border and central imagery; render fabric folds and daylight convincingly. Keep the entire scene a single believable photograph of one model; art appears ONLY on the scarf, not in the background or other clothes. Do not copy the collage pose, outfit, sunglasses or layout. No text overlay, no watermark, no invented logo, no generic substitute print. Vertical fashion editorial photograph.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\water-p03-portrait-peach.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e26ed29256e1\\exec-13ce0e32-07a0-4b8b-8547-8cfc7f84f0cc.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "observations": "Reviewed: face consistent; peach border, pale lilac field, white-haired artwork woman and fish visible; over-shoulder pose and charcoal suit.",
+    "status": "accepted"
+  }
+}

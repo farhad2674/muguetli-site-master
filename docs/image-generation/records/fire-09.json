@@ -1,0 +1,18 @@
+{
+  "designId": "fire-09",
+  "src": "/media/product-models/elnaz/fire-09.png",
+  "width": 1024,
+  "height": 1536,
+  "prompt": "Create a photorealistic editorial product-detail portrait, one woman and one wearable scarf, vertical image. The face collage reference establishes the SAME Iranian woman's recognizable facial identity (dark brown eyes, strong brows, warm olive skin, brunette hair); do not reproduce its pose or collage. This portrait must have an UPRIGHT head, three-quarter turn toward her right, a clearly visible joyful natural smile with teeth and eyes slightly crinkled. Hair in a clean low chignon. Tailored deep teal blazer over black. She wears the actual 90×90 cm square silk scarf from the other two references as a loose shoulder wrap with one corner crossing the chest: preserve its distinctive gray camouflage field, turquoise-blue radiating flames, central black-and-white embracing figure with green-blue feather arcs, and violet looping border. Fabric should fold physically, motif portions aligned across folds, no replacement pattern. Cool gray sculptural studio and crisp daylight, luxury fashion photography, realistic skin, full head and upper torso, no extra people, no invented logos, no watermarks.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\fire-p01-figure-blue.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\fire-p01-figure-blue\\img-1896.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e1764e15fe76\\exec-6f02cd30-63b4-4020-afab-2cb59d4e3d0e.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Visible natural toothy smile and upright pose; exact blue Fire figure and gray-violet border legible on shoulder wrap. Broad front panel is more display-like than a compact everyday tie."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "designId": "wind-15",
+  "src": "/media/product-models/elnaz/wind-15.png",
+  "width": 941,
+  "height": 1672,
+  "prompt": "Create one photoreal editorial portrait of the SAME adult Iranian woman from the first face collage, preserving identity and natural skin while giving a visibly different expression. Wear the exact 90x90 square silk scarf shown in the other references. Print is luminous icy mint/pale blue, soft lavender and blush, round mauve ring framing an illustrated violet-faced white-haired woman, large pale pink lily-of-the-valley bells and mint cloud shapes. Keep source color softness, ring and bell flowers on visible folds, no generic florals. Style as an old-Hollywood triangle headscarf tied lightly under chin, silk framing her face with one patterned point over shoulder; realistic 90cm square. Hair partly swept underneath. She looks right in near profile and laughs warmly, teeth showing, eyes crinkled; not source neutral tilt. Wear a tailored soft grey coat, background a bright pale-lilac garden terrace, diffuse daylight. Single fashion photograph, no collage/text/watermark.",
+  "references": [
+    "C:\\Users\\Farhad\\Downloads\\characterelnaz3.jpg",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\catalog\\wind-p08-lily-mint.webp",
+    "C:\\Users\\Farhad\\Documents\\ChatGPT\\muguetli 2\\muguetli-site-master\\public\\media\\products\\wind-p08-lily-mint\\img-9146.webp"
+  ],
+  "generatedSourcePath": "C:\\Users\\Farhad\\.codex\\generated_images\\01a13ec5-062e-7ee0-9569-e04ebdee030b\\exec-6bd1e394-b429-4137-8f0b-76ec70e9c431.png",
+  "method": "built-in-imagegen",
+  "qa": {
+    "status": "accepted",
+    "observations": "Accepted: face recognizable and open smile to right; mint/lavender square tied under chin, violet illustrated face and pink bell flowers visible. Tiny print text is approximate."
+  }
+}
